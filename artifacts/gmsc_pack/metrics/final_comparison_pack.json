@@ -1,0 +1,197 @@
+{
+  "run_profile": "final",
+  "threshold": 0.3,
+  "xcreditscore_metrics": {
+    "auc": 0.7540708425211692,
+    "pr_auc": 0.2902084905421403,
+    "brier": 0.05467115715146065,
+    "log_loss": 0.20939809493543673,
+    "accuracy": 0.9345777777777777,
+    "precision": 0.5273037542662116,
+    "recall": 0.20545212765957446,
+    "f1": 0.29569377990430623
+  },
+  "baseline_metrics": [
+    {
+      "model": "logistic_regression",
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false,
+      "auc": 0.7463047672707669,
+      "pr_auc": 0.2791496784450704,
+      "brier": 0.05583638853606447,
+      "log_loss": 0.2156706359066082,
+      "accuracy": 0.9346666666666666,
+      "precision": 0.5429292929292929,
+      "recall": 0.14295212765957446,
+      "f1": 0.22631578947368422
+    },
+    {
+      "model": "random_forest",
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false,
+      "auc": 0.809232929499236,
+      "pr_auc": 0.3280748123081657,
+      "brier": 0.05293900341281933,
+      "log_loss": 0.19993383706169965,
+      "accuracy": 0.9255555555555556,
+      "precision": 0.4278481012658228,
+      "recall": 0.3371010638297872,
+      "f1": 0.3770918557084418
+    },
+    {
+      "model": "xgboost",
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false,
+      "auc": 0.8370922127264362,
+      "pr_auc": 0.36393188964643175,
+      "brier": 0.051081880927085876,
+      "log_loss": 0.18836169587435653,
+      "accuracy": 0.9311111111111111,
+      "precision": 0.47584033613445376,
+      "recall": 0.3011968085106383,
+      "f1": 0.3688925081433225
+    },
+    {
+      "model": "monotone_xgboost",
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false,
+      "auc": 0.8369093004797267,
+      "pr_auc": 0.3626949521450701,
+      "brier": 0.05127457529306412,
+      "log_loss": 0.1891173321684604,
+      "accuracy": 0.9321333333333334,
+      "precision": 0.4867358708189158,
+      "recall": 0.28058510638297873,
+      "f1": 0.35596794601433995
+    },
+    {
+      "model": "ebm",
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false,
+      "auc": 0.8335974994477164,
+      "pr_auc": 0.35610420387119945,
+      "brier": 0.05164272256019176,
+      "log_loss": 0.1909925340236185,
+      "accuracy": 0.9340444444444445,
+      "precision": 0.5131926121372031,
+      "recall": 0.2586436170212766,
+      "f1": 0.34394341290893016
+    },
+    {
+      "model": "monotone_gam",
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false,
+      "auc": 0.7663180778101604,
+      "pr_auc": 0.30273087080686906,
+      "brier": 0.054133620373313665,
+      "log_loss": 0.20763266027056085,
+      "accuracy": 0.9344888888888889,
+      "precision": 0.5238853503184714,
+      "recall": 0.21875,
+      "f1": 0.30863039399624764
+    }
+  ],
+  "model_competitiveness": {
+    "primary_metric": "auc",
+    "xcreditscore": {
+      "auc": 0.7540708425211692,
+      "pr_auc": 0.2902084905421403,
+      "f1": 0.29569377990430623,
+      "accuracy": 0.9345777777777777
+    },
+    "best_baseline": {
+      "model": "xgboost",
+      "auc": 0.8370922127264362,
+      "pr_auc": 0.36393188964643175,
+      "f1": 0.3688925081433225,
+      "accuracy": 0.9311111111111111
+    },
+    "delta_vs_best_baseline": -0.08302137020526701,
+    "xcreditscore_beats_best_baseline": false
+  },
+  "objective_sweep": {
+    "f1": {
+      "threshold": 0.3,
+      "approve_rate": 0.9739555555555556,
+      "deny_rate": 0.026044444444444443,
+      "accuracy": 0.9345777777777777,
+      "precision": 0.5273037542662116,
+      "recall": 0.20545212765957446,
+      "f1": 0.29569377990430623
+    },
+    "precision": {
+      "threshold": 0.5700000000000003,
+      "approve_rate": 0.9933777777777778,
+      "deny_rate": 0.006622222222222222,
+      "accuracy": 0.9350666666666667,
+      "precision": 0.6442953020134228,
+      "recall": 0.06382978723404255,
+      "f1": 0.1161524500907441
+    },
+    "recall": {
+      "threshold": 0.3,
+      "approve_rate": 0.9739555555555556,
+      "deny_rate": 0.026044444444444443,
+      "accuracy": 0.9345777777777777,
+      "precision": 0.5273037542662116,
+      "recall": 0.20545212765957446,
+      "f1": 0.29569377990430623
+    }
+  },
+  "feature_engineering_ablation": {
+    "status": "missing",
+    "path": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/gmsc_pack/metrics/feature_engineering_ablation.csv"
+  },
+  "threshold_objective_comparison": {
+    "status": "missing",
+    "path": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/gmsc_pack/metrics/threshold_objective_comparison.csv"
+  },
+  "counterfactual": {
+    "summary": {
+      "cases": 80,
+      "feasible_rate": 0.0375,
+      "median_total_cost": 0.09473684210526326,
+      "median_changed_features": 1.0
+    },
+    "success_by_score_band": [
+      {
+        "original_score_band": "high_risk",
+        "cases": 16,
+        "feasible_rate": 0.0,
+        "near_feasible_rate": 0.0,
+        "median_total_cost": 0.08368421052631717,
+        "median_changes": 1.0
+      },
+      {
+        "original_score_band": "moderate_risk",
+        "cases": 21,
+        "feasible_rate": 0.047619047619047616,
+        "near_feasible_rate": 0.047619047619047616,
+        "median_total_cost": 0.09473684210526315,
+        "median_changes": 1.0
+      },
+      {
+        "original_score_band": "near_threshold",
+        "cases": 20,
+        "feasible_rate": 0.1,
+        "near_feasible_rate": 0.5,
+        "median_total_cost": 0.13894736842105262,
+        "median_changes": 1.0
+      },
+      {
+        "original_score_band": "very_high_risk",
+        "cases": 23,
+        "feasible_rate": 0.0,
+        "near_feasible_rate": 0.0,
+        "median_total_cost": 0.09473684210526315,
+        "median_changes": 1.0
+      }
+    ]
+  }
+}

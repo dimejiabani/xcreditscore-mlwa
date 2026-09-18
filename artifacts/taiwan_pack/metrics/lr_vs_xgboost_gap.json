@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "dataset": "taiwan",
+  "xgboost_auc": 0.7781582952815829,
+  "logistic_regression_auc": 0.7129428100529973,
+  "gap_xgb_minus_lr": 0.06521548522858556
+}

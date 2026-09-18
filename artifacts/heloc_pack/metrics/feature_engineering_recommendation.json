@@ -1,0 +1,26 @@
+{
+  "recommended_mode": "fe_on",
+  "selection_rule": "max(cv_auc_mean), tie-breaker cv_f1_mean",
+  "rows": [
+    {
+      "mode": "fe_on",
+      "feature_engineering_enabled": true,
+      "threshold": 0.37000000000000005,
+      "test_auc": 0.7883785103785104,
+      "test_pr_auc": 0.7927632702112422,
+      "test_f1": 0.7527675276752768,
+      "cv_auc_mean": 0.7864546445032777,
+      "cv_f1_mean": 0.7492481637179887
+    },
+    {
+      "mode": "fe_off",
+      "feature_engineering_enabled": false,
+      "threshold": 0.37000000000000005,
+      "test_auc": 0.7909051689051689,
+      "test_pr_auc": 0.793048755504496,
+      "test_f1": 0.7486744432661718,
+      "cv_auc_mean": 0.7845411135589698,
+      "cv_f1_mean": 0.7484782973222535
+    }
+  ]
+}

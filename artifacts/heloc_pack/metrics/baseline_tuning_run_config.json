@@ -1,0 +1,13 @@
+{
+  "cv_splits": 5,
+  "objective": "auc_mean",
+  "max_trials_per_model": 0,
+  "decision_threshold": 0.36,
+  "parity_total_trials": 120,
+  "parity_trials_per_model": 40,
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "xgboost"
+  ]
+}

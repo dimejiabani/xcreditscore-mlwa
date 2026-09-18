@@ -1,0 +1,2267 @@
+tf2onnx1.17.0 None:‡…
+û
+features
+)xcreditscore_lattice/lattice_10/Const_1:0)xcreditscore_lattice/slice_SEX/GatherV2:0'xcreditscore_lattice/slice_SEX/GatherV2"Gather*
+axis†
+û
+)xcreditscore_lattice/slice_SEX/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0"xcreditscore_lattice/cal_SEX/sub:0 xcreditscore_lattice/cal_SEX/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_PAY_AMT6/GatherV2/indices:0.xcreditscore_lattice/slice_PAY_AMT6/GatherV2:0,xcreditscore_lattice/slice_PAY_AMT6/GatherV2"Gather*
+axis†
+¡
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+.xcreditscore_lattice/slice_PAY_AMT6/GatherV2:0)xcreditscore_lattice/slice_PAY_AMT6/sub:0'xcreditscore_lattice/slice_PAY_AMT6/sub"Sub
+®
+)xcreditscore_lattice/slice_PAY_AMT6/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_PAY_AMT6/sub:0%xcreditscore_lattice/cal_PAY_AMT6/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_PAY_AMT5/GatherV2/indices:0.xcreditscore_lattice/slice_PAY_AMT5/GatherV2:0,xcreditscore_lattice/slice_PAY_AMT5/GatherV2"Gather*
+axis†
+¡
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+.xcreditscore_lattice/slice_PAY_AMT5/GatherV2:0)xcreditscore_lattice/slice_PAY_AMT5/sub:0'xcreditscore_lattice/slice_PAY_AMT5/sub"Sub
+®
+)xcreditscore_lattice/slice_PAY_AMT5/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_PAY_AMT5/sub:0%xcreditscore_lattice/cal_PAY_AMT5/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_PAY_AMT4/GatherV2/indices:0.xcreditscore_lattice/slice_PAY_AMT4/GatherV2:0,xcreditscore_lattice/slice_PAY_AMT4/GatherV2"Gather*
+axis†
+¡
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+.xcreditscore_lattice/slice_PAY_AMT4/GatherV2:0)xcreditscore_lattice/slice_PAY_AMT4/sub:0'xcreditscore_lattice/slice_PAY_AMT4/sub"Sub
+®
+)xcreditscore_lattice/slice_PAY_AMT4/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_PAY_AMT4/sub:0%xcreditscore_lattice/cal_PAY_AMT4/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_PAY_AMT3/GatherV2/indices:0.xcreditscore_lattice/slice_PAY_AMT3/GatherV2:0,xcreditscore_lattice/slice_PAY_AMT3/GatherV2"Gather*
+axis†
+¡
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+.xcreditscore_lattice/slice_PAY_AMT3/GatherV2:0)xcreditscore_lattice/slice_PAY_AMT3/sub:0'xcreditscore_lattice/slice_PAY_AMT3/sub"Sub
+®
+)xcreditscore_lattice/slice_PAY_AMT3/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_PAY_AMT3/sub:0%xcreditscore_lattice/cal_PAY_AMT3/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_PAY_AMT2/GatherV2/indices:0.xcreditscore_lattice/slice_PAY_AMT2/GatherV2:0,xcreditscore_lattice/slice_PAY_AMT2/GatherV2"Gather*
+axis†
+¡
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+.xcreditscore_lattice/slice_PAY_AMT2/GatherV2:0)xcreditscore_lattice/slice_PAY_AMT2/sub:0'xcreditscore_lattice/slice_PAY_AMT2/sub"Sub
+®
+)xcreditscore_lattice/slice_PAY_AMT2/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_PAY_AMT2/sub:0%xcreditscore_lattice/cal_PAY_AMT2/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_PAY_AMT1/GatherV2/indices:0.xcreditscore_lattice/slice_PAY_AMT1/GatherV2:0,xcreditscore_lattice/slice_PAY_AMT1/GatherV2"Gather*
+axis†
+¡
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+.xcreditscore_lattice/slice_PAY_AMT1/GatherV2:0)xcreditscore_lattice/slice_PAY_AMT1/sub:0'xcreditscore_lattice/slice_PAY_AMT1/sub"Sub
+®
+)xcreditscore_lattice/slice_PAY_AMT1/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_PAY_AMT1/sub:0%xcreditscore_lattice/cal_PAY_AMT1/sub"Sub
+¨
+features
+3xcreditscore_lattice/slice_PAY_6/GatherV2/indices:0+xcreditscore_lattice/slice_PAY_6/GatherV2:0)xcreditscore_lattice/slice_PAY_6/GatherV2"Gather*
+axis†
+§
++xcreditscore_lattice/slice_PAY_6/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0$xcreditscore_lattice/cal_PAY_6/sub:0"xcreditscore_lattice/cal_PAY_6/sub"Sub
+¨
+features
+3xcreditscore_lattice/slice_PAY_5/GatherV2/indices:0+xcreditscore_lattice/slice_PAY_5/GatherV2:0)xcreditscore_lattice/slice_PAY_5/GatherV2"Gather*
+axis†
+§
++xcreditscore_lattice/slice_PAY_5/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0$xcreditscore_lattice/cal_PAY_5/sub:0"xcreditscore_lattice/cal_PAY_5/sub"Sub
+¨
+features
+3xcreditscore_lattice/slice_PAY_4/GatherV2/indices:0+xcreditscore_lattice/slice_PAY_4/GatherV2:0)xcreditscore_lattice/slice_PAY_4/GatherV2"Gather*
+axis†
+§
++xcreditscore_lattice/slice_PAY_4/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0$xcreditscore_lattice/cal_PAY_4/sub:0"xcreditscore_lattice/cal_PAY_4/sub"Sub
+¨
+features
+3xcreditscore_lattice/slice_PAY_3/GatherV2/indices:0+xcreditscore_lattice/slice_PAY_3/GatherV2:0)xcreditscore_lattice/slice_PAY_3/GatherV2"Gather*
+axis†
+§
++xcreditscore_lattice/slice_PAY_3/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0$xcreditscore_lattice/cal_PAY_3/sub:0"xcreditscore_lattice/cal_PAY_3/sub"Sub
+¨
+features
+3xcreditscore_lattice/slice_PAY_2/GatherV2/indices:0+xcreditscore_lattice/slice_PAY_2/GatherV2:0)xcreditscore_lattice/slice_PAY_2/GatherV2"Gather*
+axis†
+§
++xcreditscore_lattice/slice_PAY_2/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0$xcreditscore_lattice/cal_PAY_2/sub:0"xcreditscore_lattice/cal_PAY_2/sub"Sub
+¨
+features
+3xcreditscore_lattice/slice_PAY_0/GatherV2/indices:0+xcreditscore_lattice/slice_PAY_0/GatherV2:0)xcreditscore_lattice/slice_PAY_0/GatherV2"Gather*
+axis†
+§
++xcreditscore_lattice/slice_PAY_0/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0$xcreditscore_lattice/cal_PAY_0/sub:0"xcreditscore_lattice/cal_PAY_0/sub"Sub
+µ
+features
+6xcreditscore_lattice/slice_MARRIAGE/GatherV2/indices:0.xcreditscore_lattice/slice_MARRIAGE/GatherV2:0,xcreditscore_lattice/slice_MARRIAGE/GatherV2"Gather*
+axis†
+≠
+.xcreditscore_lattice/slice_MARRIAGE/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0'xcreditscore_lattice/cal_MARRIAGE/sub:0%xcreditscore_lattice/cal_MARRIAGE/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_LIMIT_BAL/GatherV2/indices:0/xcreditscore_lattice/slice_LIMIT_BAL/GatherV2:0-xcreditscore_lattice/slice_LIMIT_BAL/GatherV2"Gather*
+axis†
+ƒ
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0
+/xcreditscore_lattice/slice_LIMIT_BAL/GatherV2:0*xcreditscore_lattice/slice_LIMIT_BAL/sub:0(xcreditscore_lattice/slice_LIMIT_BAL/sub"Sub
+´
+*xcreditscore_lattice/slice_LIMIT_BAL/sub:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_LIMIT_BAL/sub:0&xcreditscore_lattice/cal_LIMIT_BAL/sub"Sub
+´
+features
+*xcreditscore_lattice/lattice_9/Minimum/y:0/xcreditscore_lattice/slice_EDUCATION/GatherV2:0-xcreditscore_lattice/slice_EDUCATION/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_EDUCATION/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_EDUCATION/sub:0&xcreditscore_lattice/cal_EDUCATION/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_BILL_AMT6/GatherV2/indices:0/xcreditscore_lattice/slice_BILL_AMT6/GatherV2:0-xcreditscore_lattice/slice_BILL_AMT6/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_BILL_AMT6/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_BILL_AMT6/sub:0&xcreditscore_lattice/cal_BILL_AMT6/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_BILL_AMT5/GatherV2/indices:0/xcreditscore_lattice/slice_BILL_AMT5/GatherV2:0-xcreditscore_lattice/slice_BILL_AMT5/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_BILL_AMT5/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_BILL_AMT5/sub:0&xcreditscore_lattice/cal_BILL_AMT5/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_BILL_AMT4/GatherV2/indices:0/xcreditscore_lattice/slice_BILL_AMT4/GatherV2:0-xcreditscore_lattice/slice_BILL_AMT4/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_BILL_AMT4/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_BILL_AMT4/sub:0&xcreditscore_lattice/cal_BILL_AMT4/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_BILL_AMT3/GatherV2/indices:0/xcreditscore_lattice/slice_BILL_AMT3/GatherV2:0-xcreditscore_lattice/slice_BILL_AMT3/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_BILL_AMT3/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_BILL_AMT3/sub:0&xcreditscore_lattice/cal_BILL_AMT3/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_BILL_AMT2/GatherV2/indices:0/xcreditscore_lattice/slice_BILL_AMT2/GatherV2:0-xcreditscore_lattice/slice_BILL_AMT2/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_BILL_AMT2/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_BILL_AMT2/sub:0&xcreditscore_lattice/cal_BILL_AMT2/sub"Sub
+∏
+features
+7xcreditscore_lattice/slice_BILL_AMT1/GatherV2/indices:0/xcreditscore_lattice/slice_BILL_AMT1/GatherV2:0-xcreditscore_lattice/slice_BILL_AMT1/GatherV2"Gather*
+axis†
+∞
+/xcreditscore_lattice/slice_BILL_AMT1/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0(xcreditscore_lattice/cal_BILL_AMT1/sub:0&xcreditscore_lattice/cal_BILL_AMT1/sub"Sub
+¶
+features
+1xcreditscore_lattice/slice_AGE/GatherV2/indices:0)xcreditscore_lattice/slice_AGE/GatherV2:0'xcreditscore_lattice/slice_AGE/GatherV2"Gather*
+axis†
+û
+)xcreditscore_lattice/slice_AGE/GatherV2:0
+&xcreditscore_lattice/cal_PAY_2/sub/y:0"xcreditscore_lattice/cal_AGE/sub:0 xcreditscore_lattice/cal_AGE/sub"Sub
+J
+)xcreditscore_lattice/slice_PAY_AMT6/sub:0
+Shape__8:0Shape__8"Shape: 
+ö
+
+Shape__8:0-xcreditscore_lattice/cal_PAY_AMT6/ones_like:0+xcreditscore_lattice/cal_PAY_AMT6/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+J
+)xcreditscore_lattice/slice_SEX/GatherV2:0
+Shape__6:0Shape__6"Shape: 
+ê
+
+Shape__6:0(xcreditscore_lattice/cal_SEX/ones_like:0&xcreditscore_lattice/cal_SEX/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+L
+)xcreditscore_lattice/slice_AGE/GatherV2:0Shape__50:0	Shape__50"Shape: 
+ë
+Shape__50:0(xcreditscore_lattice/cal_AGE/ones_like:0&xcreditscore_lattice/cal_AGE/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_BILL_AMT1/GatherV2:0Shape__48:0	Shape__48"Shape: 
+ù
+Shape__48:0.xcreditscore_lattice/cal_BILL_AMT1/ones_like:0,xcreditscore_lattice/cal_BILL_AMT1/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_BILL_AMT2/GatherV2:0Shape__46:0	Shape__46"Shape: 
+ù
+Shape__46:0.xcreditscore_lattice/cal_BILL_AMT2/ones_like:0,xcreditscore_lattice/cal_BILL_AMT2/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_BILL_AMT3/GatherV2:0Shape__44:0	Shape__44"Shape: 
+ù
+Shape__44:0.xcreditscore_lattice/cal_BILL_AMT3/ones_like:0,xcreditscore_lattice/cal_BILL_AMT3/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_BILL_AMT4/GatherV2:0Shape__42:0	Shape__42"Shape: 
+ù
+Shape__42:0.xcreditscore_lattice/cal_BILL_AMT4/ones_like:0,xcreditscore_lattice/cal_BILL_AMT4/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_BILL_AMT5/GatherV2:0Shape__40:0	Shape__40"Shape: 
+ù
+Shape__40:0.xcreditscore_lattice/cal_BILL_AMT5/ones_like:0,xcreditscore_lattice/cal_BILL_AMT5/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_BILL_AMT6/GatherV2:0Shape__38:0	Shape__38"Shape: 
+ù
+Shape__38:0.xcreditscore_lattice/cal_BILL_AMT6/ones_like:0,xcreditscore_lattice/cal_BILL_AMT6/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_EDUCATION/GatherV2:0Shape__36:0	Shape__36"Shape: 
+ù
+Shape__36:0.xcreditscore_lattice/cal_EDUCATION/ones_like:0,xcreditscore_lattice/cal_EDUCATION/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+M
+*xcreditscore_lattice/slice_LIMIT_BAL/sub:0Shape__34:0	Shape__34"Shape: 
+ù
+Shape__34:0.xcreditscore_lattice/cal_LIMIT_BAL/ones_like:0,xcreditscore_lattice/cal_LIMIT_BAL/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+Q
+.xcreditscore_lattice/slice_MARRIAGE/GatherV2:0Shape__32:0	Shape__32"Shape: 
+õ
+Shape__32:0-xcreditscore_lattice/cal_MARRIAGE/ones_like:0+xcreditscore_lattice/cal_MARRIAGE/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+N
++xcreditscore_lattice/slice_PAY_0/GatherV2:0Shape__30:0	Shape__30"Shape: 
+ï
+Shape__30:0*xcreditscore_lattice/cal_PAY_0/ones_like:0(xcreditscore_lattice/cal_PAY_0/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+N
++xcreditscore_lattice/slice_PAY_2/GatherV2:0Shape__28:0	Shape__28"Shape: 
+ï
+Shape__28:0*xcreditscore_lattice/cal_PAY_2/ones_like:0(xcreditscore_lattice/cal_PAY_2/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+N
++xcreditscore_lattice/slice_PAY_3/GatherV2:0Shape__26:0	Shape__26"Shape: 
+ï
+Shape__26:0*xcreditscore_lattice/cal_PAY_3/ones_like:0(xcreditscore_lattice/cal_PAY_3/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+N
++xcreditscore_lattice/slice_PAY_4/GatherV2:0Shape__24:0	Shape__24"Shape: 
+ï
+Shape__24:0*xcreditscore_lattice/cal_PAY_4/ones_like:0(xcreditscore_lattice/cal_PAY_4/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+N
++xcreditscore_lattice/slice_PAY_5/GatherV2:0Shape__22:0	Shape__22"Shape: 
+ï
+Shape__22:0*xcreditscore_lattice/cal_PAY_5/ones_like:0(xcreditscore_lattice/cal_PAY_5/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+N
++xcreditscore_lattice/slice_PAY_6/GatherV2:0Shape__20:0	Shape__20"Shape: 
+ï
+Shape__20:0*xcreditscore_lattice/cal_PAY_6/ones_like:0(xcreditscore_lattice/cal_PAY_6/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+L
+)xcreditscore_lattice/slice_PAY_AMT1/sub:0Shape__18:0	Shape__18"Shape: 
+õ
+Shape__18:0-xcreditscore_lattice/cal_PAY_AMT1/ones_like:0+xcreditscore_lattice/cal_PAY_AMT1/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+L
+)xcreditscore_lattice/slice_PAY_AMT2/sub:0Shape__16:0	Shape__16"Shape: 
+õ
+Shape__16:0-xcreditscore_lattice/cal_PAY_AMT2/ones_like:0+xcreditscore_lattice/cal_PAY_AMT2/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+L
+)xcreditscore_lattice/slice_PAY_AMT3/sub:0Shape__14:0	Shape__14"Shape: 
+õ
+Shape__14:0-xcreditscore_lattice/cal_PAY_AMT3/ones_like:0+xcreditscore_lattice/cal_PAY_AMT3/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+L
+)xcreditscore_lattice/slice_PAY_AMT4/sub:0Shape__12:0	Shape__12"Shape: 
+õ
+Shape__12:0-xcreditscore_lattice/cal_PAY_AMT4/ones_like:0+xcreditscore_lattice/cal_PAY_AMT4/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+L
+)xcreditscore_lattice/slice_PAY_AMT5/sub:0Shape__10:0	Shape__10"Shape: 
+õ
+Shape__10:0-xcreditscore_lattice/cal_PAY_AMT5/ones_like:0+xcreditscore_lattice/cal_PAY_AMT5/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+ª
+"xcreditscore_lattice/cal_SEX/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0&xcreditscore_lattice/cal_SEX/truediv:0$xcreditscore_lattice/cal_SEX/truediv"Mul
+≥
+&xcreditscore_lattice/cal_SEX/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/cal_SEX/Minimum:0$xcreditscore_lattice/cal_SEX/Minimum"Min
+´
+&xcreditscore_lattice/cal_SEX/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0&xcreditscore_lattice/cal_SEX/Maximum:0$xcreditscore_lattice/cal_SEX/Maximum"Max
+≥
+(xcreditscore_lattice/cal_SEX/ones_like:0
+&xcreditscore_lattice/cal_SEX/Maximum:0%xcreditscore_lattice/cal_SEX/concat:0#xcreditscore_lattice/cal_SEX/concat"Concat*
+axis†
+∂
+%xcreditscore_lattice/cal_SEX/concat:0
+9xcreditscore_lattice/cal_PAY_AMT5/MatMul/ReadVariableOp:0%xcreditscore_lattice/cal_SEX/MatMul:0#xcreditscore_lattice/cal_SEX/MatMul"MatMul
+√
+%xcreditscore_lattice/cal_SEX/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:06xcreditscore_lattice/lattice_7/clip_by_value/Minimum:04xcreditscore_lattice/lattice_7/clip_by_value/Minimum"Min
+ƒ
+6xcreditscore_lattice/lattice_7/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0.xcreditscore_lattice/lattice_7/clip_by_value:0,xcreditscore_lattice/lattice_7/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_7/clip_by_value:0%xcreditscore_lattice/lattice_7/Cast:0#xcreditscore_lattice/lattice_7/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_7/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0(xcreditscore_lattice/lattice_7/Minimum:0&xcreditscore_lattice/lattice_7/Minimum"Min
+¬
+(xcreditscore_lattice/lattice_7/Minimum:0
+const_fold_opt__627$xcreditscore_lattice/lattice_7/Sum:0"xcreditscore_lattice/lattice_7/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_7/Minimum:0'xcreditscore_lattice/lattice_7/Cast_1:0%xcreditscore_lattice/lattice_7/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_7/clip_by_value:0
+'xcreditscore_lattice/lattice_7/Cast_1:0$xcreditscore_lattice/lattice_7/sub:0"xcreditscore_lattice/lattice_7/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_7/sub:0+xcreditscore_lattice/lattice_7/sort/Shape:0)xcreditscore_lattice/lattice_7/sort/Shape"Shape
+§
++xcreditscore_lattice/lattice_7/sort/Shape:02xcreditscore_lattice/lattice_7/argsort/Shape__68:00xcreditscore_lattice/lattice_7/argsort/Shape__68"Cast*	
+to†
+€
+2xcreditscore_lattice/lattice_7/argsort/Shape__68:0
+const_fold_opt__627
+const_ends__87
+const_axes__3603xcreditscore_lattice/lattice_7/sort/strided_slice:01xcreditscore_lattice/lattice_7/sort/strided_slice"Slice: 
+¡
+3xcreditscore_lattice/lattice_7/sort/strided_slice:0
+const_axes__3607xcreditscore_lattice/lattice_7/sort/strided_slice__59:05xcreditscore_lattice/lattice_7/sort/strided_slice__59"Squeeze: 
+ 
+'xcreditscore_lattice/cal_PAY_AMT6/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_PAY_AMT6/truediv:0)xcreditscore_lattice/cal_PAY_AMT6/truediv"Mul
+¬
++xcreditscore_lattice/cal_PAY_AMT6/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_PAY_AMT6/Minimum:0)xcreditscore_lattice/cal_PAY_AMT6/Minimum"Min
+∫
++xcreditscore_lattice/cal_PAY_AMT6/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_PAY_AMT6/Maximum:0)xcreditscore_lattice/cal_PAY_AMT6/Maximum"Max
+«
+-xcreditscore_lattice/cal_PAY_AMT6/ones_like:0
++xcreditscore_lattice/cal_PAY_AMT6/Maximum:0*xcreditscore_lattice/cal_PAY_AMT6/concat:0(xcreditscore_lattice/cal_PAY_AMT6/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_PAY_AMT6/concat:0
+9xcreditscore_lattice/cal_PAY_AMT6/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_PAY_AMT6/MatMul:0(xcreditscore_lattice/cal_PAY_AMT6/MatMul"MatMul
+ 
+*xcreditscore_lattice/cal_PAY_AMT6/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_17/clip_by_value/Minimum:05xcreditscore_lattice/lattice_17/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_17/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_17/clip_by_value:0-xcreditscore_lattice/lattice_17/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_17/clip_by_value:0&xcreditscore_lattice/lattice_17/Cast:0$xcreditscore_lattice/lattice_17/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_17/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_17/Minimum:0'xcreditscore_lattice/lattice_17/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_17/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_17/Sum:0#xcreditscore_lattice/lattice_17/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_17/Minimum:0(xcreditscore_lattice/lattice_17/Cast_1:0&xcreditscore_lattice/lattice_17/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_17/clip_by_value:0
+(xcreditscore_lattice/lattice_17/Cast_1:0%xcreditscore_lattice/lattice_17/sub:0#xcreditscore_lattice/lattice_17/sub"Sub
+é
+%xcreditscore_lattice/lattice_17/sub:0/xcreditscore_lattice/lattice_17/argsort/Shape:0-xcreditscore_lattice/lattice_17/argsort/Shape"Shape
+§
+/xcreditscore_lattice/lattice_17/argsort/Shape:00xcreditscore_lattice/lattice_17/sort/Shape__85:0.xcreditscore_lattice/lattice_17/sort/Shape__85"Cast*	
+to†
+·
+0xcreditscore_lattice/lattice_17/sort/Shape__85:0
+const_fold_opt__627
+const_ends__87
+const_axes__3607xcreditscore_lattice/lattice_17/argsort/strided_slice:05xcreditscore_lattice/lattice_17/argsort/strided_slice"Slice: 
+œ
+7xcreditscore_lattice/lattice_17/argsort/strided_slice:0
+const_axes__360<xcreditscore_lattice/lattice_17/argsort/strided_slice__102:0:xcreditscore_lattice/lattice_17/argsort/strided_slice__102"Squeeze: 
+ 
+'xcreditscore_lattice/cal_PAY_AMT5/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_PAY_AMT5/truediv:0)xcreditscore_lattice/cal_PAY_AMT5/truediv"Mul
+¬
++xcreditscore_lattice/cal_PAY_AMT5/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_PAY_AMT5/Minimum:0)xcreditscore_lattice/cal_PAY_AMT5/Minimum"Min
+∫
++xcreditscore_lattice/cal_PAY_AMT5/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_PAY_AMT5/Maximum:0)xcreditscore_lattice/cal_PAY_AMT5/Maximum"Max
+«
+-xcreditscore_lattice/cal_PAY_AMT5/ones_like:0
++xcreditscore_lattice/cal_PAY_AMT5/Maximum:0*xcreditscore_lattice/cal_PAY_AMT5/concat:0(xcreditscore_lattice/cal_PAY_AMT5/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_PAY_AMT5/concat:0
+9xcreditscore_lattice/cal_PAY_AMT5/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_PAY_AMT5/MatMul:0(xcreditscore_lattice/cal_PAY_AMT5/MatMul"MatMul
+ 
+*xcreditscore_lattice/cal_PAY_AMT5/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_16/clip_by_value/Minimum:05xcreditscore_lattice/lattice_16/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_16/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_16/clip_by_value:0-xcreditscore_lattice/lattice_16/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_16/clip_by_value:0&xcreditscore_lattice/lattice_16/Cast:0$xcreditscore_lattice/lattice_16/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_16/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_16/Minimum:0'xcreditscore_lattice/lattice_16/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_16/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_16/Sum:0#xcreditscore_lattice/lattice_16/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_16/Minimum:0(xcreditscore_lattice/lattice_16/Cast_1:0&xcreditscore_lattice/lattice_16/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_16/clip_by_value:0
+(xcreditscore_lattice/lattice_16/Cast_1:0%xcreditscore_lattice/lattice_16/sub:0#xcreditscore_lattice/lattice_16/sub"Sub
+à
+%xcreditscore_lattice/lattice_16/sub:0,xcreditscore_lattice/lattice_16/sort/Shape:0*xcreditscore_lattice/lattice_16/sort/Shape"Shape
+£
+,xcreditscore_lattice/lattice_16/sort/Shape:01xcreditscore_lattice/lattice_16/sort/Shape__115:0/xcreditscore_lattice/lattice_16/sort/Shape__115"Cast*	
+to†
+‚
+1xcreditscore_lattice/lattice_16/sort/Shape__115:0
+const_fold_opt__627
+const_ends__87
+const_axes__3607xcreditscore_lattice/lattice_16/argsort/strided_slice:05xcreditscore_lattice/lattice_16/argsort/strided_slice"Slice: 
+œ
+7xcreditscore_lattice/lattice_16/argsort/strided_slice:0
+const_axes__360<xcreditscore_lattice/lattice_16/argsort/strided_slice__132:0:xcreditscore_lattice/lattice_16/argsort/strided_slice__132"Squeeze: 
+ 
+'xcreditscore_lattice/cal_PAY_AMT4/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_PAY_AMT4/truediv:0)xcreditscore_lattice/cal_PAY_AMT4/truediv"Mul
+¬
++xcreditscore_lattice/cal_PAY_AMT4/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_PAY_AMT4/Minimum:0)xcreditscore_lattice/cal_PAY_AMT4/Minimum"Min
+∫
++xcreditscore_lattice/cal_PAY_AMT4/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_PAY_AMT4/Maximum:0)xcreditscore_lattice/cal_PAY_AMT4/Maximum"Max
+«
+-xcreditscore_lattice/cal_PAY_AMT4/ones_like:0
++xcreditscore_lattice/cal_PAY_AMT4/Maximum:0*xcreditscore_lattice/cal_PAY_AMT4/concat:0(xcreditscore_lattice/cal_PAY_AMT4/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_PAY_AMT4/concat:0
+9xcreditscore_lattice/cal_PAY_AMT4/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_PAY_AMT4/MatMul:0(xcreditscore_lattice/cal_PAY_AMT4/MatMul"MatMul
+ 
+*xcreditscore_lattice/cal_PAY_AMT4/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_15/clip_by_value/Minimum:05xcreditscore_lattice/lattice_15/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_15/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_15/clip_by_value:0-xcreditscore_lattice/lattice_15/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_15/clip_by_value:0&xcreditscore_lattice/lattice_15/Cast:0$xcreditscore_lattice/lattice_15/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_15/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_15/Minimum:0'xcreditscore_lattice/lattice_15/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_15/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_15/Sum:0#xcreditscore_lattice/lattice_15/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_15/Minimum:0(xcreditscore_lattice/lattice_15/Cast_1:0&xcreditscore_lattice/lattice_15/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_15/clip_by_value:0
+(xcreditscore_lattice/lattice_15/Cast_1:0%xcreditscore_lattice/lattice_15/sub:0#xcreditscore_lattice/lattice_15/sub"Sub
+é
+%xcreditscore_lattice/lattice_15/sub:0/xcreditscore_lattice/lattice_15/argsort/Shape:0-xcreditscore_lattice/lattice_15/argsort/Shape"Shape
+¶
+/xcreditscore_lattice/lattice_15/argsort/Shape:01xcreditscore_lattice/lattice_15/sort/Shape__145:0/xcreditscore_lattice/lattice_15/sort/Shape__145"Cast*	
+to†
+‚
+1xcreditscore_lattice/lattice_15/sort/Shape__145:0
+const_fold_opt__627
+const_ends__87
+const_axes__3607xcreditscore_lattice/lattice_15/argsort/strided_slice:05xcreditscore_lattice/lattice_15/argsort/strided_slice"Slice: 
+œ
+7xcreditscore_lattice/lattice_15/argsort/strided_slice:0
+const_axes__360<xcreditscore_lattice/lattice_15/argsort/strided_slice__162:0:xcreditscore_lattice/lattice_15/argsort/strided_slice__162"Squeeze: 
+ 
+'xcreditscore_lattice/cal_PAY_AMT3/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_PAY_AMT3/truediv:0)xcreditscore_lattice/cal_PAY_AMT3/truediv"Mul
+¬
++xcreditscore_lattice/cal_PAY_AMT3/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_PAY_AMT3/Minimum:0)xcreditscore_lattice/cal_PAY_AMT3/Minimum"Min
+∫
++xcreditscore_lattice/cal_PAY_AMT3/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_PAY_AMT3/Maximum:0)xcreditscore_lattice/cal_PAY_AMT3/Maximum"Max
+«
+-xcreditscore_lattice/cal_PAY_AMT3/ones_like:0
++xcreditscore_lattice/cal_PAY_AMT3/Maximum:0*xcreditscore_lattice/cal_PAY_AMT3/concat:0(xcreditscore_lattice/cal_PAY_AMT3/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_PAY_AMT3/concat:0
+9xcreditscore_lattice/cal_PAY_AMT3/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_PAY_AMT3/MatMul:0(xcreditscore_lattice/cal_PAY_AMT3/MatMul"MatMul
+ 
+'xcreditscore_lattice/cal_PAY_AMT2/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_PAY_AMT2/truediv:0)xcreditscore_lattice/cal_PAY_AMT2/truediv"Mul
+¬
++xcreditscore_lattice/cal_PAY_AMT2/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_PAY_AMT2/Minimum:0)xcreditscore_lattice/cal_PAY_AMT2/Minimum"Min
+∫
++xcreditscore_lattice/cal_PAY_AMT2/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_PAY_AMT2/Maximum:0)xcreditscore_lattice/cal_PAY_AMT2/Maximum"Max
+«
+-xcreditscore_lattice/cal_PAY_AMT2/ones_like:0
++xcreditscore_lattice/cal_PAY_AMT2/Maximum:0*xcreditscore_lattice/cal_PAY_AMT2/concat:0(xcreditscore_lattice/cal_PAY_AMT2/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_PAY_AMT2/concat:0
+9xcreditscore_lattice/cal_PAY_AMT2/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_PAY_AMT2/MatMul:0(xcreditscore_lattice/cal_PAY_AMT2/MatMul"MatMul
+ 
+'xcreditscore_lattice/cal_PAY_AMT1/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_PAY_AMT1/truediv:0)xcreditscore_lattice/cal_PAY_AMT1/truediv"Mul
+¬
++xcreditscore_lattice/cal_PAY_AMT1/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_PAY_AMT1/Minimum:0)xcreditscore_lattice/cal_PAY_AMT1/Minimum"Min
+∫
++xcreditscore_lattice/cal_PAY_AMT1/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_PAY_AMT1/Maximum:0)xcreditscore_lattice/cal_PAY_AMT1/Maximum"Max
+«
+-xcreditscore_lattice/cal_PAY_AMT1/ones_like:0
++xcreditscore_lattice/cal_PAY_AMT1/Maximum:0*xcreditscore_lattice/cal_PAY_AMT1/concat:0(xcreditscore_lattice/cal_PAY_AMT1/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_PAY_AMT1/concat:0
+9xcreditscore_lattice/cal_PAY_AMT1/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_PAY_AMT1/MatMul:0(xcreditscore_lattice/cal_PAY_AMT1/MatMul"MatMul
+»
+*xcreditscore_lattice/cal_PAY_AMT1/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:06xcreditscore_lattice/lattice_3/clip_by_value/Minimum:04xcreditscore_lattice/lattice_3/clip_by_value/Minimum"Min
+ƒ
+6xcreditscore_lattice/lattice_3/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0.xcreditscore_lattice/lattice_3/clip_by_value:0,xcreditscore_lattice/lattice_3/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_3/clip_by_value:0%xcreditscore_lattice/lattice_3/Cast:0#xcreditscore_lattice/lattice_3/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_3/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0(xcreditscore_lattice/lattice_3/Minimum:0&xcreditscore_lattice/lattice_3/Minimum"Min
+¬
+(xcreditscore_lattice/lattice_3/Minimum:0
+const_fold_opt__627$xcreditscore_lattice/lattice_3/Sum:0"xcreditscore_lattice/lattice_3/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_3/Minimum:0'xcreditscore_lattice/lattice_3/Cast_1:0%xcreditscore_lattice/lattice_3/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_3/clip_by_value:0
+'xcreditscore_lattice/lattice_3/Cast_1:0$xcreditscore_lattice/lattice_3/sub:0"xcreditscore_lattice/lattice_3/sub"Sub
+ã
+$xcreditscore_lattice/lattice_3/sub:0.xcreditscore_lattice/lattice_3/argsort/Shape:0,xcreditscore_lattice/lattice_3/argsort/Shape"Shape
+£
+.xcreditscore_lattice/lattice_3/argsort/Shape:00xcreditscore_lattice/lattice_3/sort/Shape__175:0.xcreditscore_lattice/lattice_3/sort/Shape__175"Cast*	
+to†
+Ÿ
+0xcreditscore_lattice/lattice_3/sort/Shape__175:0
+const_fold_opt__627
+const_ends__87
+const_axes__3603xcreditscore_lattice/lattice_3/sort/strided_slice:01xcreditscore_lattice/lattice_3/sort/strided_slice"Slice: 
+√
+3xcreditscore_lattice/lattice_3/sort/strided_slice:0
+const_axes__3608xcreditscore_lattice/lattice_3/sort/strided_slice__179:06xcreditscore_lattice/lattice_3/sort/strided_slice__179"Squeeze: 
+¡
+$xcreditscore_lattice/cal_PAY_6/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0(xcreditscore_lattice/cal_PAY_6/truediv:0&xcreditscore_lattice/cal_PAY_6/truediv"Mul
+π
+(xcreditscore_lattice/cal_PAY_6/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0(xcreditscore_lattice/cal_PAY_6/Minimum:0&xcreditscore_lattice/cal_PAY_6/Minimum"Min
+±
+(xcreditscore_lattice/cal_PAY_6/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0(xcreditscore_lattice/cal_PAY_6/Maximum:0&xcreditscore_lattice/cal_PAY_6/Maximum"Max
+ª
+*xcreditscore_lattice/cal_PAY_6/ones_like:0
+(xcreditscore_lattice/cal_PAY_6/Maximum:0'xcreditscore_lattice/cal_PAY_6/concat:0%xcreditscore_lattice/cal_PAY_6/concat"Concat*
+axis†
+π
+'xcreditscore_lattice/cal_PAY_6/concat:0
+6xcreditscore_lattice/cal_PAY_6/MatMul/ReadVariableOp:0'xcreditscore_lattice/cal_PAY_6/MatMul:0%xcreditscore_lattice/cal_PAY_6/MatMul"MatMul
+«
+'xcreditscore_lattice/cal_PAY_6/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_11/clip_by_value/Minimum:05xcreditscore_lattice/lattice_11/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_11/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_11/clip_by_value:0-xcreditscore_lattice/lattice_11/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_11/clip_by_value:0&xcreditscore_lattice/lattice_11/Cast:0$xcreditscore_lattice/lattice_11/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_11/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_11/Minimum:0'xcreditscore_lattice/lattice_11/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_11/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_11/Sum:0#xcreditscore_lattice/lattice_11/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_11/Minimum:0(xcreditscore_lattice/lattice_11/Cast_1:0&xcreditscore_lattice/lattice_11/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_11/clip_by_value:0
+(xcreditscore_lattice/lattice_11/Cast_1:0%xcreditscore_lattice/lattice_11/sub:0#xcreditscore_lattice/lattice_11/sub"Sub
+à
+%xcreditscore_lattice/lattice_11/sub:0,xcreditscore_lattice/lattice_11/sort/Shape:0*xcreditscore_lattice/lattice_11/sort/Shape"Shape
+©
+,xcreditscore_lattice/lattice_11/sort/Shape:04xcreditscore_lattice/lattice_11/argsort/Shape__218:02xcreditscore_lattice/lattice_11/argsort/Shape__218"Cast*	
+to†
+Â
+4xcreditscore_lattice/lattice_11/argsort/Shape__218:0
+const_fold_opt__627
+const_ends__87
+const_axes__3607xcreditscore_lattice/lattice_11/argsort/strided_slice:05xcreditscore_lattice/lattice_11/argsort/strided_slice"Slice: 
+…
+7xcreditscore_lattice/lattice_11/argsort/strided_slice:0
+const_axes__3609xcreditscore_lattice/lattice_11/sort/strided_slice__209:07xcreditscore_lattice/lattice_11/sort/strided_slice__209"Squeeze: 
+¡
+$xcreditscore_lattice/cal_PAY_5/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0(xcreditscore_lattice/cal_PAY_5/truediv:0&xcreditscore_lattice/cal_PAY_5/truediv"Mul
+π
+(xcreditscore_lattice/cal_PAY_5/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0(xcreditscore_lattice/cal_PAY_5/Minimum:0&xcreditscore_lattice/cal_PAY_5/Minimum"Min
+±
+(xcreditscore_lattice/cal_PAY_5/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0(xcreditscore_lattice/cal_PAY_5/Maximum:0&xcreditscore_lattice/cal_PAY_5/Maximum"Max
+ª
+*xcreditscore_lattice/cal_PAY_5/ones_like:0
+(xcreditscore_lattice/cal_PAY_5/Maximum:0'xcreditscore_lattice/cal_PAY_5/concat:0%xcreditscore_lattice/cal_PAY_5/concat"Concat*
+axis†
+π
+'xcreditscore_lattice/cal_PAY_5/concat:0
+6xcreditscore_lattice/cal_PAY_5/MatMul/ReadVariableOp:0'xcreditscore_lattice/cal_PAY_5/MatMul:0%xcreditscore_lattice/cal_PAY_5/MatMul"MatMul
+«
+'xcreditscore_lattice/cal_PAY_5/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_10/clip_by_value/Minimum:05xcreditscore_lattice/lattice_10/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_10/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_10/clip_by_value:0-xcreditscore_lattice/lattice_10/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_10/clip_by_value:0&xcreditscore_lattice/lattice_10/Cast:0$xcreditscore_lattice/lattice_10/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_10/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_10/Minimum:0'xcreditscore_lattice/lattice_10/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_10/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_10/Sum:0#xcreditscore_lattice/lattice_10/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_10/Minimum:0(xcreditscore_lattice/lattice_10/Cast_1:0&xcreditscore_lattice/lattice_10/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_10/clip_by_value:0
+(xcreditscore_lattice/lattice_10/Cast_1:0%xcreditscore_lattice/lattice_10/sub:0#xcreditscore_lattice/lattice_10/sub"Sub
+é
+%xcreditscore_lattice/lattice_10/sub:0/xcreditscore_lattice/lattice_10/argsort/Shape:0-xcreditscore_lattice/lattice_10/argsort/Shape"Shape
+¨
+/xcreditscore_lattice/lattice_10/argsort/Shape:04xcreditscore_lattice/lattice_10/argsort/Shape__248:02xcreditscore_lattice/lattice_10/argsort/Shape__248"Cast*	
+to†
+Â
+4xcreditscore_lattice/lattice_10/argsort/Shape__248:0
+const_fold_opt__627
+const_ends__87
+const_axes__3607xcreditscore_lattice/lattice_10/argsort/strided_slice:05xcreditscore_lattice/lattice_10/argsort/strided_slice"Slice: 
+œ
+7xcreditscore_lattice/lattice_10/argsort/strided_slice:0
+const_axes__360<xcreditscore_lattice/lattice_10/argsort/strided_slice__252:0:xcreditscore_lattice/lattice_10/argsort/strided_slice__252"Squeeze: 
+¡
+$xcreditscore_lattice/cal_PAY_4/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0(xcreditscore_lattice/cal_PAY_4/truediv:0&xcreditscore_lattice/cal_PAY_4/truediv"Mul
+π
+(xcreditscore_lattice/cal_PAY_4/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0(xcreditscore_lattice/cal_PAY_4/Minimum:0&xcreditscore_lattice/cal_PAY_4/Minimum"Min
+±
+(xcreditscore_lattice/cal_PAY_4/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0(xcreditscore_lattice/cal_PAY_4/Maximum:0&xcreditscore_lattice/cal_PAY_4/Maximum"Max
+ª
+*xcreditscore_lattice/cal_PAY_4/ones_like:0
+(xcreditscore_lattice/cal_PAY_4/Maximum:0'xcreditscore_lattice/cal_PAY_4/concat:0%xcreditscore_lattice/cal_PAY_4/concat"Concat*
+axis†
+π
+'xcreditscore_lattice/cal_PAY_4/concat:0
+6xcreditscore_lattice/cal_PAY_4/MatMul/ReadVariableOp:0'xcreditscore_lattice/cal_PAY_4/MatMul:0%xcreditscore_lattice/cal_PAY_4/MatMul"MatMul
+≈
+'xcreditscore_lattice/cal_PAY_4/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:06xcreditscore_lattice/lattice_9/clip_by_value/Minimum:04xcreditscore_lattice/lattice_9/clip_by_value/Minimum"Min
+ƒ
+6xcreditscore_lattice/lattice_9/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0.xcreditscore_lattice/lattice_9/clip_by_value:0,xcreditscore_lattice/lattice_9/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_9/clip_by_value:0%xcreditscore_lattice/lattice_9/Cast:0#xcreditscore_lattice/lattice_9/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_9/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0(xcreditscore_lattice/lattice_9/Minimum:0&xcreditscore_lattice/lattice_9/Minimum"Min
+¬
+(xcreditscore_lattice/lattice_9/Minimum:0
+const_fold_opt__627$xcreditscore_lattice/lattice_9/Sum:0"xcreditscore_lattice/lattice_9/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_9/Minimum:0'xcreditscore_lattice/lattice_9/Cast_1:0%xcreditscore_lattice/lattice_9/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_9/clip_by_value:0
+'xcreditscore_lattice/lattice_9/Cast_1:0$xcreditscore_lattice/lattice_9/sub:0"xcreditscore_lattice/lattice_9/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_9/sub:0+xcreditscore_lattice/lattice_9/sort/Shape:0)xcreditscore_lattice/lattice_9/sort/Shape"Shape
+†
++xcreditscore_lattice/lattice_9/sort/Shape:00xcreditscore_lattice/lattice_9/sort/Shape__265:0.xcreditscore_lattice/lattice_9/sort/Shape__265"Cast*	
+to†
+Ÿ
+0xcreditscore_lattice/lattice_9/sort/Shape__265:0
+const_fold_opt__627
+const_ends__87
+const_axes__3603xcreditscore_lattice/lattice_9/sort/strided_slice:01xcreditscore_lattice/lattice_9/sort/strided_slice"Slice: 
+…
+3xcreditscore_lattice/lattice_9/sort/strided_slice:0
+const_axes__360;xcreditscore_lattice/lattice_9/argsort/strided_slice__282:09xcreditscore_lattice/lattice_9/argsort/strided_slice__282"Squeeze: 
+¡
+$xcreditscore_lattice/cal_PAY_3/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0(xcreditscore_lattice/cal_PAY_3/truediv:0&xcreditscore_lattice/cal_PAY_3/truediv"Mul
+π
+(xcreditscore_lattice/cal_PAY_3/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0(xcreditscore_lattice/cal_PAY_3/Minimum:0&xcreditscore_lattice/cal_PAY_3/Minimum"Min
+±
+(xcreditscore_lattice/cal_PAY_3/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0(xcreditscore_lattice/cal_PAY_3/Maximum:0&xcreditscore_lattice/cal_PAY_3/Maximum"Max
+ª
+*xcreditscore_lattice/cal_PAY_3/ones_like:0
+(xcreditscore_lattice/cal_PAY_3/Maximum:0'xcreditscore_lattice/cal_PAY_3/concat:0%xcreditscore_lattice/cal_PAY_3/concat"Concat*
+axis†
+π
+'xcreditscore_lattice/cal_PAY_3/concat:0
+6xcreditscore_lattice/cal_PAY_3/MatMul/ReadVariableOp:0'xcreditscore_lattice/cal_PAY_3/MatMul:0%xcreditscore_lattice/cal_PAY_3/MatMul"MatMul
+≈
+'xcreditscore_lattice/cal_PAY_3/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:06xcreditscore_lattice/lattice_8/clip_by_value/Minimum:04xcreditscore_lattice/lattice_8/clip_by_value/Minimum"Min
+ƒ
+6xcreditscore_lattice/lattice_8/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0.xcreditscore_lattice/lattice_8/clip_by_value:0,xcreditscore_lattice/lattice_8/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_8/clip_by_value:0%xcreditscore_lattice/lattice_8/Cast:0#xcreditscore_lattice/lattice_8/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_8/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0(xcreditscore_lattice/lattice_8/Minimum:0&xcreditscore_lattice/lattice_8/Minimum"Min
+¬
+(xcreditscore_lattice/lattice_8/Minimum:0
+const_fold_opt__627$xcreditscore_lattice/lattice_8/Sum:0"xcreditscore_lattice/lattice_8/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_8/Minimum:0'xcreditscore_lattice/lattice_8/Cast_1:0%xcreditscore_lattice/lattice_8/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_8/clip_by_value:0
+'xcreditscore_lattice/lattice_8/Cast_1:0$xcreditscore_lattice/lattice_8/sub:0"xcreditscore_lattice/lattice_8/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_8/sub:0+xcreditscore_lattice/lattice_8/sort/Shape:0)xcreditscore_lattice/lattice_8/sort/Shape"Shape
+†
++xcreditscore_lattice/lattice_8/sort/Shape:00xcreditscore_lattice/lattice_8/sort/Shape__295:0.xcreditscore_lattice/lattice_8/sort/Shape__295"Cast*	
+to†
+Ÿ
+0xcreditscore_lattice/lattice_8/sort/Shape__295:0
+const_fold_opt__627
+const_ends__87
+const_axes__3603xcreditscore_lattice/lattice_8/sort/strided_slice:01xcreditscore_lattice/lattice_8/sort/strided_slice"Slice: 
+√
+3xcreditscore_lattice/lattice_8/sort/strided_slice:0
+const_axes__3608xcreditscore_lattice/lattice_8/sort/strided_slice__299:06xcreditscore_lattice/lattice_8/sort/strided_slice__299"Squeeze: 
+¡
+$xcreditscore_lattice/cal_PAY_2/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0(xcreditscore_lattice/cal_PAY_2/truediv:0&xcreditscore_lattice/cal_PAY_2/truediv"Mul
+π
+(xcreditscore_lattice/cal_PAY_2/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0(xcreditscore_lattice/cal_PAY_2/Minimum:0&xcreditscore_lattice/cal_PAY_2/Minimum"Min
+±
+(xcreditscore_lattice/cal_PAY_2/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0(xcreditscore_lattice/cal_PAY_2/Maximum:0&xcreditscore_lattice/cal_PAY_2/Maximum"Max
+ª
+*xcreditscore_lattice/cal_PAY_2/ones_like:0
+(xcreditscore_lattice/cal_PAY_2/Maximum:0'xcreditscore_lattice/cal_PAY_2/concat:0%xcreditscore_lattice/cal_PAY_2/concat"Concat*
+axis†
+π
+'xcreditscore_lattice/cal_PAY_2/concat:0
+6xcreditscore_lattice/cal_PAY_2/MatMul/ReadVariableOp:0'xcreditscore_lattice/cal_PAY_2/MatMul:0%xcreditscore_lattice/cal_PAY_2/MatMul"MatMul
+¡
+$xcreditscore_lattice/cal_PAY_0/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0(xcreditscore_lattice/cal_PAY_0/truediv:0&xcreditscore_lattice/cal_PAY_0/truediv"Mul
+π
+(xcreditscore_lattice/cal_PAY_0/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0(xcreditscore_lattice/cal_PAY_0/Minimum:0&xcreditscore_lattice/cal_PAY_0/Minimum"Min
+±
+(xcreditscore_lattice/cal_PAY_0/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0(xcreditscore_lattice/cal_PAY_0/Maximum:0&xcreditscore_lattice/cal_PAY_0/Maximum"Max
+ª
+*xcreditscore_lattice/cal_PAY_0/ones_like:0
+(xcreditscore_lattice/cal_PAY_0/Maximum:0'xcreditscore_lattice/cal_PAY_0/concat:0%xcreditscore_lattice/cal_PAY_0/concat"Concat*
+axis†
+π
+'xcreditscore_lattice/cal_PAY_0/concat:0
+6xcreditscore_lattice/cal_PAY_0/MatMul/ReadVariableOp:0'xcreditscore_lattice/cal_PAY_0/MatMul:0%xcreditscore_lattice/cal_PAY_0/MatMul"MatMul
+¡
+'xcreditscore_lattice/cal_PAY_0/MatMul:0
+'xcreditscore_lattice/cal_PAY_2/MatMul:0,xcreditscore_lattice/group_concat_1/concat:0*xcreditscore_lattice/group_concat_1/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_1/concat:0
+&xcreditscore_lattice/lattice_0/Const:06xcreditscore_lattice/lattice_1/clip_by_value/Minimum:04xcreditscore_lattice/lattice_1/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_1/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_1/zeros:0.xcreditscore_lattice/lattice_1/clip_by_value:0,xcreditscore_lattice/lattice_1/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_1/clip_by_value:0%xcreditscore_lattice/lattice_1/Cast:0#xcreditscore_lattice/lattice_1/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_1/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_1/Minimum:0&xcreditscore_lattice/lattice_1/Minimum"Min
+£
+(xcreditscore_lattice/lattice_1/Minimum:0
+(xcreditscore_lattice/lattice_0/Const_1:0$xcreditscore_lattice/lattice_1/mul:0"xcreditscore_lattice/lattice_1/mul"Mul
+æ
+$xcreditscore_lattice/lattice_1/mul:0
+const_fold_opt__627$xcreditscore_lattice/lattice_1/Sum:0"xcreditscore_lattice/lattice_1/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_1/Minimum:0'xcreditscore_lattice/lattice_1/Cast_1:0%xcreditscore_lattice/lattice_1/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_1/clip_by_value:0
+'xcreditscore_lattice/lattice_1/Cast_1:0$xcreditscore_lattice/lattice_1/sub:0"xcreditscore_lattice/lattice_1/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_1/sub:0+xcreditscore_lattice/lattice_1/sort/Shape:0)xcreditscore_lattice/lattice_1/sort/Shape"Shape
+¶
++xcreditscore_lattice/lattice_1/sort/Shape:03xcreditscore_lattice/lattice_1/argsort/Shape__338:01xcreditscore_lattice/lattice_1/argsort/Shape__338"Cast*	
+to†
+‚
+3xcreditscore_lattice/lattice_1/argsort/Shape__338:0
+const_fold_opt__627
+const_ends__87
+const_axes__3606xcreditscore_lattice/lattice_1/argsort/strided_slice:04xcreditscore_lattice/lattice_1/argsort/strided_slice"Slice: 
+Ã
+6xcreditscore_lattice/lattice_1/argsort/strided_slice:0
+const_axes__360;xcreditscore_lattice/lattice_1/argsort/strided_slice__342:09xcreditscore_lattice/lattice_1/argsort/strided_slice__342"Squeeze: 
+ 
+'xcreditscore_lattice/cal_MARRIAGE/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0+xcreditscore_lattice/cal_MARRIAGE/truediv:0)xcreditscore_lattice/cal_MARRIAGE/truediv"Mul
+¬
++xcreditscore_lattice/cal_MARRIAGE/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0+xcreditscore_lattice/cal_MARRIAGE/Minimum:0)xcreditscore_lattice/cal_MARRIAGE/Minimum"Min
+∫
++xcreditscore_lattice/cal_MARRIAGE/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0+xcreditscore_lattice/cal_MARRIAGE/Maximum:0)xcreditscore_lattice/cal_MARRIAGE/Maximum"Max
+«
+-xcreditscore_lattice/cal_MARRIAGE/ones_like:0
++xcreditscore_lattice/cal_MARRIAGE/Maximum:0*xcreditscore_lattice/cal_MARRIAGE/concat:0(xcreditscore_lattice/cal_MARRIAGE/concat"Concat*
+axis†
+≈
+*xcreditscore_lattice/cal_MARRIAGE/concat:0
+9xcreditscore_lattice/cal_MARRIAGE/MatMul/ReadVariableOp:0*xcreditscore_lattice/cal_MARRIAGE/MatMul:0(xcreditscore_lattice/cal_MARRIAGE/MatMul"MatMul
+Õ
+(xcreditscore_lattice/cal_LIMIT_BAL/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_LIMIT_BAL/truediv:0*xcreditscore_lattice/cal_LIMIT_BAL/truediv"Mul
+≈
+,xcreditscore_lattice/cal_LIMIT_BAL/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_LIMIT_BAL/Minimum:0*xcreditscore_lattice/cal_LIMIT_BAL/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_LIMIT_BAL/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_LIMIT_BAL/Maximum:0*xcreditscore_lattice/cal_LIMIT_BAL/Maximum"Max
+À
+.xcreditscore_lattice/cal_LIMIT_BAL/ones_like:0
+,xcreditscore_lattice/cal_LIMIT_BAL/Maximum:0+xcreditscore_lattice/cal_LIMIT_BAL/concat:0)xcreditscore_lattice/cal_LIMIT_BAL/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_LIMIT_BAL/concat:0
+:xcreditscore_lattice/cal_LIMIT_BAL/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_LIMIT_BAL/MatMul:0)xcreditscore_lattice/cal_LIMIT_BAL/MatMul"MatMul
+Õ
+(xcreditscore_lattice/cal_EDUCATION/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_EDUCATION/truediv:0*xcreditscore_lattice/cal_EDUCATION/truediv"Mul
+≈
+,xcreditscore_lattice/cal_EDUCATION/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_EDUCATION/Minimum:0*xcreditscore_lattice/cal_EDUCATION/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_EDUCATION/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_EDUCATION/Maximum:0*xcreditscore_lattice/cal_EDUCATION/Maximum"Max
+À
+.xcreditscore_lattice/cal_EDUCATION/ones_like:0
+,xcreditscore_lattice/cal_EDUCATION/Maximum:0+xcreditscore_lattice/cal_EDUCATION/concat:0)xcreditscore_lattice/cal_EDUCATION/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_EDUCATION/concat:0
+:xcreditscore_lattice/cal_EDUCATION/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_EDUCATION/MatMul:0)xcreditscore_lattice/cal_EDUCATION/MatMul"MatMul
+»
++xcreditscore_lattice/cal_EDUCATION/MatMul:0
+*xcreditscore_lattice/cal_MARRIAGE/MatMul:0,xcreditscore_lattice/group_concat_6/concat:0*xcreditscore_lattice/group_concat_6/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_6/concat:0
+&xcreditscore_lattice/lattice_0/Const:06xcreditscore_lattice/lattice_6/clip_by_value/Minimum:04xcreditscore_lattice/lattice_6/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_6/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_1/zeros:0.xcreditscore_lattice/lattice_6/clip_by_value:0,xcreditscore_lattice/lattice_6/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_6/clip_by_value:0%xcreditscore_lattice/lattice_6/Cast:0#xcreditscore_lattice/lattice_6/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_6/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_6/Minimum:0&xcreditscore_lattice/lattice_6/Minimum"Min
+£
+(xcreditscore_lattice/lattice_6/Minimum:0
+(xcreditscore_lattice/lattice_0/Const_1:0$xcreditscore_lattice/lattice_6/mul:0"xcreditscore_lattice/lattice_6/mul"Mul
+æ
+$xcreditscore_lattice/lattice_6/mul:0
+const_fold_opt__627$xcreditscore_lattice/lattice_6/Sum:0"xcreditscore_lattice/lattice_6/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_6/Minimum:0'xcreditscore_lattice/lattice_6/Cast_1:0%xcreditscore_lattice/lattice_6/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_6/clip_by_value:0
+'xcreditscore_lattice/lattice_6/Cast_1:0$xcreditscore_lattice/lattice_6/sub:0"xcreditscore_lattice/lattice_6/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_6/sub:0+xcreditscore_lattice/lattice_6/sort/Shape:0)xcreditscore_lattice/lattice_6/sort/Shape"Shape
+¶
++xcreditscore_lattice/lattice_6/sort/Shape:03xcreditscore_lattice/lattice_6/argsort/Shape__368:01xcreditscore_lattice/lattice_6/argsort/Shape__368"Cast*	
+to†
+‹
+3xcreditscore_lattice/lattice_6/argsort/Shape__368:0
+const_fold_opt__627
+const_ends__87
+const_axes__3603xcreditscore_lattice/lattice_6/sort/strided_slice:01xcreditscore_lattice/lattice_6/sort/strided_slice"Slice: 
+√
+3xcreditscore_lattice/lattice_6/sort/strided_slice:0
+const_axes__3608xcreditscore_lattice/lattice_6/sort/strided_slice__359:06xcreditscore_lattice/lattice_6/sort/strided_slice__359"Squeeze: 
+Õ
+(xcreditscore_lattice/cal_BILL_AMT6/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_BILL_AMT6/truediv:0*xcreditscore_lattice/cal_BILL_AMT6/truediv"Mul
+≈
+,xcreditscore_lattice/cal_BILL_AMT6/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_BILL_AMT6/Minimum:0*xcreditscore_lattice/cal_BILL_AMT6/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_BILL_AMT6/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_BILL_AMT6/Maximum:0*xcreditscore_lattice/cal_BILL_AMT6/Maximum"Max
+À
+.xcreditscore_lattice/cal_BILL_AMT6/ones_like:0
+,xcreditscore_lattice/cal_BILL_AMT6/Maximum:0+xcreditscore_lattice/cal_BILL_AMT6/concat:0)xcreditscore_lattice/cal_BILL_AMT6/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_BILL_AMT6/concat:0
+:xcreditscore_lattice/cal_BILL_AMT6/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_BILL_AMT6/MatMul:0)xcreditscore_lattice/cal_BILL_AMT6/MatMul"MatMul
+À
++xcreditscore_lattice/cal_BILL_AMT6/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_14/clip_by_value/Minimum:05xcreditscore_lattice/lattice_14/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_14/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_14/clip_by_value:0-xcreditscore_lattice/lattice_14/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_14/clip_by_value:0&xcreditscore_lattice/lattice_14/Cast:0$xcreditscore_lattice/lattice_14/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_14/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_14/Minimum:0'xcreditscore_lattice/lattice_14/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_14/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_14/Sum:0#xcreditscore_lattice/lattice_14/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_14/Minimum:0(xcreditscore_lattice/lattice_14/Cast_1:0&xcreditscore_lattice/lattice_14/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_14/clip_by_value:0
+(xcreditscore_lattice/lattice_14/Cast_1:0%xcreditscore_lattice/lattice_14/sub:0#xcreditscore_lattice/lattice_14/sub"Sub
+à
+%xcreditscore_lattice/lattice_14/sub:0,xcreditscore_lattice/lattice_14/sort/Shape:0*xcreditscore_lattice/lattice_14/sort/Shape"Shape
+©
+,xcreditscore_lattice/lattice_14/sort/Shape:04xcreditscore_lattice/lattice_14/argsort/Shape__398:02xcreditscore_lattice/lattice_14/argsort/Shape__398"Cast*	
+to†
+Â
+4xcreditscore_lattice/lattice_14/argsort/Shape__398:0
+const_fold_opt__627
+const_ends__87
+const_axes__3607xcreditscore_lattice/lattice_14/argsort/strided_slice:05xcreditscore_lattice/lattice_14/argsort/strided_slice"Slice: 
+…
+7xcreditscore_lattice/lattice_14/argsort/strided_slice:0
+const_axes__3609xcreditscore_lattice/lattice_14/sort/strided_slice__389:07xcreditscore_lattice/lattice_14/sort/strided_slice__389"Squeeze: 
+Õ
+(xcreditscore_lattice/cal_BILL_AMT5/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_BILL_AMT5/truediv:0*xcreditscore_lattice/cal_BILL_AMT5/truediv"Mul
+≈
+,xcreditscore_lattice/cal_BILL_AMT5/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_BILL_AMT5/Minimum:0*xcreditscore_lattice/cal_BILL_AMT5/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_BILL_AMT5/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_BILL_AMT5/Maximum:0*xcreditscore_lattice/cal_BILL_AMT5/Maximum"Max
+À
+.xcreditscore_lattice/cal_BILL_AMT5/ones_like:0
+,xcreditscore_lattice/cal_BILL_AMT5/Maximum:0+xcreditscore_lattice/cal_BILL_AMT5/concat:0)xcreditscore_lattice/cal_BILL_AMT5/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_BILL_AMT5/concat:0
+:xcreditscore_lattice/cal_BILL_AMT5/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_BILL_AMT5/MatMul:0)xcreditscore_lattice/cal_BILL_AMT5/MatMul"MatMul
+À
++xcreditscore_lattice/cal_BILL_AMT5/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_13/clip_by_value/Minimum:05xcreditscore_lattice/lattice_13/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_13/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_13/clip_by_value:0-xcreditscore_lattice/lattice_13/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_13/clip_by_value:0&xcreditscore_lattice/lattice_13/Cast:0$xcreditscore_lattice/lattice_13/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_13/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_13/Minimum:0'xcreditscore_lattice/lattice_13/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_13/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_13/Sum:0#xcreditscore_lattice/lattice_13/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_13/Minimum:0(xcreditscore_lattice/lattice_13/Cast_1:0&xcreditscore_lattice/lattice_13/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_13/clip_by_value:0
+(xcreditscore_lattice/lattice_13/Cast_1:0%xcreditscore_lattice/lattice_13/sub:0#xcreditscore_lattice/lattice_13/sub"Sub
+à
+%xcreditscore_lattice/lattice_13/sub:0,xcreditscore_lattice/lattice_13/sort/Shape:0*xcreditscore_lattice/lattice_13/sort/Shape"Shape
+£
+,xcreditscore_lattice/lattice_13/sort/Shape:01xcreditscore_lattice/lattice_13/sort/Shape__415:0/xcreditscore_lattice/lattice_13/sort/Shape__415"Cast*	
+to†
+‹
+1xcreditscore_lattice/lattice_13/sort/Shape__415:0
+const_fold_opt__627
+const_ends__87
+const_axes__3604xcreditscore_lattice/lattice_13/sort/strided_slice:02xcreditscore_lattice/lattice_13/sort/strided_slice"Slice: 
+∆
+4xcreditscore_lattice/lattice_13/sort/strided_slice:0
+const_axes__3609xcreditscore_lattice/lattice_13/sort/strided_slice__419:07xcreditscore_lattice/lattice_13/sort/strided_slice__419"Squeeze: 
+Õ
+(xcreditscore_lattice/cal_BILL_AMT4/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_BILL_AMT4/truediv:0*xcreditscore_lattice/cal_BILL_AMT4/truediv"Mul
+≈
+,xcreditscore_lattice/cal_BILL_AMT4/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_BILL_AMT4/Minimum:0*xcreditscore_lattice/cal_BILL_AMT4/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_BILL_AMT4/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_BILL_AMT4/Maximum:0*xcreditscore_lattice/cal_BILL_AMT4/Maximum"Max
+À
+.xcreditscore_lattice/cal_BILL_AMT4/ones_like:0
+,xcreditscore_lattice/cal_BILL_AMT4/Maximum:0+xcreditscore_lattice/cal_BILL_AMT4/concat:0)xcreditscore_lattice/cal_BILL_AMT4/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_BILL_AMT4/concat:0
+:xcreditscore_lattice/cal_BILL_AMT4/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_BILL_AMT4/MatMul:0)xcreditscore_lattice/cal_BILL_AMT4/MatMul"MatMul
+À
++xcreditscore_lattice/cal_BILL_AMT4/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:07xcreditscore_lattice/lattice_12/clip_by_value/Minimum:05xcreditscore_lattice/lattice_12/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_12/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0/xcreditscore_lattice/lattice_12/clip_by_value:0-xcreditscore_lattice/lattice_12/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_12/clip_by_value:0&xcreditscore_lattice/lattice_12/Cast:0$xcreditscore_lattice/lattice_12/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_12/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0)xcreditscore_lattice/lattice_12/Minimum:0'xcreditscore_lattice/lattice_12/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_12/Minimum:0
+const_fold_opt__627%xcreditscore_lattice/lattice_12/Sum:0#xcreditscore_lattice/lattice_12/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_12/Minimum:0(xcreditscore_lattice/lattice_12/Cast_1:0&xcreditscore_lattice/lattice_12/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_12/clip_by_value:0
+(xcreditscore_lattice/lattice_12/Cast_1:0%xcreditscore_lattice/lattice_12/sub:0#xcreditscore_lattice/lattice_12/sub"Sub
+é
+%xcreditscore_lattice/lattice_12/sub:0/xcreditscore_lattice/lattice_12/argsort/Shape:0-xcreditscore_lattice/lattice_12/argsort/Shape"Shape
+¨
+/xcreditscore_lattice/lattice_12/argsort/Shape:04xcreditscore_lattice/lattice_12/argsort/Shape__458:02xcreditscore_lattice/lattice_12/argsort/Shape__458"Cast*	
+to†
+ﬂ
+4xcreditscore_lattice/lattice_12/argsort/Shape__458:0
+const_fold_opt__627
+const_ends__87
+const_axes__3604xcreditscore_lattice/lattice_12/sort/strided_slice:02xcreditscore_lattice/lattice_12/sort/strided_slice"Slice: 
+∆
+4xcreditscore_lattice/lattice_12/sort/strided_slice:0
+const_axes__3609xcreditscore_lattice/lattice_12/sort/strided_slice__449:07xcreditscore_lattice/lattice_12/sort/strided_slice__449"Squeeze: 
+Õ
+(xcreditscore_lattice/cal_BILL_AMT3/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_BILL_AMT3/truediv:0*xcreditscore_lattice/cal_BILL_AMT3/truediv"Mul
+≈
+,xcreditscore_lattice/cal_BILL_AMT3/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_BILL_AMT3/Minimum:0*xcreditscore_lattice/cal_BILL_AMT3/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_BILL_AMT3/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_BILL_AMT3/Maximum:0*xcreditscore_lattice/cal_BILL_AMT3/Maximum"Max
+À
+.xcreditscore_lattice/cal_BILL_AMT3/ones_like:0
+,xcreditscore_lattice/cal_BILL_AMT3/Maximum:0+xcreditscore_lattice/cal_BILL_AMT3/concat:0)xcreditscore_lattice/cal_BILL_AMT3/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_BILL_AMT3/concat:0
+:xcreditscore_lattice/cal_BILL_AMT3/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_BILL_AMT3/MatMul:0)xcreditscore_lattice/cal_BILL_AMT3/MatMul"MatMul
+»
++xcreditscore_lattice/cal_BILL_AMT3/MatMul:0
+*xcreditscore_lattice/cal_PAY_AMT3/MatMul:0,xcreditscore_lattice/group_concat_5/concat:0*xcreditscore_lattice/group_concat_5/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_5/concat:0
+&xcreditscore_lattice/lattice_0/Const:06xcreditscore_lattice/lattice_5/clip_by_value/Minimum:04xcreditscore_lattice/lattice_5/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_5/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_1/zeros:0.xcreditscore_lattice/lattice_5/clip_by_value:0,xcreditscore_lattice/lattice_5/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_5/clip_by_value:0%xcreditscore_lattice/lattice_5/Cast:0#xcreditscore_lattice/lattice_5/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_5/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_5/Minimum:0&xcreditscore_lattice/lattice_5/Minimum"Min
+£
+(xcreditscore_lattice/lattice_5/Minimum:0
+(xcreditscore_lattice/lattice_0/Const_1:0$xcreditscore_lattice/lattice_5/mul:0"xcreditscore_lattice/lattice_5/mul"Mul
+æ
+$xcreditscore_lattice/lattice_5/mul:0
+const_fold_opt__627$xcreditscore_lattice/lattice_5/Sum:0"xcreditscore_lattice/lattice_5/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_5/Minimum:0'xcreditscore_lattice/lattice_5/Cast_1:0%xcreditscore_lattice/lattice_5/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_5/clip_by_value:0
+'xcreditscore_lattice/lattice_5/Cast_1:0$xcreditscore_lattice/lattice_5/sub:0"xcreditscore_lattice/lattice_5/sub"Sub
+ã
+$xcreditscore_lattice/lattice_5/sub:0.xcreditscore_lattice/lattice_5/argsort/Shape:0,xcreditscore_lattice/lattice_5/argsort/Shape"Shape
+£
+.xcreditscore_lattice/lattice_5/argsort/Shape:00xcreditscore_lattice/lattice_5/sort/Shape__475:0.xcreditscore_lattice/lattice_5/sort/Shape__475"Cast*	
+to†
+ﬂ
+0xcreditscore_lattice/lattice_5/sort/Shape__475:0
+const_fold_opt__627
+const_ends__87
+const_axes__3606xcreditscore_lattice/lattice_5/argsort/strided_slice:04xcreditscore_lattice/lattice_5/argsort/strided_slice"Slice: 
+Ã
+6xcreditscore_lattice/lattice_5/argsort/strided_slice:0
+const_axes__360;xcreditscore_lattice/lattice_5/argsort/strided_slice__492:09xcreditscore_lattice/lattice_5/argsort/strided_slice__492"Squeeze: 
+Õ
+(xcreditscore_lattice/cal_BILL_AMT2/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_BILL_AMT2/truediv:0*xcreditscore_lattice/cal_BILL_AMT2/truediv"Mul
+≈
+,xcreditscore_lattice/cal_BILL_AMT2/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_BILL_AMT2/Minimum:0*xcreditscore_lattice/cal_BILL_AMT2/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_BILL_AMT2/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_BILL_AMT2/Maximum:0*xcreditscore_lattice/cal_BILL_AMT2/Maximum"Max
+À
+.xcreditscore_lattice/cal_BILL_AMT2/ones_like:0
+,xcreditscore_lattice/cal_BILL_AMT2/Maximum:0+xcreditscore_lattice/cal_BILL_AMT2/concat:0)xcreditscore_lattice/cal_BILL_AMT2/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_BILL_AMT2/concat:0
+:xcreditscore_lattice/cal_BILL_AMT2/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_BILL_AMT2/MatMul:0)xcreditscore_lattice/cal_BILL_AMT2/MatMul"MatMul
+»
++xcreditscore_lattice/cal_BILL_AMT2/MatMul:0
+*xcreditscore_lattice/cal_PAY_AMT2/MatMul:0,xcreditscore_lattice/group_concat_4/concat:0*xcreditscore_lattice/group_concat_4/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_4/concat:0
+&xcreditscore_lattice/lattice_0/Const:06xcreditscore_lattice/lattice_4/clip_by_value/Minimum:04xcreditscore_lattice/lattice_4/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_4/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_1/zeros:0.xcreditscore_lattice/lattice_4/clip_by_value:0,xcreditscore_lattice/lattice_4/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_4/clip_by_value:0%xcreditscore_lattice/lattice_4/Cast:0#xcreditscore_lattice/lattice_4/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_4/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_4/Minimum:0&xcreditscore_lattice/lattice_4/Minimum"Min
+£
+(xcreditscore_lattice/lattice_4/Minimum:0
+(xcreditscore_lattice/lattice_0/Const_1:0$xcreditscore_lattice/lattice_4/mul:0"xcreditscore_lattice/lattice_4/mul"Mul
+æ
+$xcreditscore_lattice/lattice_4/mul:0
+const_fold_opt__627$xcreditscore_lattice/lattice_4/Sum:0"xcreditscore_lattice/lattice_4/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_4/Minimum:0'xcreditscore_lattice/lattice_4/Cast_1:0%xcreditscore_lattice/lattice_4/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_4/clip_by_value:0
+'xcreditscore_lattice/lattice_4/Cast_1:0$xcreditscore_lattice/lattice_4/sub:0"xcreditscore_lattice/lattice_4/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_4/sub:0+xcreditscore_lattice/lattice_4/sort/Shape:0)xcreditscore_lattice/lattice_4/sort/Shape"Shape
+†
++xcreditscore_lattice/lattice_4/sort/Shape:00xcreditscore_lattice/lattice_4/sort/Shape__505:0.xcreditscore_lattice/lattice_4/sort/Shape__505"Cast*	
+to†
+ﬂ
+0xcreditscore_lattice/lattice_4/sort/Shape__505:0
+const_fold_opt__627
+const_ends__87
+const_axes__3606xcreditscore_lattice/lattice_4/argsort/strided_slice:04xcreditscore_lattice/lattice_4/argsort/strided_slice"Slice: 
+∆
+6xcreditscore_lattice/lattice_4/argsort/strided_slice:0
+const_axes__3608xcreditscore_lattice/lattice_4/sort/strided_slice__509:06xcreditscore_lattice/lattice_4/sort/strided_slice__509"Squeeze: 
+Õ
+(xcreditscore_lattice/cal_BILL_AMT1/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0,xcreditscore_lattice/cal_BILL_AMT1/truediv:0*xcreditscore_lattice/cal_BILL_AMT1/truediv"Mul
+≈
+,xcreditscore_lattice/cal_BILL_AMT1/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0,xcreditscore_lattice/cal_BILL_AMT1/Minimum:0*xcreditscore_lattice/cal_BILL_AMT1/Minimum"Min
+Ω
+,xcreditscore_lattice/cal_BILL_AMT1/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0,xcreditscore_lattice/cal_BILL_AMT1/Maximum:0*xcreditscore_lattice/cal_BILL_AMT1/Maximum"Max
+À
+.xcreditscore_lattice/cal_BILL_AMT1/ones_like:0
+,xcreditscore_lattice/cal_BILL_AMT1/Maximum:0+xcreditscore_lattice/cal_BILL_AMT1/concat:0)xcreditscore_lattice/cal_BILL_AMT1/concat"Concat*
+axis†
+…
++xcreditscore_lattice/cal_BILL_AMT1/concat:0
+:xcreditscore_lattice/cal_BILL_AMT1/MatMul/ReadVariableOp:0+xcreditscore_lattice/cal_BILL_AMT1/MatMul:0)xcreditscore_lattice/cal_BILL_AMT1/MatMul"MatMul
+…
++xcreditscore_lattice/cal_BILL_AMT1/MatMul:0
+'xcreditscore_lattice/lattice_17/Const:06xcreditscore_lattice/lattice_2/clip_by_value/Minimum:04xcreditscore_lattice/lattice_2/clip_by_value/Minimum"Min
+ƒ
+6xcreditscore_lattice/lattice_2/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_17/zeros:0.xcreditscore_lattice/lattice_2/clip_by_value:0,xcreditscore_lattice/lattice_2/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_2/clip_by_value:0%xcreditscore_lattice/lattice_2/Cast:0#xcreditscore_lattice/lattice_2/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_2/Cast:0
+*xcreditscore_lattice/lattice_9/Minimum/y:0(xcreditscore_lattice/lattice_2/Minimum:0&xcreditscore_lattice/lattice_2/Minimum"Min
+¬
+(xcreditscore_lattice/lattice_2/Minimum:0
+const_fold_opt__627$xcreditscore_lattice/lattice_2/Sum:0"xcreditscore_lattice/lattice_2/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_2/Minimum:0'xcreditscore_lattice/lattice_2/Cast_1:0%xcreditscore_lattice/lattice_2/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_2/clip_by_value:0
+'xcreditscore_lattice/lattice_2/Cast_1:0$xcreditscore_lattice/lattice_2/sub:0"xcreditscore_lattice/lattice_2/sub"Sub
+ã
+$xcreditscore_lattice/lattice_2/sub:0.xcreditscore_lattice/lattice_2/argsort/Shape:0,xcreditscore_lattice/lattice_2/argsort/Shape"Shape
+©
+.xcreditscore_lattice/lattice_2/argsort/Shape:03xcreditscore_lattice/lattice_2/argsort/Shape__548:01xcreditscore_lattice/lattice_2/argsort/Shape__548"Cast*	
+to†
+‚
+3xcreditscore_lattice/lattice_2/argsort/Shape__548:0
+const_fold_opt__627
+const_ends__87
+const_axes__3606xcreditscore_lattice/lattice_2/argsort/strided_slice:04xcreditscore_lattice/lattice_2/argsort/strided_slice"Slice: 
+∆
+6xcreditscore_lattice/lattice_2/argsort/strided_slice:0
+const_axes__3608xcreditscore_lattice/lattice_2/sort/strided_slice__539:06xcreditscore_lattice/lattice_2/sort/strided_slice__539"Squeeze: 
+ª
+"xcreditscore_lattice/cal_AGE/sub:0
+BConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0&xcreditscore_lattice/cal_AGE/truediv:0$xcreditscore_lattice/cal_AGE/truediv"Mul
+≥
+&xcreditscore_lattice/cal_AGE/truediv:0
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/cal_AGE/Minimum:0$xcreditscore_lattice/cal_AGE/Minimum"Min
+´
+&xcreditscore_lattice/cal_AGE/Minimum:0
+.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0&xcreditscore_lattice/cal_AGE/Maximum:0$xcreditscore_lattice/cal_AGE/Maximum"Max
+≥
+(xcreditscore_lattice/cal_AGE/ones_like:0
+&xcreditscore_lattice/cal_AGE/Maximum:0%xcreditscore_lattice/cal_AGE/concat:0#xcreditscore_lattice/cal_AGE/concat"Concat*
+axis†
+±
+%xcreditscore_lattice/cal_AGE/concat:0
+4xcreditscore_lattice/cal_AGE/MatMul/ReadVariableOp:0%xcreditscore_lattice/cal_AGE/MatMul:0#xcreditscore_lattice/cal_AGE/MatMul"MatMul
+√
++xcreditscore_lattice/cal_LIMIT_BAL/MatMul:0
+%xcreditscore_lattice/cal_AGE/MatMul:0,xcreditscore_lattice/group_concat_0/concat:0*xcreditscore_lattice/group_concat_0/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_0/concat:0
+&xcreditscore_lattice/lattice_0/Const:06xcreditscore_lattice/lattice_0/clip_by_value/Minimum:04xcreditscore_lattice/lattice_0/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_0/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_1/zeros:0.xcreditscore_lattice/lattice_0/clip_by_value:0,xcreditscore_lattice/lattice_0/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_0/clip_by_value:0%xcreditscore_lattice/lattice_0/Cast:0#xcreditscore_lattice/lattice_0/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_0/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_0/Minimum:0&xcreditscore_lattice/lattice_0/Minimum"Min
+£
+(xcreditscore_lattice/lattice_0/Minimum:0
+(xcreditscore_lattice/lattice_0/Const_1:0$xcreditscore_lattice/lattice_0/mul:0"xcreditscore_lattice/lattice_0/mul"Mul
+æ
+$xcreditscore_lattice/lattice_0/mul:0
+const_fold_opt__627$xcreditscore_lattice/lattice_0/Sum:0"xcreditscore_lattice/lattice_0/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_0/Minimum:0'xcreditscore_lattice/lattice_0/Cast_1:0%xcreditscore_lattice/lattice_0/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_0/clip_by_value:0
+'xcreditscore_lattice/lattice_0/Cast_1:0$xcreditscore_lattice/lattice_0/sub:0"xcreditscore_lattice/lattice_0/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_0/sub:0+xcreditscore_lattice/lattice_0/sort/Shape:0)xcreditscore_lattice/lattice_0/sort/Shape"Shape
+¶
++xcreditscore_lattice/lattice_0/sort/Shape:03xcreditscore_lattice/lattice_0/argsort/Shape__578:01xcreditscore_lattice/lattice_0/argsort/Shape__578"Cast*	
+to†
+‚
+3xcreditscore_lattice/lattice_0/argsort/Shape__578:0
+const_fold_opt__627
+const_ends__87
+const_axes__3606xcreditscore_lattice/lattice_0/argsort/strided_slice:04xcreditscore_lattice/lattice_0/argsort/strided_slice"Slice: 
+∆
+6xcreditscore_lattice/lattice_0/argsort/strided_slice:0
+const_axes__3608xcreditscore_lattice/lattice_0/sort/strided_slice__569:06xcreditscore_lattice/lattice_0/sort/strided_slice__569"Squeeze: 
+g
+<xcreditscore_lattice/lattice_17/argsort/strided_slice__102:0
+Cast__91:0Cast__91"Cast*	
+to†: 
+L
+
+Cast__91:0
+const_axes__360Unsqueeze__106:0Unsqueeze__106"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_17/sub:0
+Unsqueeze__106:0-xcreditscore_lattice/lattice_17/sort/TopKV2:0-xcreditscore_lattice/lattice_17/sort/TopKV2:1+xcreditscore_lattice/lattice_17/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_17/sort/TopKV2:15xcreditscore_lattice/lattice_17/argsort/TopKV2__107:03xcreditscore_lattice/lattice_17/argsort/TopKV2__107"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_17/argsort/TopKV2__107:0*xcreditscore_lattice/lattice_17/GatherV2:0(xcreditscore_lattice/lattice_17/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_17/Sum:0
+*xcreditscore_lattice/lattice_17/GatherV2:0(xcreditscore_lattice/lattice_17/concat:0&xcreditscore_lattice/lattice_17/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_17/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_17/Cumsum:0&xcreditscore_lattice/lattice_17/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_17/Reshape:0
+(xcreditscore_lattice/lattice_17/Cumsum:0,xcreditscore_lattice/lattice_17/GatherV2_1:0*xcreditscore_lattice/lattice_17/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_17/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_17/PadV2:0%xcreditscore_lattice/lattice_17/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_17/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_17/Pad:0#xcreditscore_lattice/lattice_17/Pad"Pad
+•
+'xcreditscore_lattice/lattice_17/PadV2:0
+%xcreditscore_lattice/lattice_17/Pad:0'xcreditscore_lattice/lattice_17/sub_1:0%xcreditscore_lattice/lattice_17/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_17/GatherV2_1:0
+'xcreditscore_lattice/lattice_17/sub_1:0'xcreditscore_lattice/lattice_17/Mul_1:0%xcreditscore_lattice/lattice_17/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_17/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_17/Sum_1:0%xcreditscore_lattice/lattice_17/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+b
+7xcreditscore_lattice/lattice_7/sort/strided_slice__59:0
+Cast__74:0Cast__74"Cast*	
+to†: 
+J
+
+Cast__74:0
+const_axes__360Unsqueeze__63:0Unsqueeze__63"	Unsqueeze: 
+›
+$xcreditscore_lattice/lattice_7/sub:0
+Unsqueeze__63:0/xcreditscore_lattice/lattice_7/argsort/TopKV2:0/xcreditscore_lattice/lattice_7/argsort/TopKV2:1-xcreditscore_lattice/lattice_7/argsort/TopKV2"TopK*
+sorted†
+™
+/xcreditscore_lattice/lattice_7/argsort/TopKV2:13xcreditscore_lattice/lattice_7/argsort/TopKV2__77:01xcreditscore_lattice/lattice_7/argsort/TopKV2__77"Cast*	
+to†
+…
+)xcreditscore_lattice/lattice_10/Const_1:0
+3xcreditscore_lattice/lattice_7/argsort/TopKV2__77:0)xcreditscore_lattice/lattice_7/GatherV2:0'xcreditscore_lattice/lattice_7/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_7/Sum:0
+)xcreditscore_lattice/lattice_7/GatherV2:0'xcreditscore_lattice/lattice_7/concat:0%xcreditscore_lattice/lattice_7/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_7/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_7/Cumsum:0%xcreditscore_lattice/lattice_7/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_7/Reshape:0
+'xcreditscore_lattice/lattice_7/Cumsum:0+xcreditscore_lattice/lattice_7/GatherV2_1:0)xcreditscore_lattice/lattice_7/GatherV2_1"Gather*
+axis †
+Ã
+/xcreditscore_lattice/lattice_7/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_7/PadV2:0$xcreditscore_lattice/lattice_7/PadV2"Pad
+è
+/xcreditscore_lattice/lattice_7/argsort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_7/Pad:0"xcreditscore_lattice/lattice_7/Pad"Pad
+°
+&xcreditscore_lattice/lattice_7/PadV2:0
+$xcreditscore_lattice/lattice_7/Pad:0&xcreditscore_lattice/lattice_7/sub_1:0$xcreditscore_lattice/lattice_7/sub_1"Sub
+®
++xcreditscore_lattice/lattice_7/GatherV2_1:0
+&xcreditscore_lattice/lattice_7/sub_1:0&xcreditscore_lattice/lattice_7/Mul_1:0$xcreditscore_lattice/lattice_7/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_7/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_7/Sum_1:0$xcreditscore_lattice/lattice_7/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_0/sort/strided_slice__569:0Cast__584:0	Cast__584"Cast*	
+to†: 
+M
+Cast__584:0
+const_axes__360Unsqueeze__573:0Unsqueeze__573"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_0/sub:0
+Unsqueeze__573:0,xcreditscore_lattice/lattice_0/sort/TopKV2:0,xcreditscore_lattice/lattice_0/sort/TopKV2:1*xcreditscore_lattice/lattice_0/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_0/sort/TopKV2:14xcreditscore_lattice/lattice_0/argsort/TopKV2__587:02xcreditscore_lattice/lattice_0/argsort/TopKV2__587"Cast*	
+to†
+…
+(xcreditscore_lattice/lattice_0/Const_1:0
+4xcreditscore_lattice/lattice_0/argsort/TopKV2__587:0)xcreditscore_lattice/lattice_0/GatherV2:0'xcreditscore_lattice/lattice_0/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_0/Sum:0
+)xcreditscore_lattice/lattice_0/GatherV2:0'xcreditscore_lattice/lattice_0/concat:0%xcreditscore_lattice/lattice_0/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_0/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_0/Cumsum:0%xcreditscore_lattice/lattice_0/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_0/Reshape:0
+'xcreditscore_lattice/lattice_0/Cumsum:0+xcreditscore_lattice/lattice_0/GatherV2_1:0)xcreditscore_lattice/lattice_0/GatherV2_1"Gather*
+axis †
+…
+,xcreditscore_lattice/lattice_0/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_0/PadV2:0$xcreditscore_lattice/lattice_0/PadV2"Pad
+å
+,xcreditscore_lattice/lattice_0/sort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_0/Pad:0"xcreditscore_lattice/lattice_0/Pad"Pad
+°
+&xcreditscore_lattice/lattice_0/PadV2:0
+$xcreditscore_lattice/lattice_0/Pad:0&xcreditscore_lattice/lattice_0/sub_1:0$xcreditscore_lattice/lattice_0/sub_1"Sub
+®
++xcreditscore_lattice/lattice_0/GatherV2_1:0
+&xcreditscore_lattice/lattice_0/sub_1:0&xcreditscore_lattice/lattice_0/Mul_1:0$xcreditscore_lattice/lattice_0/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_0/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_0/Sum_1:0$xcreditscore_lattice/lattice_0/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_2/sort/strided_slice__539:0Cast__541:0	Cast__541"Cast*	
+to†: 
+M
+Cast__541:0
+const_axes__360Unsqueeze__556:0Unsqueeze__556"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_2/sub:0
+Unsqueeze__556:0/xcreditscore_lattice/lattice_2/argsort/TopKV2:0/xcreditscore_lattice/lattice_2/argsort/TopKV2:1-xcreditscore_lattice/lattice_2/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_2/argsort/TopKV2:14xcreditscore_lattice/lattice_2/argsort/TopKV2__557:02xcreditscore_lattice/lattice_2/argsort/TopKV2__557"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_10/Const_1:0
+4xcreditscore_lattice/lattice_2/argsort/TopKV2__557:0)xcreditscore_lattice/lattice_2/GatherV2:0'xcreditscore_lattice/lattice_2/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_2/Sum:0
+)xcreditscore_lattice/lattice_2/GatherV2:0'xcreditscore_lattice/lattice_2/concat:0%xcreditscore_lattice/lattice_2/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_2/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_2/Cumsum:0%xcreditscore_lattice/lattice_2/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_2/Reshape:0
+'xcreditscore_lattice/lattice_2/Cumsum:0+xcreditscore_lattice/lattice_2/GatherV2_1:0)xcreditscore_lattice/lattice_2/GatherV2_1"Gather*
+axis †
+Ã
+/xcreditscore_lattice/lattice_2/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_2/PadV2:0$xcreditscore_lattice/lattice_2/PadV2"Pad
+è
+/xcreditscore_lattice/lattice_2/argsort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_2/Pad:0"xcreditscore_lattice/lattice_2/Pad"Pad
+°
+&xcreditscore_lattice/lattice_2/PadV2:0
+$xcreditscore_lattice/lattice_2/Pad:0&xcreditscore_lattice/lattice_2/sub_1:0$xcreditscore_lattice/lattice_2/sub_1"Sub
+®
++xcreditscore_lattice/lattice_2/GatherV2_1:0
+&xcreditscore_lattice/lattice_2/sub_1:0&xcreditscore_lattice/lattice_2/Mul_1:0$xcreditscore_lattice/lattice_2/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_2/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_2/Sum_1:0$xcreditscore_lattice/lattice_2/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_4/sort/strided_slice__509:0Cast__511:0	Cast__511"Cast*	
+to†: 
+M
+Cast__511:0
+const_axes__360Unsqueeze__513:0Unsqueeze__513"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_4/sub:0
+Unsqueeze__513:0/xcreditscore_lattice/lattice_4/argsort/TopKV2:0/xcreditscore_lattice/lattice_4/argsort/TopKV2:1-xcreditscore_lattice/lattice_4/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_4/argsort/TopKV2:14xcreditscore_lattice/lattice_4/argsort/TopKV2__527:02xcreditscore_lattice/lattice_4/argsort/TopKV2__527"Cast*	
+to†
+…
+(xcreditscore_lattice/lattice_0/Const_1:0
+4xcreditscore_lattice/lattice_4/argsort/TopKV2__527:0)xcreditscore_lattice/lattice_4/GatherV2:0'xcreditscore_lattice/lattice_4/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_4/Sum:0
+)xcreditscore_lattice/lattice_4/GatherV2:0'xcreditscore_lattice/lattice_4/concat:0%xcreditscore_lattice/lattice_4/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_4/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_4/Cumsum:0%xcreditscore_lattice/lattice_4/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_4/Reshape:0
+'xcreditscore_lattice/lattice_4/Cumsum:0+xcreditscore_lattice/lattice_4/GatherV2_1:0)xcreditscore_lattice/lattice_4/GatherV2_1"Gather*
+axis †
+Ã
+/xcreditscore_lattice/lattice_4/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_4/PadV2:0$xcreditscore_lattice/lattice_4/PadV2"Pad
+è
+/xcreditscore_lattice/lattice_4/argsort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_4/Pad:0"xcreditscore_lattice/lattice_4/Pad"Pad
+°
+&xcreditscore_lattice/lattice_4/PadV2:0
+$xcreditscore_lattice/lattice_4/Pad:0&xcreditscore_lattice/lattice_4/sub_1:0$xcreditscore_lattice/lattice_4/sub_1"Sub
+®
++xcreditscore_lattice/lattice_4/GatherV2_1:0
+&xcreditscore_lattice/lattice_4/sub_1:0&xcreditscore_lattice/lattice_4/Mul_1:0$xcreditscore_lattice/lattice_4/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_4/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_4/Sum_1:0$xcreditscore_lattice/lattice_4/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_5/argsort/strided_slice__492:0Cast__481:0	Cast__481"Cast*	
+to†: 
+M
+Cast__481:0
+const_axes__360Unsqueeze__483:0Unsqueeze__483"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_5/sub:0
+Unsqueeze__483:0/xcreditscore_lattice/lattice_5/argsort/TopKV2:0/xcreditscore_lattice/lattice_5/argsort/TopKV2:1-xcreditscore_lattice/lattice_5/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_5/argsort/TopKV2:14xcreditscore_lattice/lattice_5/argsort/TopKV2__497:02xcreditscore_lattice/lattice_5/argsort/TopKV2__497"Cast*	
+to†
+…
+(xcreditscore_lattice/lattice_0/Const_1:0
+4xcreditscore_lattice/lattice_5/argsort/TopKV2__497:0)xcreditscore_lattice/lattice_5/GatherV2:0'xcreditscore_lattice/lattice_5/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_5/Sum:0
+)xcreditscore_lattice/lattice_5/GatherV2:0'xcreditscore_lattice/lattice_5/concat:0%xcreditscore_lattice/lattice_5/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_5/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_5/Cumsum:0%xcreditscore_lattice/lattice_5/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_5/Reshape:0
+'xcreditscore_lattice/lattice_5/Cumsum:0+xcreditscore_lattice/lattice_5/GatherV2_1:0)xcreditscore_lattice/lattice_5/GatherV2_1"Gather*
+axis †
+Ã
+/xcreditscore_lattice/lattice_5/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_5/PadV2:0$xcreditscore_lattice/lattice_5/PadV2"Pad
+è
+/xcreditscore_lattice/lattice_5/argsort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_5/Pad:0"xcreditscore_lattice/lattice_5/Pad"Pad
+°
+&xcreditscore_lattice/lattice_5/PadV2:0
+$xcreditscore_lattice/lattice_5/Pad:0&xcreditscore_lattice/lattice_5/sub_1:0$xcreditscore_lattice/lattice_5/sub_1"Sub
+®
++xcreditscore_lattice/lattice_5/GatherV2_1:0
+&xcreditscore_lattice/lattice_5/sub_1:0&xcreditscore_lattice/lattice_5/Mul_1:0$xcreditscore_lattice/lattice_5/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_5/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_5/Sum_1:0$xcreditscore_lattice/lattice_5/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+f
+9xcreditscore_lattice/lattice_12/sort/strided_slice__449:0Cast__451:0	Cast__451"Cast*	
+to†: 
+M
+Cast__451:0
+const_axes__360Unsqueeze__466:0Unsqueeze__466"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_12/sub:0
+Unsqueeze__466:0-xcreditscore_lattice/lattice_12/sort/TopKV2:0-xcreditscore_lattice/lattice_12/sort/TopKV2:1+xcreditscore_lattice/lattice_12/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_12/sort/TopKV2:15xcreditscore_lattice/lattice_12/argsort/TopKV2__467:03xcreditscore_lattice/lattice_12/argsort/TopKV2__467"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_12/argsort/TopKV2__467:0*xcreditscore_lattice/lattice_12/GatherV2:0(xcreditscore_lattice/lattice_12/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_12/Sum:0
+*xcreditscore_lattice/lattice_12/GatherV2:0(xcreditscore_lattice/lattice_12/concat:0&xcreditscore_lattice/lattice_12/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_12/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_12/Cumsum:0&xcreditscore_lattice/lattice_12/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_12/Reshape:0
+(xcreditscore_lattice/lattice_12/Cumsum:0,xcreditscore_lattice/lattice_12/GatherV2_1:0*xcreditscore_lattice/lattice_12/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_12/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_12/PadV2:0%xcreditscore_lattice/lattice_12/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_12/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_12/Pad:0#xcreditscore_lattice/lattice_12/Pad"Pad
+•
+'xcreditscore_lattice/lattice_12/PadV2:0
+%xcreditscore_lattice/lattice_12/Pad:0'xcreditscore_lattice/lattice_12/sub_1:0%xcreditscore_lattice/lattice_12/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_12/GatherV2_1:0
+'xcreditscore_lattice/lattice_12/sub_1:0'xcreditscore_lattice/lattice_12/Mul_1:0%xcreditscore_lattice/lattice_12/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_12/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_12/Sum_1:0%xcreditscore_lattice/lattice_12/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+f
+9xcreditscore_lattice/lattice_13/sort/strided_slice__419:0Cast__421:0	Cast__421"Cast*	
+to†: 
+M
+Cast__421:0
+const_axes__360Unsqueeze__423:0Unsqueeze__423"	Unsqueeze: 
+‚
+%xcreditscore_lattice/lattice_13/sub:0
+Unsqueeze__423:00xcreditscore_lattice/lattice_13/argsort/TopKV2:00xcreditscore_lattice/lattice_13/argsort/TopKV2:1.xcreditscore_lattice/lattice_13/argsort/TopKV2"TopK*
+sorted†
+Ø
+0xcreditscore_lattice/lattice_13/argsort/TopKV2:15xcreditscore_lattice/lattice_13/argsort/TopKV2__437:03xcreditscore_lattice/lattice_13/argsort/TopKV2__437"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_13/argsort/TopKV2__437:0*xcreditscore_lattice/lattice_13/GatherV2:0(xcreditscore_lattice/lattice_13/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_13/Sum:0
+*xcreditscore_lattice/lattice_13/GatherV2:0(xcreditscore_lattice/lattice_13/concat:0&xcreditscore_lattice/lattice_13/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_13/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_13/Cumsum:0&xcreditscore_lattice/lattice_13/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_13/Reshape:0
+(xcreditscore_lattice/lattice_13/Cumsum:0,xcreditscore_lattice/lattice_13/GatherV2_1:0*xcreditscore_lattice/lattice_13/GatherV2_1"Gather*
+axis †
+œ
+0xcreditscore_lattice/lattice_13/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_13/PadV2:0%xcreditscore_lattice/lattice_13/PadV2"Pad
+í
+0xcreditscore_lattice/lattice_13/argsort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_13/Pad:0#xcreditscore_lattice/lattice_13/Pad"Pad
+•
+'xcreditscore_lattice/lattice_13/PadV2:0
+%xcreditscore_lattice/lattice_13/Pad:0'xcreditscore_lattice/lattice_13/sub_1:0%xcreditscore_lattice/lattice_13/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_13/GatherV2_1:0
+'xcreditscore_lattice/lattice_13/sub_1:0'xcreditscore_lattice/lattice_13/Mul_1:0%xcreditscore_lattice/lattice_13/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_13/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_13/Sum_1:0%xcreditscore_lattice/lattice_13/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+f
+9xcreditscore_lattice/lattice_14/sort/strided_slice__389:0Cast__404:0	Cast__404"Cast*	
+to†: 
+M
+Cast__404:0
+const_axes__360Unsqueeze__393:0Unsqueeze__393"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_14/sub:0
+Unsqueeze__393:0-xcreditscore_lattice/lattice_14/sort/TopKV2:0-xcreditscore_lattice/lattice_14/sort/TopKV2:1+xcreditscore_lattice/lattice_14/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_14/sort/TopKV2:15xcreditscore_lattice/lattice_14/argsort/TopKV2__407:03xcreditscore_lattice/lattice_14/argsort/TopKV2__407"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_14/argsort/TopKV2__407:0*xcreditscore_lattice/lattice_14/GatherV2:0(xcreditscore_lattice/lattice_14/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_14/Sum:0
+*xcreditscore_lattice/lattice_14/GatherV2:0(xcreditscore_lattice/lattice_14/concat:0&xcreditscore_lattice/lattice_14/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_14/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_14/Cumsum:0&xcreditscore_lattice/lattice_14/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_14/Reshape:0
+(xcreditscore_lattice/lattice_14/Cumsum:0,xcreditscore_lattice/lattice_14/GatherV2_1:0*xcreditscore_lattice/lattice_14/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_14/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_14/PadV2:0%xcreditscore_lattice/lattice_14/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_14/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_14/Pad:0#xcreditscore_lattice/lattice_14/Pad"Pad
+•
+'xcreditscore_lattice/lattice_14/PadV2:0
+%xcreditscore_lattice/lattice_14/Pad:0'xcreditscore_lattice/lattice_14/sub_1:0%xcreditscore_lattice/lattice_14/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_14/GatherV2_1:0
+'xcreditscore_lattice/lattice_14/sub_1:0'xcreditscore_lattice/lattice_14/Mul_1:0%xcreditscore_lattice/lattice_14/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_14/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_14/Sum_1:0%xcreditscore_lattice/lattice_14/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_6/sort/strided_slice__359:0Cast__361:0	Cast__361"Cast*	
+to†: 
+M
+Cast__361:0
+const_axes__360Unsqueeze__363:0Unsqueeze__363"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_6/sub:0
+Unsqueeze__363:0/xcreditscore_lattice/lattice_6/argsort/TopKV2:0/xcreditscore_lattice/lattice_6/argsort/TopKV2:1-xcreditscore_lattice/lattice_6/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_6/argsort/TopKV2:14xcreditscore_lattice/lattice_6/argsort/TopKV2__377:02xcreditscore_lattice/lattice_6/argsort/TopKV2__377"Cast*	
+to†
+…
+(xcreditscore_lattice/lattice_0/Const_1:0
+4xcreditscore_lattice/lattice_6/argsort/TopKV2__377:0)xcreditscore_lattice/lattice_6/GatherV2:0'xcreditscore_lattice/lattice_6/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_6/Sum:0
+)xcreditscore_lattice/lattice_6/GatherV2:0'xcreditscore_lattice/lattice_6/concat:0%xcreditscore_lattice/lattice_6/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_6/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_6/Cumsum:0%xcreditscore_lattice/lattice_6/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_6/Reshape:0
+'xcreditscore_lattice/lattice_6/Cumsum:0+xcreditscore_lattice/lattice_6/GatherV2_1:0)xcreditscore_lattice/lattice_6/GatherV2_1"Gather*
+axis †
+Ã
+/xcreditscore_lattice/lattice_6/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_6/PadV2:0$xcreditscore_lattice/lattice_6/PadV2"Pad
+è
+/xcreditscore_lattice/lattice_6/argsort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_6/Pad:0"xcreditscore_lattice/lattice_6/Pad"Pad
+°
+&xcreditscore_lattice/lattice_6/PadV2:0
+$xcreditscore_lattice/lattice_6/Pad:0&xcreditscore_lattice/lattice_6/sub_1:0$xcreditscore_lattice/lattice_6/sub_1"Sub
+®
++xcreditscore_lattice/lattice_6/GatherV2_1:0
+&xcreditscore_lattice/lattice_6/sub_1:0&xcreditscore_lattice/lattice_6/Mul_1:0$xcreditscore_lattice/lattice_6/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_6/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_6/Sum_1:0$xcreditscore_lattice/lattice_6/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_1/argsort/strided_slice__342:0Cast__331:0	Cast__331"Cast*	
+to†: 
+M
+Cast__331:0
+const_axes__360Unsqueeze__346:0Unsqueeze__346"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_1/sub:0
+Unsqueeze__346:0/xcreditscore_lattice/lattice_1/argsort/TopKV2:0/xcreditscore_lattice/lattice_1/argsort/TopKV2:1-xcreditscore_lattice/lattice_1/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_1/argsort/TopKV2:14xcreditscore_lattice/lattice_1/argsort/TopKV2__347:02xcreditscore_lattice/lattice_1/argsort/TopKV2__347"Cast*	
+to†
+…
+(xcreditscore_lattice/lattice_0/Const_1:0
+4xcreditscore_lattice/lattice_1/argsort/TopKV2__347:0)xcreditscore_lattice/lattice_1/GatherV2:0'xcreditscore_lattice/lattice_1/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_1/Sum:0
+)xcreditscore_lattice/lattice_1/GatherV2:0'xcreditscore_lattice/lattice_1/concat:0%xcreditscore_lattice/lattice_1/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_1/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_1/Cumsum:0%xcreditscore_lattice/lattice_1/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_1/Reshape:0
+'xcreditscore_lattice/lattice_1/Cumsum:0+xcreditscore_lattice/lattice_1/GatherV2_1:0)xcreditscore_lattice/lattice_1/GatherV2_1"Gather*
+axis †
+Ã
+/xcreditscore_lattice/lattice_1/argsort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_1/PadV2:0$xcreditscore_lattice/lattice_1/PadV2"Pad
+è
+/xcreditscore_lattice/lattice_1/argsort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_1/Pad:0"xcreditscore_lattice/lattice_1/Pad"Pad
+°
+&xcreditscore_lattice/lattice_1/PadV2:0
+$xcreditscore_lattice/lattice_1/Pad:0&xcreditscore_lattice/lattice_1/sub_1:0$xcreditscore_lattice/lattice_1/sub_1"Sub
+®
++xcreditscore_lattice/lattice_1/GatherV2_1:0
+&xcreditscore_lattice/lattice_1/sub_1:0&xcreditscore_lattice/lattice_1/Mul_1:0$xcreditscore_lattice/lattice_1/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_1/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_1/Sum_1:0$xcreditscore_lattice/lattice_1/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_8/sort/strided_slice__299:0Cast__301:0	Cast__301"Cast*	
+to†: 
+M
+Cast__301:0
+const_axes__360Unsqueeze__303:0Unsqueeze__303"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_8/sub:0
+Unsqueeze__303:0,xcreditscore_lattice/lattice_8/sort/TopKV2:0,xcreditscore_lattice/lattice_8/sort/TopKV2:1*xcreditscore_lattice/lattice_8/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_8/sort/TopKV2:14xcreditscore_lattice/lattice_8/argsort/TopKV2__317:02xcreditscore_lattice/lattice_8/argsort/TopKV2__317"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_10/Const_1:0
+4xcreditscore_lattice/lattice_8/argsort/TopKV2__317:0)xcreditscore_lattice/lattice_8/GatherV2:0'xcreditscore_lattice/lattice_8/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_8/Sum:0
+)xcreditscore_lattice/lattice_8/GatherV2:0'xcreditscore_lattice/lattice_8/concat:0%xcreditscore_lattice/lattice_8/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_8/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_8/Cumsum:0%xcreditscore_lattice/lattice_8/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_8/Reshape:0
+'xcreditscore_lattice/lattice_8/Cumsum:0+xcreditscore_lattice/lattice_8/GatherV2_1:0)xcreditscore_lattice/lattice_8/GatherV2_1"Gather*
+axis †
+…
+,xcreditscore_lattice/lattice_8/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_8/PadV2:0$xcreditscore_lattice/lattice_8/PadV2"Pad
+å
+,xcreditscore_lattice/lattice_8/sort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_8/Pad:0"xcreditscore_lattice/lattice_8/Pad"Pad
+°
+&xcreditscore_lattice/lattice_8/PadV2:0
+$xcreditscore_lattice/lattice_8/Pad:0&xcreditscore_lattice/lattice_8/sub_1:0$xcreditscore_lattice/lattice_8/sub_1"Sub
+®
++xcreditscore_lattice/lattice_8/GatherV2_1:0
+&xcreditscore_lattice/lattice_8/sub_1:0&xcreditscore_lattice/lattice_8/Mul_1:0$xcreditscore_lattice/lattice_8/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_8/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_8/Sum_1:0$xcreditscore_lattice/lattice_8/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_9/argsort/strided_slice__282:0Cast__284:0	Cast__284"Cast*	
+to†: 
+M
+Cast__284:0
+const_axes__360Unsqueeze__273:0Unsqueeze__273"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_9/sub:0
+Unsqueeze__273:0,xcreditscore_lattice/lattice_9/sort/TopKV2:0,xcreditscore_lattice/lattice_9/sort/TopKV2:1*xcreditscore_lattice/lattice_9/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_9/sort/TopKV2:14xcreditscore_lattice/lattice_9/argsort/TopKV2__287:02xcreditscore_lattice/lattice_9/argsort/TopKV2__287"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_10/Const_1:0
+4xcreditscore_lattice/lattice_9/argsort/TopKV2__287:0)xcreditscore_lattice/lattice_9/GatherV2:0'xcreditscore_lattice/lattice_9/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_9/Sum:0
+)xcreditscore_lattice/lattice_9/GatherV2:0'xcreditscore_lattice/lattice_9/concat:0%xcreditscore_lattice/lattice_9/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_9/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_9/Cumsum:0%xcreditscore_lattice/lattice_9/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_9/Reshape:0
+'xcreditscore_lattice/lattice_9/Cumsum:0+xcreditscore_lattice/lattice_9/GatherV2_1:0)xcreditscore_lattice/lattice_9/GatherV2_1"Gather*
+axis †
+…
+,xcreditscore_lattice/lattice_9/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_9/PadV2:0$xcreditscore_lattice/lattice_9/PadV2"Pad
+å
+,xcreditscore_lattice/lattice_9/sort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_9/Pad:0"xcreditscore_lattice/lattice_9/Pad"Pad
+°
+&xcreditscore_lattice/lattice_9/PadV2:0
+$xcreditscore_lattice/lattice_9/Pad:0&xcreditscore_lattice/lattice_9/sub_1:0$xcreditscore_lattice/lattice_9/sub_1"Sub
+®
++xcreditscore_lattice/lattice_9/GatherV2_1:0
+&xcreditscore_lattice/lattice_9/sub_1:0&xcreditscore_lattice/lattice_9/Mul_1:0$xcreditscore_lattice/lattice_9/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_9/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_9/Sum_1:0$xcreditscore_lattice/lattice_9/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+i
+<xcreditscore_lattice/lattice_10/argsort/strided_slice__252:0Cast__241:0	Cast__241"Cast*	
+to†: 
+M
+Cast__241:0
+const_axes__360Unsqueeze__243:0Unsqueeze__243"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_10/sub:0
+Unsqueeze__243:0-xcreditscore_lattice/lattice_10/sort/TopKV2:0-xcreditscore_lattice/lattice_10/sort/TopKV2:1+xcreditscore_lattice/lattice_10/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_10/sort/TopKV2:15xcreditscore_lattice/lattice_10/argsort/TopKV2__257:03xcreditscore_lattice/lattice_10/argsort/TopKV2__257"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_10/argsort/TopKV2__257:0*xcreditscore_lattice/lattice_10/GatherV2:0(xcreditscore_lattice/lattice_10/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_10/Sum:0
+*xcreditscore_lattice/lattice_10/GatherV2:0(xcreditscore_lattice/lattice_10/concat:0&xcreditscore_lattice/lattice_10/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_10/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_10/Cumsum:0&xcreditscore_lattice/lattice_10/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_10/Reshape:0
+(xcreditscore_lattice/lattice_10/Cumsum:0,xcreditscore_lattice/lattice_10/GatherV2_1:0*xcreditscore_lattice/lattice_10/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_10/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_10/PadV2:0%xcreditscore_lattice/lattice_10/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_10/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_10/Pad:0#xcreditscore_lattice/lattice_10/Pad"Pad
+•
+'xcreditscore_lattice/lattice_10/PadV2:0
+%xcreditscore_lattice/lattice_10/Pad:0'xcreditscore_lattice/lattice_10/sub_1:0%xcreditscore_lattice/lattice_10/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_10/GatherV2_1:0
+'xcreditscore_lattice/lattice_10/sub_1:0'xcreditscore_lattice/lattice_10/Mul_1:0%xcreditscore_lattice/lattice_10/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_10/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_10/Sum_1:0%xcreditscore_lattice/lattice_10/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+f
+9xcreditscore_lattice/lattice_11/sort/strided_slice__209:0Cast__211:0	Cast__211"Cast*	
+to†: 
+M
+Cast__211:0
+const_axes__360Unsqueeze__226:0Unsqueeze__226"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_11/sub:0
+Unsqueeze__226:0-xcreditscore_lattice/lattice_11/sort/TopKV2:0-xcreditscore_lattice/lattice_11/sort/TopKV2:1+xcreditscore_lattice/lattice_11/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_11/sort/TopKV2:15xcreditscore_lattice/lattice_11/argsort/TopKV2__227:03xcreditscore_lattice/lattice_11/argsort/TopKV2__227"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_11/argsort/TopKV2__227:0*xcreditscore_lattice/lattice_11/GatherV2:0(xcreditscore_lattice/lattice_11/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_11/Sum:0
+*xcreditscore_lattice/lattice_11/GatherV2:0(xcreditscore_lattice/lattice_11/concat:0&xcreditscore_lattice/lattice_11/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_11/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_11/Cumsum:0&xcreditscore_lattice/lattice_11/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_11/Reshape:0
+(xcreditscore_lattice/lattice_11/Cumsum:0,xcreditscore_lattice/lattice_11/GatherV2_1:0*xcreditscore_lattice/lattice_11/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_11/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_11/PadV2:0%xcreditscore_lattice/lattice_11/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_11/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_11/Pad:0#xcreditscore_lattice/lattice_11/Pad"Pad
+•
+'xcreditscore_lattice/lattice_11/PadV2:0
+%xcreditscore_lattice/lattice_11/Pad:0'xcreditscore_lattice/lattice_11/sub_1:0%xcreditscore_lattice/lattice_11/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_11/GatherV2_1:0
+'xcreditscore_lattice/lattice_11/sub_1:0'xcreditscore_lattice/lattice_11/Mul_1:0%xcreditscore_lattice/lattice_11/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_11/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_11/Sum_1:0%xcreditscore_lattice/lattice_11/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_3/sort/strided_slice__179:0Cast__194:0	Cast__194"Cast*	
+to†: 
+M
+Cast__194:0
+const_axes__360Unsqueeze__196:0Unsqueeze__196"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_3/sub:0
+Unsqueeze__196:0,xcreditscore_lattice/lattice_3/sort/TopKV2:0,xcreditscore_lattice/lattice_3/sort/TopKV2:1*xcreditscore_lattice/lattice_3/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_3/sort/TopKV2:14xcreditscore_lattice/lattice_3/argsort/TopKV2__197:02xcreditscore_lattice/lattice_3/argsort/TopKV2__197"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_10/Const_1:0
+4xcreditscore_lattice/lattice_3/argsort/TopKV2__197:0)xcreditscore_lattice/lattice_3/GatherV2:0'xcreditscore_lattice/lattice_3/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_3/Sum:0
+)xcreditscore_lattice/lattice_3/GatherV2:0'xcreditscore_lattice/lattice_3/concat:0%xcreditscore_lattice/lattice_3/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_3/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0'xcreditscore_lattice/lattice_3/Cumsum:0%xcreditscore_lattice/lattice_3/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_3/Reshape:0
+'xcreditscore_lattice/lattice_3/Cumsum:0+xcreditscore_lattice/lattice_3/GatherV2_1:0)xcreditscore_lattice/lattice_3/GatherV2_1"Gather*
+axis †
+…
+,xcreditscore_lattice/lattice_3/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0&xcreditscore_lattice/lattice_3/PadV2:0$xcreditscore_lattice/lattice_3/PadV2"Pad
+å
+,xcreditscore_lattice/lattice_3/sort/TopKV2:0
+pad_const__97$xcreditscore_lattice/lattice_3/Pad:0"xcreditscore_lattice/lattice_3/Pad"Pad
+°
+&xcreditscore_lattice/lattice_3/PadV2:0
+$xcreditscore_lattice/lattice_3/Pad:0&xcreditscore_lattice/lattice_3/sub_1:0$xcreditscore_lattice/lattice_3/sub_1"Sub
+®
++xcreditscore_lattice/lattice_3/GatherV2_1:0
+&xcreditscore_lattice/lattice_3/sub_1:0&xcreditscore_lattice/lattice_3/Mul_1:0$xcreditscore_lattice/lattice_3/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_3/Mul_1:0
+const_fold_opt__627&xcreditscore_lattice/lattice_3/Sum_1:0$xcreditscore_lattice/lattice_3/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+i
+<xcreditscore_lattice/lattice_15/argsort/strided_slice__162:0Cast__151:0	Cast__151"Cast*	
+to†: 
+M
+Cast__151:0
+const_axes__360Unsqueeze__153:0Unsqueeze__153"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_15/sub:0
+Unsqueeze__153:0-xcreditscore_lattice/lattice_15/sort/TopKV2:0-xcreditscore_lattice/lattice_15/sort/TopKV2:1+xcreditscore_lattice/lattice_15/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_15/sort/TopKV2:15xcreditscore_lattice/lattice_15/argsort/TopKV2__167:03xcreditscore_lattice/lattice_15/argsort/TopKV2__167"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_15/argsort/TopKV2__167:0*xcreditscore_lattice/lattice_15/GatherV2:0(xcreditscore_lattice/lattice_15/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_15/Sum:0
+*xcreditscore_lattice/lattice_15/GatherV2:0(xcreditscore_lattice/lattice_15/concat:0&xcreditscore_lattice/lattice_15/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_15/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_15/Cumsum:0&xcreditscore_lattice/lattice_15/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_15/Reshape:0
+(xcreditscore_lattice/lattice_15/Cumsum:0,xcreditscore_lattice/lattice_15/GatherV2_1:0*xcreditscore_lattice/lattice_15/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_15/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_15/PadV2:0%xcreditscore_lattice/lattice_15/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_15/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_15/Pad:0#xcreditscore_lattice/lattice_15/Pad"Pad
+•
+'xcreditscore_lattice/lattice_15/PadV2:0
+%xcreditscore_lattice/lattice_15/Pad:0'xcreditscore_lattice/lattice_15/sub_1:0%xcreditscore_lattice/lattice_15/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_15/GatherV2_1:0
+'xcreditscore_lattice/lattice_15/sub_1:0'xcreditscore_lattice/lattice_15/Mul_1:0%xcreditscore_lattice/lattice_15/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_15/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_15/Sum_1:0%xcreditscore_lattice/lattice_15/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+i
+<xcreditscore_lattice/lattice_16/argsort/strided_slice__132:0Cast__134:0	Cast__134"Cast*	
+to†: 
+M
+Cast__134:0
+const_axes__360Unsqueeze__136:0Unsqueeze__136"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_16/sub:0
+Unsqueeze__136:0-xcreditscore_lattice/lattice_16/sort/TopKV2:0-xcreditscore_lattice/lattice_16/sort/TopKV2:1+xcreditscore_lattice/lattice_16/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_16/sort/TopKV2:15xcreditscore_lattice/lattice_16/argsort/TopKV2__137:03xcreditscore_lattice/lattice_16/argsort/TopKV2__137"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_10/Const_1:0
+5xcreditscore_lattice/lattice_16/argsort/TopKV2__137:0*xcreditscore_lattice/lattice_16/GatherV2:0(xcreditscore_lattice/lattice_16/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_16/Sum:0
+*xcreditscore_lattice/lattice_16/GatherV2:0(xcreditscore_lattice/lattice_16/concat:0&xcreditscore_lattice/lattice_16/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_16/concat:0
+-xcreditscore_lattice/lattice_16/Cumsum/axis:0(xcreditscore_lattice/lattice_16/Cumsum:0&xcreditscore_lattice/lattice_16/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_16/Reshape:0
+(xcreditscore_lattice/lattice_16/Cumsum:0,xcreditscore_lattice/lattice_16/GatherV2_1:0*xcreditscore_lattice/lattice_16/GatherV2_1"Gather*
+axis †
+Ã
+-xcreditscore_lattice/lattice_16/sort/TopKV2:0
+pad_const__126
+6xcreditscore_lattice/lattice_1/PadV2/constant_values:0'xcreditscore_lattice/lattice_16/PadV2:0%xcreditscore_lattice/lattice_16/PadV2"Pad
+è
+-xcreditscore_lattice/lattice_16/sort/TopKV2:0
+pad_const__97%xcreditscore_lattice/lattice_16/Pad:0#xcreditscore_lattice/lattice_16/Pad"Pad
+•
+'xcreditscore_lattice/lattice_16/PadV2:0
+%xcreditscore_lattice/lattice_16/Pad:0'xcreditscore_lattice/lattice_16/sub_1:0%xcreditscore_lattice/lattice_16/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_16/GatherV2_1:0
+'xcreditscore_lattice/lattice_16/sub_1:0'xcreditscore_lattice/lattice_16/Mul_1:0%xcreditscore_lattice/lattice_16/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_16/Mul_1:0
+const_fold_opt__627'xcreditscore_lattice/lattice_16/Sum_1:0%xcreditscore_lattice/lattice_16/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+«
+&xcreditscore_lattice/lattice_0/Sum_1:0
+&xcreditscore_lattice/lattice_1/Sum_1:0
+&xcreditscore_lattice/lattice_2/Sum_1:0
+&xcreditscore_lattice/lattice_3/Sum_1:0
+&xcreditscore_lattice/lattice_4/Sum_1:0
+&xcreditscore_lattice/lattice_5/Sum_1:0
+&xcreditscore_lattice/lattice_6/Sum_1:0
+&xcreditscore_lattice/lattice_7/Sum_1:0
+&xcreditscore_lattice/lattice_8/Sum_1:0
+&xcreditscore_lattice/lattice_9/Sum_1:0
+'xcreditscore_lattice/lattice_10/Sum_1:0
+'xcreditscore_lattice/lattice_11/Sum_1:0
+'xcreditscore_lattice/lattice_12/Sum_1:0
+'xcreditscore_lattice/lattice_13/Sum_1:0
+'xcreditscore_lattice/lattice_14/Sum_1:0
+'xcreditscore_lattice/lattice_15/Sum_1:0
+'xcreditscore_lattice/lattice_16/Sum_1:0
+'xcreditscore_lattice/lattice_17/Sum_1:0,xcreditscore_lattice/lattice_merged/concat:0*xcreditscore_lattice/lattice_merged/concat"Concat*
+axis†
+æ
+,xcreditscore_lattice/lattice_merged/concat:0
+6xcreditscore_lattice/pd_output/MatMul/ReadVariableOp:0'xcreditscore_lattice/pd_output/MatMul:0%xcreditscore_lattice/pd_output/MatMul"MatMul
+π
+'xcreditscore_lattice/pd_output/MatMul:0
+7xcreditscore_lattice/pd_output/BiasAdd/ReadVariableOp:0(xcreditscore_lattice/pd_output/BiasAdd:0&xcreditscore_lattice/pd_output/BiasAdd"Add
+f
+(xcreditscore_lattice/pd_output/BiasAdd:0	pd_output&xcreditscore_lattice/pd_output/Sigmoid"Sigmoidtf2onnx*BB6xcreditscore_lattice/slice_PAY_AMT6/GatherV2/indices:0J   *BB6xcreditscore_lattice/slice_PAY_AMT5/GatherV2/indices:0J   *BB6xcreditscore_lattice/slice_PAY_AMT4/GatherV2/indices:0J   *BB6xcreditscore_lattice/slice_PAY_AMT3/GatherV2/indices:0J   *BB6xcreditscore_lattice/slice_PAY_AMT2/GatherV2/indices:0J   *BB6xcreditscore_lattice/slice_PAY_AMT1/GatherV2/indices:0J   *?B3xcreditscore_lattice/slice_PAY_6/GatherV2/indices:0J
+   *?B3xcreditscore_lattice/slice_PAY_5/GatherV2/indices:0J	   *?B3xcreditscore_lattice/slice_PAY_4/GatherV2/indices:0J   *?B3xcreditscore_lattice/slice_PAY_3/GatherV2/indices:0J   *?B3xcreditscore_lattice/slice_PAY_2/GatherV2/indices:0J   *?B3xcreditscore_lattice/slice_PAY_0/GatherV2/indices:0J   *BB6xcreditscore_lattice/slice_MARRIAGE/GatherV2/indices:0J   *CB7xcreditscore_lattice/slice_LIMIT_BAL/GatherV2/indices:0J    *CB7xcreditscore_lattice/slice_BILL_AMT6/GatherV2/indices:0J   *CB7xcreditscore_lattice/slice_BILL_AMT5/GatherV2/indices:0J   *CB7xcreditscore_lattice/slice_BILL_AMT4/GatherV2/indices:0J   *CB7xcreditscore_lattice/slice_BILL_AMT3/GatherV2/indices:0J   *CB7xcreditscore_lattice/slice_BILL_AMT2/GatherV2/indices:0J   *CB7xcreditscore_lattice/slice_BILL_AMT1/GatherV2/indices:0J   *=B1xcreditscore_lattice/slice_AGE/GatherV2/indices:0J   *àB6xcreditscore_lattice/pd_output/MatMul/ReadVariableOp:0JHLŸ$?ÜÖ@û≤;ob>:˛ó=É2;>$ö:   ÄˆÛ?IË≤>!ûÑ?ºèz?∫-‘8   Ä˝¥Œ=∑˚{>   Äc7â>*CB7xcreditscore_lattice/pd_output/BiasAdd/ReadVariableOp:0J;î¿*@B(xcreditscore_lattice/lattice_9/Reshape:0J'Ï;≤~u??J?  Ä?*6B*xcreditscore_lattice/lattice_9/Minimum/y:0J   *@B(xcreditscore_lattice/lattice_8/Reshape:0Jéíô:ˇ{?  Ä?  Ä?*@B(xcreditscore_lattice/lattice_7/Reshape:0J    ≠Wç>O™*?  Ä?*pB(xcreditscore_lattice/lattice_6/Reshape:0J@dj∏;òF>´™™>   ?gê/>jáî>  ?´™*?´™™>   ?´™*?VUU?   ?´™*?VUU?  Ä?*pB(xcreditscore_lattice/lattice_5/Reshape:0J@>^Á>∏ˆ-?∏ˆ-?  Ä?        ∑´*?  Ä?    ´™™>´™*?  Ä?    ´™™>´™*?  Ä?*pB(xcreditscore_lattice/lattice_4/Reshape:0J@«](>84Á>´™*?  Ä?        z´*?  Ä?    ´™™>´™*?  Ä?    ´™™>´™*?  Ä?*@B(xcreditscore_lattice/lattice_3/Reshape:0J–jÜ:∂ﬂ>"™*?  Ä?*@B(xcreditscore_lattice/lattice_2/Reshape:0J    K†|>´™*?  Ä?*3B'xcreditscore_lattice/lattice_17/zeros:0J    *AB)xcreditscore_lattice/lattice_17/Reshape:0JΩ#:Xk>3©*?  Ä?*3B'xcreditscore_lattice/lattice_17/Const:0J  @@*AB)xcreditscore_lattice/lattice_16/Reshape:0J    êâí>´™*?  Ä?*7B-xcreditscore_lattice/lattice_16/Cumsum/axis:0Jˇˇˇˇ*AB)xcreditscore_lattice/lattice_15/Reshape:0Jhèî:‘s>©*?  Ä?*AB)xcreditscore_lattice/lattice_14/Reshape:0J>ì‚9(⁄8>´™*?  Ä?*AB)xcreditscore_lattice/lattice_13/Reshape:0J    lﬁï>´™*?  Ä?*AB)xcreditscore_lattice/lattice_12/Reshape:0J    Ì«ó>´™*?  Ä?*AB)xcreditscore_lattice/lattice_11/Reshape:0J µ;ù%Q?Ó¬y?  Ä?*AB)xcreditscore_lattice/lattice_10/Reshape:0JXŒã;HsD?  Ä?  Ä?*5B)xcreditscore_lattice/lattice_10/Const_1:0J   *6B&xcreditscore_lattice/lattice_1/zeros:0J        *pB(xcreditscore_lattice/lattice_1/Reshape:0J@§Bû;7—%?ƒò/?ƒò/?Bay?Bay?˛ˇ?  Ä?˛ˇ?˛ˇ?˛ˇ?  Ä?˛ˇ?˛ˇ?˛ˇ?  Ä?*@B6xcreditscore_lattice/lattice_1/PadV2/constant_values:0J  Ä?*:B*xcreditscore_lattice/lattice_1/Minimum/y:0J      *pB(xcreditscore_lattice/lattice_0/Reshape:0J@àfï>iVí;	‚7    (û?Qt?ß™™>´™™>´™*?  Ä?´™*?´™*?  Ä?  Ä?  Ä?  Ä?*8B(xcreditscore_lattice/lattice_0/Const_1:0J      *6B&xcreditscore_lattice/lattice_0/Const:0J  @@  @@*B9xcreditscore_lattice/cal_PAY_AMT6/MatMul/ReadVariableOp:0J<è¬&:µ-:Ú¥-:‹Ã/:hÈ7:HqA: C: PN:011:PÓ-:0‰v:‡Ÿº:¿”:¥6;¨√à=*B9xcreditscore_lattice/cal_PAY_AMT5/MatMul/ReadVariableOp:0J<                                                            *B9xcreditscore_lattice/cal_PAY_AMT4/MatMul/ReadVariableOp:0J<]u3:◊|3:}3:}3:ÿ|3:¨$:à(: 	(:∞≤Û90⁄9ÄÃ:¯Ù::¨çç:Ë”ü:ó@=*B9xcreditscore_lattice/cal_PAY_AMT3/MatMul/ReadVariableOp:0J<ñﬂ<*d=j*d=$*d=\*d=0*d=†)d=∏¡c=à¿c=x5f=†ûU=‡N=pè:=¿ûf=¯íà>*B9xcreditscore_lattice/cal_PAY_AMT2/MatMul/ReadVariableOp:0J<Lâ<¥P=‚≥P=8œP=‡’P=¿’P=`÷P=P÷P=∏‘P=Ë’P=@◊T=†B\=.o=àiã=Ë/>*B9xcreditscore_lattice/cal_PAY_AMT1/MatMul/ReadVariableOp:0J<ÇW*:_*:$_*:_*:,_*:,_*:x+,:à†=:ÿ∫=:êÃ=:¥J:–ïr:(Ü:»ô∆:7û,=*|B6xcreditscore_lattice/cal_PAY_6/MatMul/ReadVariableOp:0J<‡o±6        s‚8…k>æk>`≈=Ä9·;                 π¥:Ä&;
+v›>*|B6xcreditscore_lattice/cal_PAY_5/MatMul/ReadVariableOp:0J<                S&>ËR&>  é6        Ä2p;‡æN<@«; €F; ı;ü‰˚>*|B6xcreditscore_lattice/cal_PAY_4/MatMul/ReadVariableOp:0J<§¿™8            Ï†õ>h#ò> |:     (ó9 —y;¿¸	< „; yÒ;Ä˜Ò;˛aá>*|B6xcreditscore_lattice/cal_PAY_3/MatMul/ReadVariableOp:0J<                ˙°Ä>î!`> ª»:                 ƒ–9        ((?*fB&xcreditscore_lattice/cal_PAY_2/sub/y:0J8    %Ií=%I>∑m[>%Ií>n€∂>∑m€>   ?%I?Ií$?n€6?í$I?∑m[?€∂m?*|B6xcreditscore_lattice/cal_PAY_2/MatMul/ReadVariableOp:0J<ˇ£ª:#Ê¬:NÃ:L Á:Xπi>Ú√Å>†Q´<òfº= ¿‡9 ﬁÖ: ÷Ã: ﬁœ: ‹9        *|B6xcreditscore_lattice/cal_PAY_0/MatMul/ReadVariableOp:0J<LRÕ;            X K>ÆåF? ,’:¿=1<     Hø9 ÿ9                *B9xcreditscore_lattice/cal_MARRIAGE/MatMul/ReadVariableOp:0J<    f<`=∂5d=5d=t5d=H5d=7d=∏5d=
+ä2>4ä2> ¯t=ÄƒºÄƒº QºÄ º*ÄB:xcreditscore_lattice/cal_LIMIT_BAL/MatMul/ReadVariableOp:0J<ô	Q:# Q: Q: Q:ÙÆY:àQh:hı*:–®Ñ9L$;’V@<ﬁ…ï<æm=`Dô=åÉ >ı?*8B.xcreditscore_lattice/cal_EDUCATION/Maximum/y:0J    *ÄB:xcreditscore_lattice/cal_EDUCATION/MatMul/ReadVariableOp:0J<    ÔÚn=	Øt=¿Øt=Øt=¿íb=†ç‡ºPç‡º‡å‡º@ç‡º˚⁄Ωâ'ùΩ            *ÄB:xcreditscore_lattice/cal_BILL_AMT6/MatMul/ReadVariableOp:0J<ùUØ9ÉÑØ9®⁄¥92ÌÑ∫            \<^◊&<`Jc∫lLº`nÖ∫ò|∫–Yf∫†Nc∫*ÄB:xcreditscore_lattice/cal_BILL_AMT5/MatMul/ReadVariableOp:0J<    iΩ<ú®;W†<?›:Ω∞-È9ÍL;@Ü¶∫ Â?9tgê:Äõ∫ ¿ﬂµ ¿ﬂµ ∞∂ ∏∂*ÄB:xcreditscore_lattice/cal_BILL_AMT4/MatMul/ReadVariableOp:0J<    áv==¢i∏<(ß§<¿ 	ª–aÉ;x-rº ¶<¥I=2ƒl>˜ıæ¯Êûº∞%6ºê'6ºg•Ω*ÄB:xcreditscore_lattice/cal_BILL_AMT3/MatMul/ReadVariableOp:0J<∑Æ>wn> E ? n1;        0˚Ω»úQæËÙ+æÙ¨¸ΩB¶<>(Mû>∞3 >        *ÄB:xcreditscore_lattice/cal_BILL_AMT2/MatMul/ReadVariableOp:0J<>≤öô>es
+? W
+ª†j∑º†Ä‡º∞~òΩP°ˇΩÆÎΩÄ&t< ;mª®ÖûΩ†%ç<†%ç<†%ç<*ÄB:xcreditscore_lattice/cal_BILL_AMT1/MatMul/ReadVariableOp:0J<                    ö6:Y4˙π√ßV<°√)=él=l=WpÑΩòÍº4ˇ«º5ˇ«º*zB4xcreditscore_lattice/cal_AGE/MatMul/ReadVariableOp:0J<z~? @º†PŸº`•πº¿ﬂ©ºÄ√6Ω†+Ω™YΩŒ•ÜæçùÇæèÿ æ‡…‚ª0h < £íº»∞Ôº*5Bpad_const__97J                                *6Bpad_const__126J                                *#Bconst_fold_opt__627Jˇˇˇˇˇˇˇˇ*Bconst_ends__87Jˇˇˇ    *Bconst_axes__360J        *ÇBBConstantFolding/xcreditscore_lattice/cal_LIMIT_BAL/truediv_recip:0J8ˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_Aˇˇ_AR#converted from xcreditscore_latticeZ"
+features
+
+
+unk__664
+b#
+	pd_output
+
+
+unk__665
+B
+ B
+
+ai.onnx.ml

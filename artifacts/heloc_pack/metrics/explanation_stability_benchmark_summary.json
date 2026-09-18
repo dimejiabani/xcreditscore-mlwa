@@ -1,0 +1,179 @@
+{
+  "n_rows": 400,
+  "n_perturb": 8,
+  "sigmas": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "top_k": 4,
+  "shap_nsamples": 60,
+  "shap_bg_size": 50,
+  "lime_num_samples": 250,
+  "seed": 42,
+  "models_evaluated": [
+    "ebm",
+    "logistic_regression",
+    "monotone_gam",
+    "monotone_xgboost",
+    "random_forest",
+    "xcreditscore",
+    "xgboost"
+  ],
+  "methods_evaluated": [
+    "kernel_shap",
+    "lime",
+    "exact_lattice_logit"
+  ],
+  "wrapper_audit": {
+    "xcreditscore": {
+      "n_rows": 10,
+      "max_abs_diff": 0.0,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.4810355007648468,
+        0.22239907085895538,
+        0.6410266757011414,
+        0.24583567678928375,
+        0.5660193562507629
+      ],
+      "native_head": [
+        0.4810355007648468,
+        0.22239907085895538,
+        0.6410266757011414,
+        0.24583567678928375,
+        0.5660193562507629
+      ]
+    },
+    "logistic_regression": {
+      "n_rows": 10,
+      "max_abs_diff": 0.0,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.5278327754436565,
+        0.21171718246083726,
+        0.6573738790291354,
+        0.190482369873774,
+        0.5302651743409982
+      ],
+      "native_head": [
+        0.5278327754436565,
+        0.21171718246083726,
+        0.6573738790291354,
+        0.190482369873774,
+        0.5302651743409982
+      ]
+    },
+    "random_forest": {
+      "n_rows": 10,
+      "max_abs_diff": 2.220446049250313e-16,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.5411512714809913,
+        0.20625,
+        0.721875,
+        0.575,
+        0.47043959330143537
+      ],
+      "native_head": [
+        0.5411512714809915,
+        0.20625,
+        0.721875,
+        0.575,
+        0.47043959330143537
+      ]
+    },
+    "xgboost": {
+      "n_rows": 10,
+      "max_abs_diff": 0.0,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.539887011051178,
+        0.17830951511859894,
+        0.7567893266677856,
+        0.4658556282520294,
+        0.3906036615371704
+      ],
+      "native_head": [
+        0.539887011051178,
+        0.17830951511859894,
+        0.7567893266677856,
+        0.4658556282520294,
+        0.3906036615371704
+      ]
+    },
+    "monotone_xgboost": {
+      "n_rows": 10,
+      "max_abs_diff": 0.0,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.5439930558204651,
+        0.19152018427848816,
+        0.7351312041282654,
+        0.18391209840774536,
+        0.446010947227478
+      ],
+      "native_head": [
+        0.5439930558204651,
+        0.19152018427848816,
+        0.7351312041282654,
+        0.18391209840774536,
+        0.446010947227478
+      ]
+    },
+    "ebm": {
+      "n_rows": 10,
+      "max_abs_diff": 0.0,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.5204988416918804,
+        0.20708424485598476,
+        0.5896537968347427,
+        0.20668312985351306,
+        0.5310407272949605
+      ],
+      "native_head": [
+        0.5204988416918804,
+        0.20708424485598476,
+        0.5896537968347427,
+        0.20668312985351306,
+        0.5310407272949605
+      ]
+    },
+    "monotone_gam": {
+      "n_rows": 10,
+      "max_abs_diff": 0.0,
+      "tol": 1e-06,
+      "passes_tol": true,
+      "wrapper_head": [
+        0.5012727577727377,
+        0.2207863874188766,
+        0.598041617165969,
+        0.2743033924974139,
+        0.5596533912164168
+      ],
+      "native_head": [
+        0.5012727577727377,
+        0.2207863874188766,
+        0.598041617165969,
+        0.2743033924974139,
+        0.5596533912164168
+      ]
+    }
+  },
+  "artifacts": {
+    "long_csv": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/heloc_pack/metrics/explanation_stability_benchmark_long.csv",
+    "match_master_csv": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/heloc_pack/metrics/explanation_stability_benchmark_master.csv",
+    "top1_master_csv": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/heloc_pack/metrics/explanation_stability_benchmark_top1_master.csv",
+    "jaccard_master_csv": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/heloc_pack/metrics/explanation_stability_benchmark_jaccard_master.csv",
+    "plot_png": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/heloc_pack/metrics/explanation_stability_benchmark.png"
+  }
+}

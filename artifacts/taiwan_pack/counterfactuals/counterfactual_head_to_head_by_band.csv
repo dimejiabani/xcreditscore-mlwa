@@ -1,0 +1,11 @@
+predictor_label,original_score_band,n_cases,feasible,feasible_rate,feasible_rate_wilson_ci95_low,feasible_rate_wilson_ci95_high,small_n_flag,reliability_note
+xcreditscore_lattice,OVERALL,764,23,0.030104712041884817,0.020142799570093375,0.04476833312290318,False,
+xcreditscore_lattice,very_high_risk,525,0,0.0,0.0,0.0072639138944599795,False,
+xcreditscore_lattice,moderate_risk,72,0,0.0,0.0,0.05065117259645781,False,
+xcreditscore_lattice,near_threshold,98,23,0.23469387755102042,0.16178478951873154,0.32761765421930306,False,
+xcreditscore_lattice,high_risk,69,0,0.0,3.469446951953614e-18,0.05273725818905173,False,
+monotone_xgboost,OVERALL,764,127,0.1662303664921466,0.1415148965463128,0.19428549018548139,False,
+monotone_xgboost,very_high_risk,551,13,0.023593466424682397,0.0138390826799902,0.039944675448181456,False,
+monotone_xgboost,near_threshold,70,57,0.8142857142857143,0.7077442179325669,0.8881269999809797,False,
+monotone_xgboost,high_risk,95,33,0.3473684210526316,0.2592472968100605,0.44735355321777864,False,
+monotone_xgboost,moderate_risk,48,24,0.5,0.36389330502679385,0.6361066949732062,False,

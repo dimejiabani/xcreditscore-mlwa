@@ -1,0 +1,2 @@
+# Reproducible sign-off dependencies (fully pinned)
+-r requirements.lock.txt

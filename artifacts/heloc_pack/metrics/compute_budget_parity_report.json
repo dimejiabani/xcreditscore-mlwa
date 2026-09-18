@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "lattice": {
+    "tune_profile": "final",
+    "cv_splits": 5,
+    "cv_repeats": 1,
+    "objective": "auc_mean",
+    "objective_profile": "balanced",
+    "trial_count": 120,
+    "parity_total_trials": 120
+  },
+  "baselines": {
+    "cv_splits": 5,
+    "objective": "auc_mean",
+    "max_trials_per_model": 0,
+    "decision_threshold": 0.36,
+    "parity_total_trials": 120,
+    "parity_trials_per_model": 40,
+    "models": [
+      "logistic_regression",
+      "random_forest",
+      "xgboost"
+    ]
+  },
+  "parity": {
+    "same_cv_splits": true,
+    "same_parity_total_trials": true,
+    "details": "ok"
+  }
+}

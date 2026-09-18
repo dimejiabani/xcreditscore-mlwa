@@ -1,0 +1,113 @@
+{
+  "dataset": "heloc",
+  "features": {
+    "ExternalRiskEstimate": {
+      "direction": -1,
+      "justification": "FICO-family risk score: higher = less risky (protective)."
+    },
+    "MSinceOldestTradeOpen": {
+      "direction": -1,
+      "justification": "Longer credit history reduces default risk."
+    },
+    "MSinceMostRecentTradeOpen": {
+      "direction": 0,
+      "justification": "Recency of newest account is directionally ambiguous."
+    },
+    "AverageMInFile": {
+      "direction": -1,
+      "justification": "Longer average tenure indicates stability (protective)."
+    },
+    "NumSatisfactoryTrades": {
+      "direction": -1,
+      "justification": "More satisfactory accounts = stronger repayment record."
+    },
+    "NumTrades60Ever2DerogPubRec": {
+      "direction": 1,
+      "justification": "Any 60d+ delinquency count is directly risk-increasing."
+    },
+    "NumTrades90Ever2DerogPubRec": {
+      "direction": 1,
+      "justification": "Severe (90d+) delinquency directly increases risk."
+    },
+    "PercentTradesNeverDelq": {
+      "direction": -1,
+      "justification": "Share of clean trades is protective."
+    },
+    "MSinceMostRecentDelq": {
+      "direction": -1,
+      "justification": "Longer since last delinquency is protective."
+    },
+    "MaxDelq2PublicRecLast12M": {
+      "direction": 1,
+      "justification": "Worse recent delinquency severity increases risk."
+    },
+    "MaxDelqEver": {
+      "direction": 1,
+      "justification": "Worst-ever delinquency severity is a lasting risk marker."
+    },
+    "NumTotalTrades": {
+      "direction": 0,
+      "justification": "Total accounts is directionally ambiguous."
+    },
+    "NumTradesOpeninLast12M": {
+      "direction": 1,
+      "justification": "Rapid credit-seeking is risk-increasing."
+    },
+    "PercentInstallTrades": {
+      "direction": 0,
+      "justification": "Installment mix effect is directionally ambiguous."
+    },
+    "MSinceMostRecentInqexcl7days": {
+      "direction": -1,
+      "justification": "Longer since last inquiry is protective."
+    },
+    "NumInqLast6M": {
+      "direction": 1,
+      "justification": "Recent inquiry volume is risk-increasing."
+    },
+    "NumInqLast6Mexcl7days": {
+      "direction": 1,
+      "justification": "Recent inquiry volume (dedup) is risk-increasing."
+    },
+    "NetFractionRevolvingBurden": {
+      "direction": 1,
+      "justification": "Higher revolving utilization increases risk."
+    },
+    "NetFractionInstallBurden": {
+      "direction": 1,
+      "justification": "Higher installment utilization increases risk."
+    },
+    "NumRevolvingTradesWBalance": {
+      "direction": 1,
+      "justification": "More revolving accounts carrying balance = higher risk."
+    },
+    "NumInstallTradesWBalance": {
+      "direction": 1,
+      "justification": "More installment accounts carrying balance = higher risk."
+    },
+    "NumBank2NatlTradesWHighUtilization": {
+      "direction": 1,
+      "justification": "Prime-bank accounts near-max utilized = higher risk."
+    },
+    "PercentTradesWBalance": {
+      "direction": 1,
+      "justification": "Higher share of accounts carrying balance = higher risk."
+    },
+    "TotalDelqEvents": {
+      "direction": 1,
+      "justification": "Aggregate delinquency events increase risk (engineered)."
+    },
+    "InquiryToTradeRatio": {
+      "direction": 1,
+      "justification": "Inquiry intensity relative to trades increases risk (engineered)."
+    },
+    "RevolvingBurdenPerTrade": {
+      "direction": 1,
+      "justification": "Per-trade revolving burden increases risk (engineered)."
+    },
+    "InstallBurdenPerTrade": {
+      "direction": 1,
+      "justification": "Per-trade installment burden increases risk (engineered)."
+    }
+  }
+}

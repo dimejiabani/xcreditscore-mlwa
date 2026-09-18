@@ -1,0 +1,9 @@
+{
+  "dataset": "heloc",
+  "class_ratio": {
+    "positive": 0.5219885277246654,
+    "negative": 0.4780114722753346
+  },
+  "class_ratio_description": "Positive/negative ratio on the test partition: 52.2 / 47.8.",
+  "pr_auc_emphasis_rationale": "PR-AUC is reported as a secondary discriminator on decision-cost grounds. Adverse-action denials carry asymmetric operational cost (regulatory disclosure, customer friction, appeal handling), so precision/recall trade-offs above ROC-AUC's rank-only view are policy-relevant. The prevalence-driven interpretation of PR-AUC is dataset-dependent \u2014 reported here as a raw ratio rather than assigned a categorical label."
+}

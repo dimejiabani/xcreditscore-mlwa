@@ -1,0 +1,75 @@
+{
+  "generated_at_utc": "2026-08-01T00:54:10.074163+00:00",
+  "run_profile": "final",
+  "config_hash_sha256": "a37251ea33d4be84726932a1aaadfd1a0f37cef44f0b211a7047dc8c1857e113",
+  "threshold": 0.4200000000000001,
+  "xcreditscore": {
+    "auc": 0.7934822954822954,
+    "pr_auc": 0.7953678451215533,
+    "f1": 0.756043956043956,
+    "accuracy": 0.7170172084130019
+  },
+  "best_baseline_auc": 0.7962238502238501,
+  "model_competitiveness": {
+    "primary_metric": "auc",
+    "xcreditscore": {
+      "auc": 0.7934822954822954,
+      "pr_auc": 0.7953678451215533,
+      "f1": 0.756043956043956,
+      "accuracy": 0.7170172084130019
+    },
+    "best_baseline": {
+      "model": "monotone_gam",
+      "auc": 0.7962238502238501,
+      "pr_auc": 0.7997930585586461,
+      "f1": 0.7589285714285714,
+      "accuracy": 0.7246653919694073
+    },
+    "delta_vs_best_baseline": -0.002741554741554686,
+    "xcreditscore_beats_best_baseline": false
+  },
+  "failure_transparency": {
+    "predictor": {
+      "model_family": "tensorflow_lattice",
+      "fallback_used": false,
+      "fallback_reason": ""
+    },
+    "baselines": {
+      "logistic_regression": {
+        "status": "ok",
+        "error_type": "",
+        "fallback_used": false
+      },
+      "random_forest": {
+        "status": "ok",
+        "error_type": "",
+        "fallback_used": false
+      },
+      "xgboost": {
+        "status": "ok",
+        "error_type": "",
+        "fallback_used": false
+      },
+      "monotone_xgboost": {
+        "status": "ok",
+        "error_type": "",
+        "fallback_used": false
+      },
+      "ebm": {
+        "status": "ok",
+        "error_type": "",
+        "fallback_used": false
+      },
+      "monotone_gam": {
+        "status": "ok",
+        "error_type": "",
+        "fallback_used": false
+      }
+    }
+  },
+  "counterfactual": {
+    "cases": 80,
+    "feasible_rate": 0.6,
+    "near_feasible_count": 5
+  }
+}

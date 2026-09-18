@@ -1,0 +1,6 @@
+{
+  "monotone_xgboost_auc": 0.7792021396086629,
+  "unconstrained_xgboost_auc": 0.7781582952815829,
+  "auc_delta_monotone_minus_unconstrained": 0.0010438443270800457,
+  "status": "ok"
+}

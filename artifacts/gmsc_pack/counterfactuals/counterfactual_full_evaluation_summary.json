@@ -1,0 +1,124 @@
+{
+  "n_denied": 586,
+  "n_cases_evaluated": 586,
+  "wall_seconds": 134.6599690914154,
+  "selection_rule_original_sample": "list(denied_indices)[:max_cases] \u2014 i.e. the denied cases with the lowest test-set row index (semi-random via the seed-42 stratified train/test split, but neither randomised across denials nor stratified by score margin). This is documented per B6.3 as a potential selection bias in the original 80-case results.",
+  "overall_feasibility": {
+    "rate": 0.020477815699658702,
+    "ci95_low": 0.011752262965963045,
+    "ci95_high": 0.03544933401292557,
+    "n_successes": 12,
+    "n_trials": 586
+  },
+  "first_N_sanity_check": {
+    "N": 80,
+    "n_evaluated": 80,
+    "rate": 0.0375,
+    "ci95_low": 0.012834568919911402,
+    "ci95_high": 0.10454720090045115,
+    "n_successes": 3,
+    "n_trials": 80
+  },
+  "recourse_validity": {
+    "definition": "For every returned plan, apply \u03b4 to the original x0, re-score under the deployed model, and confirm P(bad) < \u03c4.",
+    "tau": 0.3,
+    "pass_rate_among_feasible": 1.0,
+    "pass_count_among_feasible": 12,
+    "feasible_count": 12,
+    "pass_rate_all_cases": 0.020477815699658702
+  },
+  "solver_breakdown": [
+    {
+      "solver_family": "gurobi",
+      "count": 546,
+      "share": 0.931740614334471
+    },
+    {
+      "solver_family": "gurobi_exact",
+      "count": 40,
+      "share": 0.06825938566552901
+    }
+  ],
+  "stratified_by_score_band_rows": [
+    {
+      "original_score_band": "OVERALL",
+      "n_cases": 586,
+      "feasible": 12,
+      "feasible_rate": 0.020477815699658702,
+      "feasible_rate_wilson_ci95_low": 0.011752262965963045,
+      "feasible_rate_wilson_ci95_high": 0.03544933401292557,
+      "near_feasible": 69,
+      "near_feasible_rate": 0.11774744027303755,
+      "near_feasible_rate_wilson_ci95_low": 0.09410733569097254,
+      "near_feasible_rate_wilson_ci95_high": 0.14636653521034795,
+      "median_total_cost": 0.09473684210526315,
+      "small_n_flag": false,
+      "reliability_note": ""
+    },
+    {
+      "original_score_band": "near_threshold",
+      "n_cases": 142,
+      "feasible": 9,
+      "feasible_rate": 0.06338028169014084,
+      "feasible_rate_wilson_ci95_low": 0.03369967193255277,
+      "feasible_rate_wilson_ci95_high": 0.11606198704500362,
+      "near_feasible": 63,
+      "near_feasible_rate": 0.44366197183098594,
+      "near_feasible_rate_wilson_ci95_low": 0.3645010697878813,
+      "near_feasible_rate_wilson_ci95_high": 0.5257907571769647,
+      "median_total_cost": 0.11999999999999997,
+      "small_n_flag": false,
+      "reliability_note": ""
+    },
+    {
+      "original_score_band": "moderate_risk",
+      "n_cases": 153,
+      "feasible": 3,
+      "feasible_rate": 0.0196078431372549,
+      "feasible_rate_wilson_ci95_low": 0.006690488440254393,
+      "feasible_rate_wilson_ci95_high": 0.05605732642128154,
+      "near_feasible": 6,
+      "near_feasible_rate": 0.0392156862745098,
+      "near_feasible_rate_wilson_ci95_low": 0.018094740908342608,
+      "near_feasible_rate_wilson_ci95_high": 0.08290826518333472,
+      "median_total_cost": 0.09473684210526337,
+      "small_n_flag": false,
+      "reliability_note": ""
+    },
+    {
+      "original_score_band": "high_risk",
+      "n_cases": 124,
+      "feasible": 0,
+      "feasible_rate": 0.0,
+      "feasible_rate_wilson_ci95_low": 0.0,
+      "feasible_rate_wilson_ci95_high": 0.030048615340677695,
+      "near_feasible": 0,
+      "near_feasible_rate": 0.0,
+      "near_feasible_rate_wilson_ci95_low": 0.0,
+      "near_feasible_rate_wilson_ci95_high": 0.030048615340677695,
+      "median_total_cost": 0.0852631578947368,
+      "small_n_flag": false,
+      "reliability_note": ""
+    },
+    {
+      "original_score_band": "very_high_risk",
+      "n_cases": 167,
+      "feasible": 0,
+      "feasible_rate": 0.0,
+      "feasible_rate_wilson_ci95_low": 0.0,
+      "feasible_rate_wilson_ci95_high": 0.02248551872134217,
+      "near_feasible": 0,
+      "near_feasible_rate": 0.0,
+      "near_feasible_rate_wilson_ci95_low": 0.0,
+      "near_feasible_rate_wilson_ci95_high": 0.02248551872134217,
+      "median_total_cost": 0.0852631578947368,
+      "small_n_flag": false,
+      "reliability_note": ""
+    }
+  ],
+  "notes": [
+    "Original 80-case artifacts (counterfactual_results.csv, counterfactual_success_by_score_band.csv, counterfactual_summary.json) are NOT overwritten \u2014 this evaluation writes strictly new files.",
+    "Wilson 95% CI is used because normal-approximation CIs misbehave at p=0/p=1 and for n<30 bands.",
+    "Score-band n<30 cells are flagged with reliability_note; report them as descriptive summaries rather than population estimates."
+  ]
+}

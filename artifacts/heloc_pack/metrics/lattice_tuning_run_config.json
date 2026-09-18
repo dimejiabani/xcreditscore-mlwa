@@ -1,0 +1,9 @@
+{
+  "tune_profile": "final",
+  "cv_splits": 5,
+  "cv_repeats": 1,
+  "objective": "auc_mean",
+  "objective_profile": "balanced",
+  "trial_count": 120,
+  "parity_total_trials": 120
+}

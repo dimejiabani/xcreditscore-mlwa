@@ -1,0 +1,13 @@
+{
+  "dataset": "taiwan",
+  "primary_endpoint": "recall",
+  "primary_endpoint_rationale": "Recall is designated as the primary confirmatory endpoint before any test-set inference is drawn. Rationale: bad-risk detection under a financial-inclusion mandate \u2014 false negatives (defaults extended credit) impose direct portfolio loss on the lender, while false positives (denied but repayable applicants) impede an external policy goal the model does not control. This pre-specification is a \u00a73.7 methodology commitment, not a post hoc endpoint pick.",
+  "exploratory_endpoints": [
+    "auc",
+    "pr_auc",
+    "f1",
+    "accuracy",
+    "precision"
+  ],
+  "multiplicity_treatment": "Holm-Bonferroni-adjusted p-values are reported alongside raw p-values for all six metrics; recall's primary status insulates it from family-wise dilution, but its Holm-adjusted p is disclosed for transparency."
+}

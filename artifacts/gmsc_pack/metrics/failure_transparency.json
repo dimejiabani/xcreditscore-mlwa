@@ -1,0 +1,63 @@
+{
+  "predictor": {
+    "model_family": "tensorflow_lattice",
+    "fallback_used": false,
+    "fallback_reason": ""
+  },
+  "baselines": {
+    "logistic_regression": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "random_forest": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "xgboost": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "monotone_xgboost": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "ebm": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "monotone_gam": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    }
+  },
+  "onnx": {
+    "export_status": {
+      "ok": true,
+      "detail": "ok_direct"
+    },
+    "parity_status": {
+      "ok": true,
+      "status": "ok",
+      "rows": 22500,
+      "tolerance": 0.001,
+      "max_abs_err": 1.1920928955078125e-07,
+      "mean_abs_err": 2.055979437298245e-08,
+      "smoke_64_row_reference": {
+        "ok": true,
+        "status": "ok",
+        "rows": 64,
+        "tolerance": 0.001,
+        "max_abs_err": 5.587935447692871e-08,
+        "mean_abs_err": 1.816079020500183e-08
+      },
+      "decision_flips_at_tau": 0,
+      "tau": 0.3
+    }
+  }
+}

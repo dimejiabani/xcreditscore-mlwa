@@ -1,0 +1,107 @@
+{
+  "generated_at_utc": "2026-07-30T17:25:36.179490+00:00",
+  "python": {
+    "version": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "executable": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/.venv/bin/python",
+    "implementation": "CPython"
+  },
+  "platform": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64"
+  },
+  "git": {
+    "head": null
+  },
+  "artifact_root": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/taiwan_pack",
+  "dataset": {
+    "path": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/data/taiwan/taiwan_default.csv",
+    "sha256": "d49b95ae96cab3f9a6e83703859125bccf1d8e0724dca8533530423a225fab6c"
+  },
+  "config_snapshot": {
+    "run_profile": "final",
+    "threshold": 0.3,
+    "feature_engineering_enabled": true,
+    "cv_enabled": true,
+    "cv_n_splits": 5,
+    "cv_n_repeats": 2,
+    "lattice": {
+      "epochs": 36,
+      "batch_size": 128,
+      "calibration_keypoints": 15,
+      "lattice_size": 4,
+      "learning_rate": 0.005,
+      "early_stopping_patience": 4,
+      "grouping_mode": "fixed",
+      "max_group_dim": 2,
+      "fixed_groups": [
+        [
+          "LIMIT_BAL",
+          "AGE"
+        ],
+        [
+          "PAY_0",
+          "PAY_2"
+        ],
+        [
+          "PAY_0",
+          "BILL_AMT1"
+        ],
+        [
+          "BILL_AMT1",
+          "PAY_AMT1"
+        ],
+        [
+          "BILL_AMT2",
+          "PAY_AMT2"
+        ],
+        [
+          "BILL_AMT3",
+          "PAY_AMT3"
+        ],
+        [
+          "EDUCATION",
+          "MARRIAGE"
+        ]
+      ],
+      "use_tuned": true
+    },
+    "counterfactual": {
+      "max_cases": 80,
+      "exact_max_cases": 40,
+      "exact_time_limit": 2.0,
+      "exact_mip_gap": 0.02,
+      "refine_max_rounds": 32
+    },
+    "threshold_tuning": {
+      "enabled": true,
+      "objective": "f1",
+      "base_threshold": 0.36,
+      "selected_threshold": 0.3,
+      "valid_metrics_at_selected_threshold": {
+        "accuracy": 0.8062222222222222,
+        "precision": 0.5823293172690763,
+        "recall": 0.4371859296482412,
+        "f1": 0.49942594718714123,
+        "balanced_accuracy": 0.6740851188897412
+      }
+    }
+  },
+  "config_hash_sha256": "843395c55aff6b8342129488f7b38c5cf0c161e267161d0662313f2c98a938a7",
+  "dependencies": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "xgboost": "3.2.0",
+    "tensorflow": "2.21.0",
+    "tensorflow-lattice": "2.1.1",
+    "tf-keras": "2.21.0",
+    "tf2onnx": "1.17.0",
+    "onnxruntime": "not-installed",
+    "pulp": "3.3.0"
+  },
+  "environment_overrides": {}
+}

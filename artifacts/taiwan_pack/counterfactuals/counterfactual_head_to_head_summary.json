@@ -1,0 +1,80 @@
+{
+  "n_denied": 764,
+  "decision_threshold": 0.3,
+  "protocol": "Same denied cases, same constraint registry, same \u03c4, same MIP engine (Gurobi surrogate + CBC fallback); only the fitted predictor differs. Post-solve validity is checked against each predictor's own predict_proba.",
+  "lattice": {
+    "predictor_label": "xcreditscore_lattice",
+    "n_cases_evaluated": 764,
+    "wall_seconds": 595.6750900745392,
+    "overall_feasibility": {
+      "rate": 0.030104712041884817,
+      "ci95_low": 0.020142799570093375,
+      "ci95_high": 0.04476833312290318,
+      "n_successes": 23,
+      "n_trials": 764
+    },
+    "validity_pass_rate_among_feasible": 1.0,
+    "validity_pass_count_among_feasible": 23,
+    "feasible_count": 23,
+    "median_total_cost_all_cases": 0.333510668469158,
+    "median_total_cost_feasible_cases": 0.15529472218828008,
+    "median_changed_features_feasible": 1.0,
+    "solver_breakdown": [
+      {
+        "solver_family": "gurobi",
+        "count": 724
+      },
+      {
+        "solver_family": "gurobi_exact",
+        "count": 40
+      }
+    ]
+  },
+  "monotone_xgboost": {
+    "predictor_label": "monotone_xgboost",
+    "n_cases_evaluated": 764,
+    "wall_seconds": 6.832448959350586,
+    "overall_feasibility": {
+      "rate": 0.1662303664921466,
+      "ci95_low": 0.1415148965463128,
+      "ci95_high": 0.19428549018548139,
+      "n_successes": 127,
+      "n_trials": 764
+    },
+    "validity_pass_rate_among_feasible": 1.0,
+    "validity_pass_count_among_feasible": 127,
+    "feasible_count": 127,
+    "median_total_cost_all_cases": 0.44138869472788356,
+    "median_total_cost_feasible_cases": 0.23867011250072012,
+    "median_changed_features_feasible": 2.0,
+    "solver_breakdown": [
+      {
+        "solver_family": "gurobi",
+        "count": 764
+      }
+    ]
+  },
+  "same_case_agreement": {
+    "both_feasible": 20,
+    "neither_feasible": 634,
+    "lattice_only_feasible": 3,
+    "monotone_xgb_only_feasible": 107,
+    "agreement_matrix_feasible_lattice_x_feasible_xgb": {
+      "false": {
+        "false": 634,
+        "true": 3,
+        "TOTAL": 637
+      },
+      "true": {
+        "false": 107,
+        "true": 20,
+        "TOTAL": 127
+      },
+      "TOTAL": {
+        "false": 741,
+        "true": 23,
+        "TOTAL": 764
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "status": "ok",
+  "rows": 1569,
+  "tolerance": 0.001,
+  "max_abs_err": 1.7881393432617188e-07,
+  "mean_abs_err": 3.1545064949244733e-08,
+  "smoke_64_row_reference": {
+    "ok": true,
+    "status": "ok",
+    "rows": 64,
+    "tolerance": 0.001,
+    "max_abs_err": 1.7881393432617188e-07,
+    "mean_abs_err": 3.585591912269592e-08
+  },
+  "decision_flips_at_tau": 0,
+  "tau": 0.4200000000000001
+}

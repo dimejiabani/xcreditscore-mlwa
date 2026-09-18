@@ -1,0 +1,50 @@
+{
+  "predictor": {
+    "model_family": "tensorflow_lattice",
+    "fallback_used": false,
+    "fallback_reason": ""
+  },
+  "baselines": {
+    "logistic_regression": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "random_forest": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "xgboost": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "monotone_xgboost": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "ebm": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    },
+    "monotone_gam": {
+      "status": "ok",
+      "error_type": "",
+      "fallback_used": false
+    }
+  },
+  "onnx": {
+    "export_status": {
+      "ok": true,
+      "detail": "ok_direct"
+    },
+    "parity_status": {
+      "ok": false,
+      "status": "onnxruntime_unavailable:ModuleNotFoundError",
+      "rows": 64
+    }
+  }
+}

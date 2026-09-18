@@ -1,0 +1,5 @@
+original_score_band,cases,feasible_rate,near_feasible_rate,median_total_cost,median_changes
+high_risk,11,0.0,0.0,0.3902705763205816,2.0
+moderate_risk,9,0.0,0.0,0.6294395633627434,2.0
+near_threshold,13,0.3076923076923077,0.46153846153846156,0.22746521898511005,1.0
+very_high_risk,47,0.0,0.0,0.27389940126032075,1.0

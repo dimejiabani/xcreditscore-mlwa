@@ -1,0 +1,2118 @@
+tf2onnx1.17.0 None:ëÒ
+ 
+features
+=xcreditscore_lattice/slice_TotalDelqEvents/GatherV2/indices:05xcreditscore_lattice/slice_TotalDelqEvents/GatherV2:03xcreditscore_lattice/slice_TotalDelqEvents/GatherV2"Gather*
+axis†
+“
+5xcreditscore_lattice/slice_TotalDelqEvents/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0.xcreditscore_lattice/cal_TotalDelqEvents/sub:0,xcreditscore_lattice/cal_TotalDelqEvents/sub"Sub
+‚
+features
+Excreditscore_lattice/slice_RevolvingBurdenPerTrade/GatherV2/indices:0=xcreditscore_lattice/slice_RevolvingBurdenPerTrade/GatherV2:0;xcreditscore_lattice/slice_RevolvingBurdenPerTrade/GatherV2"Gather*
+axis†
+Í
+=xcreditscore_lattice/slice_RevolvingBurdenPerTrade/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:06xcreditscore_lattice/cal_RevolvingBurdenPerTrade/sub:04xcreditscore_lattice/cal_RevolvingBurdenPerTrade/sub"Sub
+‹
+features
+Cxcreditscore_lattice/slice_PercentTradesWBalance/GatherV2/indices:0;xcreditscore_lattice/slice_PercentTradesWBalance/GatherV2:09xcreditscore_lattice/slice_PercentTradesWBalance/GatherV2"Gather*
+axis†
+‰
+;xcreditscore_lattice/slice_PercentTradesWBalance/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:04xcreditscore_lattice/cal_PercentTradesWBalance/sub:02xcreditscore_lattice/cal_PercentTradesWBalance/sub"Sub
+ﬂ
+features
+Dxcreditscore_lattice/slice_PercentTradesNeverDelq/GatherV2/indices:0<xcreditscore_lattice/slice_PercentTradesNeverDelq/GatherV2:0:xcreditscore_lattice/slice_PercentTradesNeverDelq/GatherV2"Gather*
+axis†
+Ú
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+<xcreditscore_lattice/slice_PercentTradesNeverDelq/GatherV2:07xcreditscore_lattice/slice_PercentTradesNeverDelq/sub:05xcreditscore_lattice/slice_PercentTradesNeverDelq/sub"Sub
+‚
+7xcreditscore_lattice/slice_PercentTradesNeverDelq/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:05xcreditscore_lattice/cal_PercentTradesNeverDelq/sub:03xcreditscore_lattice/cal_PercentTradesNeverDelq/sub"Sub
+Ÿ
+features
+Bxcreditscore_lattice/slice_PercentInstallTrades/GatherV2/indices:0:xcreditscore_lattice/slice_PercentInstallTrades/GatherV2:08xcreditscore_lattice/slice_PercentInstallTrades/GatherV2"Gather*
+axis†
+·
+:xcreditscore_lattice/slice_PercentInstallTrades/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:03xcreditscore_lattice/cal_PercentInstallTrades/sub:01xcreditscore_lattice/cal_PercentInstallTrades/sub"Sub
+ﬂ
+features
+Dxcreditscore_lattice/slice_NumTradesOpeninLast12M/GatherV2/indices:0<xcreditscore_lattice/slice_NumTradesOpeninLast12M/GatherV2:0:xcreditscore_lattice/slice_NumTradesOpeninLast12M/GatherV2"Gather*
+axis†
+Á
+<xcreditscore_lattice/slice_NumTradesOpeninLast12M/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:05xcreditscore_lattice/cal_NumTradesOpeninLast12M/sub:03xcreditscore_lattice/cal_NumTradesOpeninLast12M/sub"Sub
+Ó
+features
+Ixcreditscore_lattice/slice_NumTrades90Ever2DerogPubRec/GatherV2/indices:0Axcreditscore_lattice/slice_NumTrades90Ever2DerogPubRec/GatherV2:0?xcreditscore_lattice/slice_NumTrades90Ever2DerogPubRec/GatherV2"Gather*
+axis†
+ˆ
+Axcreditscore_lattice/slice_NumTrades90Ever2DerogPubRec/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0:xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/sub:08xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/sub"Sub
+Ó
+features
+Ixcreditscore_lattice/slice_NumTrades60Ever2DerogPubRec/GatherV2/indices:0Axcreditscore_lattice/slice_NumTrades60Ever2DerogPubRec/GatherV2:0?xcreditscore_lattice/slice_NumTrades60Ever2DerogPubRec/GatherV2"Gather*
+axis†
+ˆ
+Axcreditscore_lattice/slice_NumTrades60Ever2DerogPubRec/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0:xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/sub:08xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/sub"Sub
+«
+features
+<xcreditscore_lattice/slice_NumTotalTrades/GatherV2/indices:04xcreditscore_lattice/slice_NumTotalTrades/GatherV2:02xcreditscore_lattice/slice_NumTotalTrades/GatherV2"Gather*
+axis†
+œ
+4xcreditscore_lattice/slice_NumTotalTrades/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0-xcreditscore_lattice/cal_NumTotalTrades/sub:0+xcreditscore_lattice/cal_NumTotalTrades/sub"Sub
+‹
+features
+Cxcreditscore_lattice/slice_NumSatisfactoryTrades/GatherV2/indices:0;xcreditscore_lattice/slice_NumSatisfactoryTrades/GatherV2:09xcreditscore_lattice/slice_NumSatisfactoryTrades/GatherV2"Gather*
+axis†
+Ô
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+;xcreditscore_lattice/slice_NumSatisfactoryTrades/GatherV2:06xcreditscore_lattice/slice_NumSatisfactoryTrades/sub:04xcreditscore_lattice/slice_NumSatisfactoryTrades/sub"Sub
+ﬂ
+6xcreditscore_lattice/slice_NumSatisfactoryTrades/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:04xcreditscore_lattice/cal_NumSatisfactoryTrades/sub:02xcreditscore_lattice/cal_NumSatisfactoryTrades/sub"Sub
+Î
+features
+Hxcreditscore_lattice/slice_NumRevolvingTradesWBalance/GatherV2/indices:0@xcreditscore_lattice/slice_NumRevolvingTradesWBalance/GatherV2:0>xcreditscore_lattice/slice_NumRevolvingTradesWBalance/GatherV2"Gather*
+axis†
+Û
+@xcreditscore_lattice/slice_NumRevolvingTradesWBalance/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:09xcreditscore_lattice/cal_NumRevolvingTradesWBalance/sub:07xcreditscore_lattice/cal_NumRevolvingTradesWBalance/sub"Sub
+Â
+features
+Fxcreditscore_lattice/slice_NumInstallTradesWBalance/GatherV2/indices:0>xcreditscore_lattice/slice_NumInstallTradesWBalance/GatherV2:0<xcreditscore_lattice/slice_NumInstallTradesWBalance/GatherV2"Gather*
+axis†
+Ì
+>xcreditscore_lattice/slice_NumInstallTradesWBalance/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:07xcreditscore_lattice/cal_NumInstallTradesWBalance/sub:05xcreditscore_lattice/cal_NumInstallTradesWBalance/sub"Sub
+‹
+features
+Cxcreditscore_lattice/slice_NumInqLast6Mexcl7days/GatherV2/indices:0;xcreditscore_lattice/slice_NumInqLast6Mexcl7days/GatherV2:09xcreditscore_lattice/slice_NumInqLast6Mexcl7days/GatherV2"Gather*
+axis†
+‰
+;xcreditscore_lattice/slice_NumInqLast6Mexcl7days/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:04xcreditscore_lattice/cal_NumInqLast6Mexcl7days/sub:02xcreditscore_lattice/cal_NumInqLast6Mexcl7days/sub"Sub
+¡
+features
+:xcreditscore_lattice/slice_NumInqLast6M/GatherV2/indices:02xcreditscore_lattice/slice_NumInqLast6M/GatherV2:00xcreditscore_lattice/slice_NumInqLast6M/GatherV2"Gather*
+axis†
+…
+2xcreditscore_lattice/slice_NumInqLast6M/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0+xcreditscore_lattice/cal_NumInqLast6M/sub:0)xcreditscore_lattice/cal_NumInqLast6M/sub"Sub
+É
+features
+Pxcreditscore_lattice/slice_NumBank2NatlTradesWHighUtilization/GatherV2/indices:0Hxcreditscore_lattice/slice_NumBank2NatlTradesWHighUtilization/GatherV2:0Fxcreditscore_lattice/slice_NumBank2NatlTradesWHighUtilization/GatherV2"Gather*
+axis†
+ã
+Hxcreditscore_lattice/slice_NumBank2NatlTradesWHighUtilization/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0Axcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/sub:0?xcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/sub"Sub
+Î
+features
+Hxcreditscore_lattice/slice_NetFractionRevolvingBurden/GatherV2/indices:0@xcreditscore_lattice/slice_NetFractionRevolvingBurden/GatherV2:0>xcreditscore_lattice/slice_NetFractionRevolvingBurden/GatherV2"Gather*
+axis†
+Û
+@xcreditscore_lattice/slice_NetFractionRevolvingBurden/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:09xcreditscore_lattice/cal_NetFractionRevolvingBurden/sub:07xcreditscore_lattice/cal_NetFractionRevolvingBurden/sub"Sub
+Â
+features
+Fxcreditscore_lattice/slice_NetFractionInstallBurden/GatherV2/indices:0>xcreditscore_lattice/slice_NetFractionInstallBurden/GatherV2:0<xcreditscore_lattice/slice_NetFractionInstallBurden/GatherV2"Gather*
+axis†
+Ì
+>xcreditscore_lattice/slice_NetFractionInstallBurden/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:07xcreditscore_lattice/cal_NetFractionInstallBurden/sub:05xcreditscore_lattice/cal_NetFractionInstallBurden/sub"Sub
+æ
+features
+9xcreditscore_lattice/slice_MaxDelqEver/GatherV2/indices:01xcreditscore_lattice/slice_MaxDelqEver/GatherV2:0/xcreditscore_lattice/slice_MaxDelqEver/GatherV2"Gather*
+axis†
+∆
+1xcreditscore_lattice/slice_MaxDelqEver/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0*xcreditscore_lattice/cal_MaxDelqEver/sub:0(xcreditscore_lattice/cal_MaxDelqEver/sub"Sub
+Â
+features
+Fxcreditscore_lattice/slice_MaxDelq2PublicRecLast12M/GatherV2/indices:0>xcreditscore_lattice/slice_MaxDelq2PublicRecLast12M/GatherV2:0<xcreditscore_lattice/slice_MaxDelq2PublicRecLast12M/GatherV2"Gather*
+axis†
+Ì
+>xcreditscore_lattice/slice_MaxDelq2PublicRecLast12M/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:07xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/sub:05xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/sub"Sub
+ƒ
+features
++xcreditscore_lattice/lattice_13/Minimum/y:0;xcreditscore_lattice/slice_MSinceOldestTradeOpen/GatherV2:09xcreditscore_lattice/slice_MSinceOldestTradeOpen/GatherV2"Gather*
+axis†
+Ô
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+;xcreditscore_lattice/slice_MSinceOldestTradeOpen/GatherV2:06xcreditscore_lattice/slice_MSinceOldestTradeOpen/sub:04xcreditscore_lattice/slice_MSinceOldestTradeOpen/sub"Sub
+ﬂ
+6xcreditscore_lattice/slice_MSinceOldestTradeOpen/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:04xcreditscore_lattice/cal_MSinceOldestTradeOpen/sub:02xcreditscore_lattice/cal_MSinceOldestTradeOpen/sub"Sub
+Ë
+features
+Gxcreditscore_lattice/slice_MSinceMostRecentTradeOpen/GatherV2/indices:0?xcreditscore_lattice/slice_MSinceMostRecentTradeOpen/GatherV2:0=xcreditscore_lattice/slice_MSinceMostRecentTradeOpen/GatherV2"Gather*
+axis†
+
+?xcreditscore_lattice/slice_MSinceMostRecentTradeOpen/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:08xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/sub:06xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/sub"Sub
+Ò
+features
+Jxcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/GatherV2/indices:0Bxcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/GatherV2:0@xcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/GatherV2"Gather*
+axis†
+Ñ
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+Bxcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/GatherV2:0=xcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/sub:0;xcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/sub"Sub
+Ù
+=xcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0;xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/sub:09xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/sub"Sub
+Ÿ
+features
+Bxcreditscore_lattice/slice_MSinceMostRecentDelq/GatherV2/indices:0:xcreditscore_lattice/slice_MSinceMostRecentDelq/GatherV2:08xcreditscore_lattice/slice_MSinceMostRecentDelq/GatherV2"Gather*
+axis†
+Ï
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+:xcreditscore_lattice/slice_MSinceMostRecentDelq/GatherV2:05xcreditscore_lattice/slice_MSinceMostRecentDelq/sub:03xcreditscore_lattice/slice_MSinceMostRecentDelq/sub"Sub
+‹
+5xcreditscore_lattice/slice_MSinceMostRecentDelq/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:03xcreditscore_lattice/cal_MSinceMostRecentDelq/sub:01xcreditscore_lattice/cal_MSinceMostRecentDelq/sub"Sub
+‹
+features
+Cxcreditscore_lattice/slice_InstallBurdenPerTrade/GatherV2/indices:0;xcreditscore_lattice/slice_InstallBurdenPerTrade/GatherV2:09xcreditscore_lattice/slice_InstallBurdenPerTrade/GatherV2"Gather*
+axis†
+‰
+;xcreditscore_lattice/slice_InstallBurdenPerTrade/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:04xcreditscore_lattice/cal_InstallBurdenPerTrade/sub:02xcreditscore_lattice/cal_InstallBurdenPerTrade/sub"Sub
+÷
+features
+Axcreditscore_lattice/slice_InquiryToTradeRatio/GatherV2/indices:09xcreditscore_lattice/slice_InquiryToTradeRatio/GatherV2:07xcreditscore_lattice/slice_InquiryToTradeRatio/GatherV2"Gather*
+axis†
+ﬁ
+9xcreditscore_lattice/slice_InquiryToTradeRatio/GatherV2:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:02xcreditscore_lattice/cal_InquiryToTradeRatio/sub:00xcreditscore_lattice/cal_InquiryToTradeRatio/sub"Sub
+Ÿ
+features
+Bxcreditscore_lattice/slice_ExternalRiskEstimate/GatherV2/indices:0:xcreditscore_lattice/slice_ExternalRiskEstimate/GatherV2:08xcreditscore_lattice/slice_ExternalRiskEstimate/GatherV2"Gather*
+axis†
+Ï
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+:xcreditscore_lattice/slice_ExternalRiskEstimate/GatherV2:05xcreditscore_lattice/slice_ExternalRiskEstimate/sub:03xcreditscore_lattice/slice_ExternalRiskEstimate/sub"Sub
+‹
+5xcreditscore_lattice/slice_ExternalRiskEstimate/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:03xcreditscore_lattice/cal_ExternalRiskEstimate/sub:01xcreditscore_lattice/cal_ExternalRiskEstimate/sub"Sub
+«
+features
+<xcreditscore_lattice/slice_AverageMInFile/GatherV2/indices:04xcreditscore_lattice/slice_AverageMInFile/GatherV2:02xcreditscore_lattice/slice_AverageMInFile/GatherV2"Gather*
+axis†
+⁄
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0
+4xcreditscore_lattice/slice_AverageMInFile/GatherV2:0/xcreditscore_lattice/slice_AverageMInFile/sub:0-xcreditscore_lattice/slice_AverageMInFile/sub"Sub
+ 
+/xcreditscore_lattice/slice_AverageMInFile/sub:0
+6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0-xcreditscore_lattice/cal_AverageMInFile/sub:0+xcreditscore_lattice/cal_AverageMInFile/sub"Sub
+^
+=xcreditscore_lattice/slice_RevolvingBurdenPerTrade/GatherV2:0
+Shape__8:0Shape__8"Shape: 
+∏
+
+Shape__8:0<xcreditscore_lattice/cal_RevolvingBurdenPerTrade/ones_like:0:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+V
+5xcreditscore_lattice/slice_TotalDelqEvents/GatherV2:0
+Shape__6:0Shape__6"Shape: 
+®
+
+Shape__6:04xcreditscore_lattice/cal_TotalDelqEvents/ones_like:02xcreditscore_lattice/cal_TotalDelqEvents/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+R
+/xcreditscore_lattice/slice_AverageMInFile/sub:0Shape__58:0	Shape__58"Shape: 
+ß
+Shape__58:03xcreditscore_lattice/cal_AverageMInFile/ones_like:01xcreditscore_lattice/cal_AverageMInFile/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+X
+5xcreditscore_lattice/slice_ExternalRiskEstimate/sub:0Shape__56:0	Shape__56"Shape: 
+≥
+Shape__56:09xcreditscore_lattice/cal_ExternalRiskEstimate/ones_like:07xcreditscore_lattice/cal_ExternalRiskEstimate/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+\
+9xcreditscore_lattice/slice_InquiryToTradeRatio/GatherV2:0Shape__54:0	Shape__54"Shape: 
+±
+Shape__54:08xcreditscore_lattice/cal_InquiryToTradeRatio/ones_like:06xcreditscore_lattice/cal_InquiryToTradeRatio/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+^
+;xcreditscore_lattice/slice_InstallBurdenPerTrade/GatherV2:0Shape__52:0	Shape__52"Shape: 
+µ
+Shape__52:0:xcreditscore_lattice/cal_InstallBurdenPerTrade/ones_like:08xcreditscore_lattice/cal_InstallBurdenPerTrade/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+X
+5xcreditscore_lattice/slice_MSinceMostRecentDelq/sub:0Shape__50:0	Shape__50"Shape: 
+≥
+Shape__50:09xcreditscore_lattice/cal_MSinceMostRecentDelq/ones_like:07xcreditscore_lattice/cal_MSinceMostRecentDelq/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+`
+=xcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/sub:0Shape__48:0	Shape__48"Shape: 
+√
+Shape__48:0Axcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/ones_like:0?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+b
+?xcreditscore_lattice/slice_MSinceMostRecentTradeOpen/GatherV2:0Shape__46:0	Shape__46"Shape: 
+Ω
+Shape__46:0>xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/ones_like:0<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+Y
+6xcreditscore_lattice/slice_MSinceOldestTradeOpen/sub:0Shape__44:0	Shape__44"Shape: 
+µ
+Shape__44:0:xcreditscore_lattice/cal_MSinceOldestTradeOpen/ones_like:08xcreditscore_lattice/cal_MSinceOldestTradeOpen/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+a
+>xcreditscore_lattice/slice_MaxDelq2PublicRecLast12M/GatherV2:0Shape__42:0	Shape__42"Shape: 
+ª
+Shape__42:0=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/ones_like:0;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+T
+1xcreditscore_lattice/slice_MaxDelqEver/GatherV2:0Shape__40:0	Shape__40"Shape: 
+°
+Shape__40:00xcreditscore_lattice/cal_MaxDelqEver/ones_like:0.xcreditscore_lattice/cal_MaxDelqEver/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+a
+>xcreditscore_lattice/slice_NetFractionInstallBurden/GatherV2:0Shape__38:0	Shape__38"Shape: 
+ª
+Shape__38:0=xcreditscore_lattice/cal_NetFractionInstallBurden/ones_like:0;xcreditscore_lattice/cal_NetFractionInstallBurden/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+c
+@xcreditscore_lattice/slice_NetFractionRevolvingBurden/GatherV2:0Shape__36:0	Shape__36"Shape: 
+ø
+Shape__36:0?xcreditscore_lattice/cal_NetFractionRevolvingBurden/ones_like:0=xcreditscore_lattice/cal_NetFractionRevolvingBurden/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+k
+Hxcreditscore_lattice/slice_NumBank2NatlTradesWHighUtilization/GatherV2:0Shape__34:0	Shape__34"Shape: 
+œ
+Shape__34:0Gxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/ones_like:0Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+U
+2xcreditscore_lattice/slice_NumInqLast6M/GatherV2:0Shape__32:0	Shape__32"Shape: 
+£
+Shape__32:01xcreditscore_lattice/cal_NumInqLast6M/ones_like:0/xcreditscore_lattice/cal_NumInqLast6M/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+^
+;xcreditscore_lattice/slice_NumInqLast6Mexcl7days/GatherV2:0Shape__30:0	Shape__30"Shape: 
+µ
+Shape__30:0:xcreditscore_lattice/cal_NumInqLast6Mexcl7days/ones_like:08xcreditscore_lattice/cal_NumInqLast6Mexcl7days/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+a
+>xcreditscore_lattice/slice_NumInstallTradesWBalance/GatherV2:0Shape__28:0	Shape__28"Shape: 
+ª
+Shape__28:0=xcreditscore_lattice/cal_NumInstallTradesWBalance/ones_like:0;xcreditscore_lattice/cal_NumInstallTradesWBalance/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+c
+@xcreditscore_lattice/slice_NumRevolvingTradesWBalance/GatherV2:0Shape__26:0	Shape__26"Shape: 
+ø
+Shape__26:0?xcreditscore_lattice/cal_NumRevolvingTradesWBalance/ones_like:0=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+Y
+6xcreditscore_lattice/slice_NumSatisfactoryTrades/sub:0Shape__24:0	Shape__24"Shape: 
+µ
+Shape__24:0:xcreditscore_lattice/cal_NumSatisfactoryTrades/ones_like:08xcreditscore_lattice/cal_NumSatisfactoryTrades/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+W
+4xcreditscore_lattice/slice_NumTotalTrades/GatherV2:0Shape__22:0	Shape__22"Shape: 
+ß
+Shape__22:03xcreditscore_lattice/cal_NumTotalTrades/ones_like:01xcreditscore_lattice/cal_NumTotalTrades/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+d
+Axcreditscore_lattice/slice_NumTrades60Ever2DerogPubRec/GatherV2:0Shape__20:0	Shape__20"Shape: 
+¡
+Shape__20:0@xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/ones_like:0>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+d
+Axcreditscore_lattice/slice_NumTrades90Ever2DerogPubRec/GatherV2:0Shape__18:0	Shape__18"Shape: 
+¡
+Shape__18:0@xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/ones_like:0>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+_
+<xcreditscore_lattice/slice_NumTradesOpeninLast12M/GatherV2:0Shape__16:0	Shape__16"Shape: 
+∑
+Shape__16:0;xcreditscore_lattice/cal_NumTradesOpeninLast12M/ones_like:09xcreditscore_lattice/cal_NumTradesOpeninLast12M/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+]
+:xcreditscore_lattice/slice_PercentInstallTrades/GatherV2:0Shape__14:0	Shape__14"Shape: 
+≥
+Shape__14:09xcreditscore_lattice/cal_PercentInstallTrades/ones_like:07xcreditscore_lattice/cal_PercentInstallTrades/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+Z
+7xcreditscore_lattice/slice_PercentTradesNeverDelq/sub:0Shape__12:0	Shape__12"Shape: 
+∑
+Shape__12:0;xcreditscore_lattice/cal_PercentTradesNeverDelq/ones_like:09xcreditscore_lattice/cal_PercentTradesNeverDelq/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+^
+;xcreditscore_lattice/slice_PercentTradesWBalance/GatherV2:0Shape__10:0	Shape__10"Shape: 
+µ
+Shape__10:0:xcreditscore_lattice/cal_PercentTradesWBalance/ones_like:08xcreditscore_lattice/cal_PercentTradesWBalance/ones_like"ConstantOfShape*
+value*"  Ä?Bvalue†: 
+Ï
+.xcreditscore_lattice/cal_TotalDelqEvents/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:02xcreditscore_lattice/cal_TotalDelqEvents/truediv:00xcreditscore_lattice/cal_TotalDelqEvents/truediv"Mul
+ﬁ
+2xcreditscore_lattice/cal_TotalDelqEvents/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:02xcreditscore_lattice/cal_TotalDelqEvents/Minimum:00xcreditscore_lattice/cal_TotalDelqEvents/Minimum"Min
+€
+2xcreditscore_lattice/cal_TotalDelqEvents/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:02xcreditscore_lattice/cal_TotalDelqEvents/Maximum:00xcreditscore_lattice/cal_TotalDelqEvents/Maximum"Max
+„
+4xcreditscore_lattice/cal_TotalDelqEvents/ones_like:0
+2xcreditscore_lattice/cal_TotalDelqEvents/Maximum:01xcreditscore_lattice/cal_TotalDelqEvents/concat:0/xcreditscore_lattice/cal_TotalDelqEvents/concat"Concat*
+axis†
+·
+1xcreditscore_lattice/cal_TotalDelqEvents/concat:0
+@xcreditscore_lattice/cal_TotalDelqEvents/MatMul/ReadVariableOp:01xcreditscore_lattice/cal_TotalDelqEvents/MatMul:0/xcreditscore_lattice/cal_TotalDelqEvents/MatMul"MatMul
+Ñ
+6xcreditscore_lattice/cal_RevolvingBurdenPerTrade/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/truediv:08xcreditscore_lattice/cal_RevolvingBurdenPerTrade/truediv"Mul
+ˆ
+:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/Minimum:08xcreditscore_lattice/cal_RevolvingBurdenPerTrade/Minimum"Min
+Û
+:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/Maximum:08xcreditscore_lattice/cal_RevolvingBurdenPerTrade/Maximum"Max
+É
+<xcreditscore_lattice/cal_RevolvingBurdenPerTrade/ones_like:0
+:xcreditscore_lattice/cal_RevolvingBurdenPerTrade/Maximum:09xcreditscore_lattice/cal_RevolvingBurdenPerTrade/concat:07xcreditscore_lattice/cal_RevolvingBurdenPerTrade/concat"Concat*
+axis†
+Å
+9xcreditscore_lattice/cal_RevolvingBurdenPerTrade/concat:0
+Hxcreditscore_lattice/cal_RevolvingBurdenPerTrade/MatMul/ReadVariableOp:09xcreditscore_lattice/cal_RevolvingBurdenPerTrade/MatMul:07xcreditscore_lattice/cal_RevolvingBurdenPerTrade/MatMul"MatMul
+˛
+4xcreditscore_lattice/cal_PercentTradesWBalance/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:08xcreditscore_lattice/cal_PercentTradesWBalance/truediv:06xcreditscore_lattice/cal_PercentTradesWBalance/truediv"Mul
+
+8xcreditscore_lattice/cal_PercentTradesWBalance/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:08xcreditscore_lattice/cal_PercentTradesWBalance/Minimum:06xcreditscore_lattice/cal_PercentTradesWBalance/Minimum"Min
+Ì
+8xcreditscore_lattice/cal_PercentTradesWBalance/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:08xcreditscore_lattice/cal_PercentTradesWBalance/Maximum:06xcreditscore_lattice/cal_PercentTradesWBalance/Maximum"Max
+˚
+:xcreditscore_lattice/cal_PercentTradesWBalance/ones_like:0
+8xcreditscore_lattice/cal_PercentTradesWBalance/Maximum:07xcreditscore_lattice/cal_PercentTradesWBalance/concat:05xcreditscore_lattice/cal_PercentTradesWBalance/concat"Concat*
+axis†
+˘
+7xcreditscore_lattice/cal_PercentTradesWBalance/concat:0
+Fxcreditscore_lattice/cal_PercentTradesWBalance/MatMul/ReadVariableOp:07xcreditscore_lattice/cal_PercentTradesWBalance/MatMul:05xcreditscore_lattice/cal_PercentTradesWBalance/MatMul"MatMul
+Å
+5xcreditscore_lattice/cal_PercentTradesNeverDelq/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:09xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv:07xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv"Mul
+Û
+9xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:09xcreditscore_lattice/cal_PercentTradesNeverDelq/Minimum:07xcreditscore_lattice/cal_PercentTradesNeverDelq/Minimum"Min
+
+9xcreditscore_lattice/cal_PercentTradesNeverDelq/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:09xcreditscore_lattice/cal_PercentTradesNeverDelq/Maximum:07xcreditscore_lattice/cal_PercentTradesNeverDelq/Maximum"Max
+ˇ
+;xcreditscore_lattice/cal_PercentTradesNeverDelq/ones_like:0
+9xcreditscore_lattice/cal_PercentTradesNeverDelq/Maximum:08xcreditscore_lattice/cal_PercentTradesNeverDelq/concat:06xcreditscore_lattice/cal_PercentTradesNeverDelq/concat"Concat*
+axis†
+˝
+8xcreditscore_lattice/cal_PercentTradesNeverDelq/concat:0
+Gxcreditscore_lattice/cal_PercentTradesNeverDelq/MatMul/ReadVariableOp:08xcreditscore_lattice/cal_PercentTradesNeverDelq/MatMul:06xcreditscore_lattice/cal_PercentTradesNeverDelq/MatMul"MatMul
+‚
+7xcreditscore_lattice/cal_PercentTradesWBalance/MatMul:0
+8xcreditscore_lattice/cal_PercentTradesNeverDelq/MatMul:0,xcreditscore_lattice/group_concat_1/concat:0*xcreditscore_lattice/group_concat_1/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_1/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_1/clip_by_value/Minimum:04xcreditscore_lattice/lattice_1/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_1/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_1/clip_by_value:0,xcreditscore_lattice/lattice_1/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_1/clip_by_value:0%xcreditscore_lattice/lattice_1/Cast:0#xcreditscore_lattice/lattice_1/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_1/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_1/Minimum:0&xcreditscore_lattice/lattice_1/Minimum"Min
+§
+(xcreditscore_lattice/lattice_1/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_1/mul:0"xcreditscore_lattice/lattice_1/mul"Mul
+æ
+$xcreditscore_lattice/lattice_1/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_1/Sum:0"xcreditscore_lattice/lattice_1/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_1/Minimum:0'xcreditscore_lattice/lattice_1/Cast_1:0%xcreditscore_lattice/lattice_1/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_1/clip_by_value:0
+'xcreditscore_lattice/lattice_1/Cast_1:0$xcreditscore_lattice/lattice_1/sub:0"xcreditscore_lattice/lattice_1/sub"Sub
+ã
+$xcreditscore_lattice/lattice_1/sub:0.xcreditscore_lattice/lattice_1/argsort/Shape:0,xcreditscore_lattice/lattice_1/argsort/Shape"Shape
+ß
+.xcreditscore_lattice/lattice_1/argsort/Shape:02xcreditscore_lattice/lattice_1/argsort/Shape__76:00xcreditscore_lattice/lattice_1/argsort/Shape__76"Cast*	
+to†
+‹
+2xcreditscore_lattice/lattice_1/argsort/Shape__76:0
+const_fold_opt__515
+const_ends__125
+const_axes__1303xcreditscore_lattice/lattice_1/sort/strided_slice:01xcreditscore_lattice/lattice_1/sort/strided_slice"Slice: 
+¡
+3xcreditscore_lattice/lattice_1/sort/strided_slice:0
+const_axes__1307xcreditscore_lattice/lattice_1/sort/strided_slice__67:05xcreditscore_lattice/lattice_1/sort/strided_slice__67"Squeeze: 
+˚
+3xcreditscore_lattice/cal_PercentInstallTrades/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:07xcreditscore_lattice/cal_PercentInstallTrades/truediv:05xcreditscore_lattice/cal_PercentInstallTrades/truediv"Mul
+Ì
+7xcreditscore_lattice/cal_PercentInstallTrades/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:07xcreditscore_lattice/cal_PercentInstallTrades/Minimum:05xcreditscore_lattice/cal_PercentInstallTrades/Minimum"Min
+Í
+7xcreditscore_lattice/cal_PercentInstallTrades/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:07xcreditscore_lattice/cal_PercentInstallTrades/Maximum:05xcreditscore_lattice/cal_PercentInstallTrades/Maximum"Max
+˜
+9xcreditscore_lattice/cal_PercentInstallTrades/ones_like:0
+7xcreditscore_lattice/cal_PercentInstallTrades/Maximum:06xcreditscore_lattice/cal_PercentInstallTrades/concat:04xcreditscore_lattice/cal_PercentInstallTrades/concat"Concat*
+axis†
+ı
+6xcreditscore_lattice/cal_PercentInstallTrades/concat:0
+Excreditscore_lattice/cal_PercentInstallTrades/MatMul/ReadVariableOp:06xcreditscore_lattice/cal_PercentInstallTrades/MatMul:04xcreditscore_lattice/cal_PercentInstallTrades/MatMul"MatMul
+Å
+5xcreditscore_lattice/cal_NumTradesOpeninLast12M/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:09xcreditscore_lattice/cal_NumTradesOpeninLast12M/truediv:07xcreditscore_lattice/cal_NumTradesOpeninLast12M/truediv"Mul
+Û
+9xcreditscore_lattice/cal_NumTradesOpeninLast12M/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:09xcreditscore_lattice/cal_NumTradesOpeninLast12M/Minimum:07xcreditscore_lattice/cal_NumTradesOpeninLast12M/Minimum"Min
+
+9xcreditscore_lattice/cal_NumTradesOpeninLast12M/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:09xcreditscore_lattice/cal_NumTradesOpeninLast12M/Maximum:07xcreditscore_lattice/cal_NumTradesOpeninLast12M/Maximum"Max
+ˇ
+;xcreditscore_lattice/cal_NumTradesOpeninLast12M/ones_like:0
+9xcreditscore_lattice/cal_NumTradesOpeninLast12M/Maximum:08xcreditscore_lattice/cal_NumTradesOpeninLast12M/concat:06xcreditscore_lattice/cal_NumTradesOpeninLast12M/concat"Concat*
+axis†
+˝
+8xcreditscore_lattice/cal_NumTradesOpeninLast12M/concat:0
+Gxcreditscore_lattice/cal_NumTradesOpeninLast12M/MatMul/ReadVariableOp:08xcreditscore_lattice/cal_NumTradesOpeninLast12M/MatMul:06xcreditscore_lattice/cal_NumTradesOpeninLast12M/MatMul"MatMul
+ê
+:xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/truediv:0<xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/truediv"Mul
+Ç
+>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/Minimum:0<xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/Minimum"Min
+ˇ
+>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/Maximum:0<xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/Maximum"Max
+ì
+@xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/ones_like:0
+>xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/Maximum:0=xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/concat:0;xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/concat"Concat*
+axis†
+ë
+=xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/concat:0
+Lxcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/MatMul/ReadVariableOp:0=xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/MatMul:0;xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/MatMul"MatMul
+Ê
+6xcreditscore_lattice/cal_PercentInstallTrades/MatMul:0
+=xcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/MatMul:0,xcreditscore_lattice/group_concat_7/concat:0*xcreditscore_lattice/group_concat_7/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_7/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_7/clip_by_value/Minimum:04xcreditscore_lattice/lattice_7/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_7/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_7/clip_by_value:0,xcreditscore_lattice/lattice_7/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_7/clip_by_value:0%xcreditscore_lattice/lattice_7/Cast:0#xcreditscore_lattice/lattice_7/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_7/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_7/Minimum:0&xcreditscore_lattice/lattice_7/Minimum"Min
+§
+(xcreditscore_lattice/lattice_7/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_7/mul:0"xcreditscore_lattice/lattice_7/mul"Mul
+æ
+$xcreditscore_lattice/lattice_7/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_7/Sum:0"xcreditscore_lattice/lattice_7/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_7/Minimum:0'xcreditscore_lattice/lattice_7/Cast_1:0%xcreditscore_lattice/lattice_7/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_7/clip_by_value:0
+'xcreditscore_lattice/lattice_7/Cast_1:0$xcreditscore_lattice/lattice_7/sub:0"xcreditscore_lattice/lattice_7/sub"Sub
+ã
+$xcreditscore_lattice/lattice_7/sub:0.xcreditscore_lattice/lattice_7/argsort/Shape:0,xcreditscore_lattice/lattice_7/argsort/Shape"Shape
+°
+.xcreditscore_lattice/lattice_7/argsort/Shape:0/xcreditscore_lattice/lattice_7/sort/Shape__93:0-xcreditscore_lattice/lattice_7/sort/Shape__93"Cast*	
+to†
+ﬂ
+/xcreditscore_lattice/lattice_7/sort/Shape__93:0
+const_fold_opt__515
+const_ends__125
+const_axes__1306xcreditscore_lattice/lattice_7/argsort/strided_slice:04xcreditscore_lattice/lattice_7/argsort/strided_slice"Slice: 
+Ã
+6xcreditscore_lattice/lattice_7/argsort/strided_slice:0
+const_axes__130;xcreditscore_lattice/lattice_7/argsort/strided_slice__110:09xcreditscore_lattice/lattice_7/argsort/strided_slice__110"Squeeze: 
+ê
+:xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/truediv:0<xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/truediv"Mul
+Ç
+>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/Minimum:0<xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/Minimum"Min
+ˇ
+>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/Maximum:0<xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/Maximum"Max
+ì
+@xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/ones_like:0
+>xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/Maximum:0=xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/concat:0;xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/concat"Concat*
+axis†
+ë
+=xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/concat:0
+Lxcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/MatMul/ReadVariableOp:0=xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/MatMul:0;xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/MatMul"MatMul
+È
+-xcreditscore_lattice/cal_NumTotalTrades/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:01xcreditscore_lattice/cal_NumTotalTrades/truediv:0/xcreditscore_lattice/cal_NumTotalTrades/truediv"Mul
+€
+1xcreditscore_lattice/cal_NumTotalTrades/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:01xcreditscore_lattice/cal_NumTotalTrades/Minimum:0/xcreditscore_lattice/cal_NumTotalTrades/Minimum"Min
+ÿ
+1xcreditscore_lattice/cal_NumTotalTrades/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:01xcreditscore_lattice/cal_NumTotalTrades/Maximum:0/xcreditscore_lattice/cal_NumTotalTrades/Maximum"Max
+ﬂ
+3xcreditscore_lattice/cal_NumTotalTrades/ones_like:0
+1xcreditscore_lattice/cal_NumTotalTrades/Maximum:00xcreditscore_lattice/cal_NumTotalTrades/concat:0.xcreditscore_lattice/cal_NumTotalTrades/concat"Concat*
+axis†
+›
+0xcreditscore_lattice/cal_NumTotalTrades/concat:0
+?xcreditscore_lattice/cal_NumTotalTrades/MatMul/ReadVariableOp:00xcreditscore_lattice/cal_NumTotalTrades/MatMul:0.xcreditscore_lattice/cal_NumTotalTrades/MatMul"MatMul
+˛
+4xcreditscore_lattice/cal_NumSatisfactoryTrades/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:08xcreditscore_lattice/cal_NumSatisfactoryTrades/truediv:06xcreditscore_lattice/cal_NumSatisfactoryTrades/truediv"Mul
+
+8xcreditscore_lattice/cal_NumSatisfactoryTrades/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:08xcreditscore_lattice/cal_NumSatisfactoryTrades/Minimum:06xcreditscore_lattice/cal_NumSatisfactoryTrades/Minimum"Min
+Ì
+8xcreditscore_lattice/cal_NumSatisfactoryTrades/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:08xcreditscore_lattice/cal_NumSatisfactoryTrades/Maximum:06xcreditscore_lattice/cal_NumSatisfactoryTrades/Maximum"Max
+˚
+:xcreditscore_lattice/cal_NumSatisfactoryTrades/ones_like:0
+8xcreditscore_lattice/cal_NumSatisfactoryTrades/Maximum:07xcreditscore_lattice/cal_NumSatisfactoryTrades/concat:05xcreditscore_lattice/cal_NumSatisfactoryTrades/concat"Concat*
+axis†
+˘
+7xcreditscore_lattice/cal_NumSatisfactoryTrades/concat:0
+Fxcreditscore_lattice/cal_NumSatisfactoryTrades/MatMul/ReadVariableOp:07xcreditscore_lattice/cal_NumSatisfactoryTrades/MatMul:05xcreditscore_lattice/cal_NumSatisfactoryTrades/MatMul"MatMul
+ç
+9xcreditscore_lattice/cal_NumRevolvingTradesWBalance/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/truediv:0;xcreditscore_lattice/cal_NumRevolvingTradesWBalance/truediv"Mul
+ˇ
+=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/Minimum:0;xcreditscore_lattice/cal_NumRevolvingTradesWBalance/Minimum"Min
+¸
+=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/Maximum:0;xcreditscore_lattice/cal_NumRevolvingTradesWBalance/Maximum"Max
+è
+?xcreditscore_lattice/cal_NumRevolvingTradesWBalance/ones_like:0
+=xcreditscore_lattice/cal_NumRevolvingTradesWBalance/Maximum:0<xcreditscore_lattice/cal_NumRevolvingTradesWBalance/concat:0:xcreditscore_lattice/cal_NumRevolvingTradesWBalance/concat"Concat*
+axis†
+ç
+<xcreditscore_lattice/cal_NumRevolvingTradesWBalance/concat:0
+Kxcreditscore_lattice/cal_NumRevolvingTradesWBalance/MatMul/ReadVariableOp:0<xcreditscore_lattice/cal_NumRevolvingTradesWBalance/MatMul:0:xcreditscore_lattice/cal_NumRevolvingTradesWBalance/MatMul"MatMul
+ﬂ
+<xcreditscore_lattice/cal_NumRevolvingTradesWBalance/MatMul:0
+0xcreditscore_lattice/cal_NumTotalTrades/MatMul:0,xcreditscore_lattice/group_concat_9/concat:0*xcreditscore_lattice/group_concat_9/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_9/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_9/clip_by_value/Minimum:04xcreditscore_lattice/lattice_9/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_9/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_9/clip_by_value:0,xcreditscore_lattice/lattice_9/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_9/clip_by_value:0%xcreditscore_lattice/lattice_9/Cast:0#xcreditscore_lattice/lattice_9/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_9/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_9/Minimum:0&xcreditscore_lattice/lattice_9/Minimum"Min
+§
+(xcreditscore_lattice/lattice_9/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_9/mul:0"xcreditscore_lattice/lattice_9/mul"Mul
+æ
+$xcreditscore_lattice/lattice_9/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_9/Sum:0"xcreditscore_lattice/lattice_9/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_9/Minimum:0'xcreditscore_lattice/lattice_9/Cast_1:0%xcreditscore_lattice/lattice_9/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_9/clip_by_value:0
+'xcreditscore_lattice/lattice_9/Cast_1:0$xcreditscore_lattice/lattice_9/sub:0"xcreditscore_lattice/lattice_9/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_9/sub:0+xcreditscore_lattice/lattice_9/sort/Shape:0)xcreditscore_lattice/lattice_9/sort/Shape"Shape
+†
++xcreditscore_lattice/lattice_9/sort/Shape:00xcreditscore_lattice/lattice_9/sort/Shape__123:0.xcreditscore_lattice/lattice_9/sort/Shape__123"Cast*	
+to†
+⁄
+0xcreditscore_lattice/lattice_9/sort/Shape__123:0
+const_fold_opt__515
+const_ends__125
+const_axes__1303xcreditscore_lattice/lattice_9/sort/strided_slice:01xcreditscore_lattice/lattice_9/sort/strided_slice"Slice: 
+√
+3xcreditscore_lattice/lattice_9/sort/strided_slice:0
+const_axes__1308xcreditscore_lattice/lattice_9/sort/strided_slice__127:06xcreditscore_lattice/lattice_9/sort/strided_slice__127"Squeeze: 
+á
+7xcreditscore_lattice/cal_NumInstallTradesWBalance/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0;xcreditscore_lattice/cal_NumInstallTradesWBalance/truediv:09xcreditscore_lattice/cal_NumInstallTradesWBalance/truediv"Mul
+˘
+;xcreditscore_lattice/cal_NumInstallTradesWBalance/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0;xcreditscore_lattice/cal_NumInstallTradesWBalance/Minimum:09xcreditscore_lattice/cal_NumInstallTradesWBalance/Minimum"Min
+ˆ
+;xcreditscore_lattice/cal_NumInstallTradesWBalance/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0;xcreditscore_lattice/cal_NumInstallTradesWBalance/Maximum:09xcreditscore_lattice/cal_NumInstallTradesWBalance/Maximum"Max
+á
+=xcreditscore_lattice/cal_NumInstallTradesWBalance/ones_like:0
+;xcreditscore_lattice/cal_NumInstallTradesWBalance/Maximum:0:xcreditscore_lattice/cal_NumInstallTradesWBalance/concat:08xcreditscore_lattice/cal_NumInstallTradesWBalance/concat"Concat*
+axis†
+Ö
+:xcreditscore_lattice/cal_NumInstallTradesWBalance/concat:0
+Ixcreditscore_lattice/cal_NumInstallTradesWBalance/MatMul/ReadVariableOp:0:xcreditscore_lattice/cal_NumInstallTradesWBalance/MatMul:08xcreditscore_lattice/cal_NumInstallTradesWBalance/MatMul"MatMul
+˛
+4xcreditscore_lattice/cal_NumInqLast6Mexcl7days/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:08xcreditscore_lattice/cal_NumInqLast6Mexcl7days/truediv:06xcreditscore_lattice/cal_NumInqLast6Mexcl7days/truediv"Mul
+
+8xcreditscore_lattice/cal_NumInqLast6Mexcl7days/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:08xcreditscore_lattice/cal_NumInqLast6Mexcl7days/Minimum:06xcreditscore_lattice/cal_NumInqLast6Mexcl7days/Minimum"Min
+Ì
+8xcreditscore_lattice/cal_NumInqLast6Mexcl7days/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:08xcreditscore_lattice/cal_NumInqLast6Mexcl7days/Maximum:06xcreditscore_lattice/cal_NumInqLast6Mexcl7days/Maximum"Max
+˚
+:xcreditscore_lattice/cal_NumInqLast6Mexcl7days/ones_like:0
+8xcreditscore_lattice/cal_NumInqLast6Mexcl7days/Maximum:07xcreditscore_lattice/cal_NumInqLast6Mexcl7days/concat:05xcreditscore_lattice/cal_NumInqLast6Mexcl7days/concat"Concat*
+axis†
+˘
+7xcreditscore_lattice/cal_NumInqLast6Mexcl7days/concat:0
+Fxcreditscore_lattice/cal_NumInqLast6Mexcl7days/MatMul/ReadVariableOp:07xcreditscore_lattice/cal_NumInqLast6Mexcl7days/MatMul:05xcreditscore_lattice/cal_NumInqLast6Mexcl7days/MatMul"MatMul
+·
+7xcreditscore_lattice/cal_NumInqLast6Mexcl7days/MatMul:0
+7xcreditscore_lattice/cal_NumSatisfactoryTrades/MatMul:0,xcreditscore_lattice/group_concat_8/concat:0*xcreditscore_lattice/group_concat_8/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_8/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_8/clip_by_value/Minimum:04xcreditscore_lattice/lattice_8/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_8/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_8/clip_by_value:0,xcreditscore_lattice/lattice_8/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_8/clip_by_value:0%xcreditscore_lattice/lattice_8/Cast:0#xcreditscore_lattice/lattice_8/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_8/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_8/Minimum:0&xcreditscore_lattice/lattice_8/Minimum"Min
+§
+(xcreditscore_lattice/lattice_8/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_8/mul:0"xcreditscore_lattice/lattice_8/mul"Mul
+æ
+$xcreditscore_lattice/lattice_8/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_8/Sum:0"xcreditscore_lattice/lattice_8/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_8/Minimum:0'xcreditscore_lattice/lattice_8/Cast_1:0%xcreditscore_lattice/lattice_8/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_8/clip_by_value:0
+'xcreditscore_lattice/lattice_8/Cast_1:0$xcreditscore_lattice/lattice_8/sub:0"xcreditscore_lattice/lattice_8/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_8/sub:0+xcreditscore_lattice/lattice_8/sort/Shape:0)xcreditscore_lattice/lattice_8/sort/Shape"Shape
+¶
++xcreditscore_lattice/lattice_8/sort/Shape:03xcreditscore_lattice/lattice_8/argsort/Shape__166:01xcreditscore_lattice/lattice_8/argsort/Shape__166"Cast*	
+to†
+„
+3xcreditscore_lattice/lattice_8/argsort/Shape__166:0
+const_fold_opt__515
+const_ends__125
+const_axes__1306xcreditscore_lattice/lattice_8/argsort/strided_slice:04xcreditscore_lattice/lattice_8/argsort/strided_slice"Slice: 
+Ã
+6xcreditscore_lattice/lattice_8/argsort/strided_slice:0
+const_axes__130;xcreditscore_lattice/lattice_8/argsort/strided_slice__170:09xcreditscore_lattice/lattice_8/argsort/strided_slice__170"Squeeze: 
+„
++xcreditscore_lattice/cal_NumInqLast6M/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0/xcreditscore_lattice/cal_NumInqLast6M/truediv:0-xcreditscore_lattice/cal_NumInqLast6M/truediv"Mul
+’
+/xcreditscore_lattice/cal_NumInqLast6M/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0/xcreditscore_lattice/cal_NumInqLast6M/Minimum:0-xcreditscore_lattice/cal_NumInqLast6M/Minimum"Min
+“
+/xcreditscore_lattice/cal_NumInqLast6M/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0/xcreditscore_lattice/cal_NumInqLast6M/Maximum:0-xcreditscore_lattice/cal_NumInqLast6M/Maximum"Max
+◊
+1xcreditscore_lattice/cal_NumInqLast6M/ones_like:0
+/xcreditscore_lattice/cal_NumInqLast6M/Maximum:0.xcreditscore_lattice/cal_NumInqLast6M/concat:0,xcreditscore_lattice/cal_NumInqLast6M/concat"Concat*
+axis†
+’
+.xcreditscore_lattice/cal_NumInqLast6M/concat:0
+=xcreditscore_lattice/cal_NumInqLast6M/MatMul/ReadVariableOp:0.xcreditscore_lattice/cal_NumInqLast6M/MatMul:0,xcreditscore_lattice/cal_NumInqLast6M/MatMul"MatMul
+“
+1xcreditscore_lattice/cal_TotalDelqEvents/MatMul:0
+.xcreditscore_lattice/cal_NumInqLast6M/MatMul:0,xcreditscore_lattice/group_concat_6/concat:0*xcreditscore_lattice/group_concat_6/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_6/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_6/clip_by_value/Minimum:04xcreditscore_lattice/lattice_6/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_6/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_6/clip_by_value:0,xcreditscore_lattice/lattice_6/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_6/clip_by_value:0%xcreditscore_lattice/lattice_6/Cast:0#xcreditscore_lattice/lattice_6/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_6/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_6/Minimum:0&xcreditscore_lattice/lattice_6/Minimum"Min
+§
+(xcreditscore_lattice/lattice_6/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_6/mul:0"xcreditscore_lattice/lattice_6/mul"Mul
+æ
+$xcreditscore_lattice/lattice_6/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_6/Sum:0"xcreditscore_lattice/lattice_6/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_6/Minimum:0'xcreditscore_lattice/lattice_6/Cast_1:0%xcreditscore_lattice/lattice_6/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_6/clip_by_value:0
+'xcreditscore_lattice/lattice_6/Cast_1:0$xcreditscore_lattice/lattice_6/sub:0"xcreditscore_lattice/lattice_6/sub"Sub
+ã
+$xcreditscore_lattice/lattice_6/sub:0.xcreditscore_lattice/lattice_6/argsort/Shape:0,xcreditscore_lattice/lattice_6/argsort/Shape"Shape
+£
+.xcreditscore_lattice/lattice_6/argsort/Shape:00xcreditscore_lattice/lattice_6/sort/Shape__183:0.xcreditscore_lattice/lattice_6/sort/Shape__183"Cast*	
+to†
+⁄
+0xcreditscore_lattice/lattice_6/sort/Shape__183:0
+const_fold_opt__515
+const_ends__125
+const_axes__1303xcreditscore_lattice/lattice_6/sort/strided_slice:01xcreditscore_lattice/lattice_6/sort/strided_slice"Slice: 
+√
+3xcreditscore_lattice/lattice_6/sort/strided_slice:0
+const_axes__1308xcreditscore_lattice/lattice_6/sort/strided_slice__187:06xcreditscore_lattice/lattice_6/sort/strided_slice__187"Squeeze: 
+•
+Axcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/truediv:0Cxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/truediv"Mul
+ó
+Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/Minimum:0Cxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/Minimum"Min
+î
+Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/Maximum:0Cxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/Maximum"Max
+Ø
+Gxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/ones_like:0
+Excreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/Maximum:0Dxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/concat:0Bxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/concat"Concat*
+axis†
+≠
+Dxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/concat:0
+Sxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/MatMul/ReadVariableOp:0Dxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/MatMul:0Bxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/MatMul"MatMul
+ç
+9xcreditscore_lattice/cal_NetFractionRevolvingBurden/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0=xcreditscore_lattice/cal_NetFractionRevolvingBurden/truediv:0;xcreditscore_lattice/cal_NetFractionRevolvingBurden/truediv"Mul
+ˇ
+=xcreditscore_lattice/cal_NetFractionRevolvingBurden/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0=xcreditscore_lattice/cal_NetFractionRevolvingBurden/Minimum:0;xcreditscore_lattice/cal_NetFractionRevolvingBurden/Minimum"Min
+¸
+=xcreditscore_lattice/cal_NetFractionRevolvingBurden/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0=xcreditscore_lattice/cal_NetFractionRevolvingBurden/Maximum:0;xcreditscore_lattice/cal_NetFractionRevolvingBurden/Maximum"Max
+è
+?xcreditscore_lattice/cal_NetFractionRevolvingBurden/ones_like:0
+=xcreditscore_lattice/cal_NetFractionRevolvingBurden/Maximum:0<xcreditscore_lattice/cal_NetFractionRevolvingBurden/concat:0:xcreditscore_lattice/cal_NetFractionRevolvingBurden/concat"Concat*
+axis†
+ç
+<xcreditscore_lattice/cal_NetFractionRevolvingBurden/concat:0
+Kxcreditscore_lattice/cal_NetFractionRevolvingBurden/MatMul/ReadVariableOp:0<xcreditscore_lattice/cal_NetFractionRevolvingBurden/MatMul:0:xcreditscore_lattice/cal_NetFractionRevolvingBurden/MatMul"MatMul
+á
+7xcreditscore_lattice/cal_NetFractionInstallBurden/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0;xcreditscore_lattice/cal_NetFractionInstallBurden/truediv:09xcreditscore_lattice/cal_NetFractionInstallBurden/truediv"Mul
+˘
+;xcreditscore_lattice/cal_NetFractionInstallBurden/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0;xcreditscore_lattice/cal_NetFractionInstallBurden/Minimum:09xcreditscore_lattice/cal_NetFractionInstallBurden/Minimum"Min
+ˆ
+;xcreditscore_lattice/cal_NetFractionInstallBurden/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0;xcreditscore_lattice/cal_NetFractionInstallBurden/Maximum:09xcreditscore_lattice/cal_NetFractionInstallBurden/Maximum"Max
+á
+=xcreditscore_lattice/cal_NetFractionInstallBurden/ones_like:0
+;xcreditscore_lattice/cal_NetFractionInstallBurden/Maximum:0:xcreditscore_lattice/cal_NetFractionInstallBurden/concat:08xcreditscore_lattice/cal_NetFractionInstallBurden/concat"Concat*
+axis†
+Ö
+:xcreditscore_lattice/cal_NetFractionInstallBurden/concat:0
+Ixcreditscore_lattice/cal_NetFractionInstallBurden/MatMul/ReadVariableOp:0:xcreditscore_lattice/cal_NetFractionInstallBurden/MatMul:08xcreditscore_lattice/cal_NetFractionInstallBurden/MatMul"MatMul
+Á
+8xcreditscore_lattice/cal_NumTradesOpeninLast12M/MatMul:0
+:xcreditscore_lattice/cal_NetFractionInstallBurden/MatMul:0-xcreditscore_lattice/group_concat_11/concat:0+xcreditscore_lattice/group_concat_11/concat"Concat*
+axis†
+Ã
+-xcreditscore_lattice/group_concat_11/concat:0
+&xcreditscore_lattice/lattice_8/Const:07xcreditscore_lattice/lattice_11/clip_by_value/Minimum:05xcreditscore_lattice/lattice_11/clip_by_value/Minimum"Min
+∆
+7xcreditscore_lattice/lattice_11/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0/xcreditscore_lattice/lattice_11/clip_by_value:0-xcreditscore_lattice/lattice_11/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_11/clip_by_value:0&xcreditscore_lattice/lattice_11/Cast:0$xcreditscore_lattice/lattice_11/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_11/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0)xcreditscore_lattice/lattice_11/Minimum:0'xcreditscore_lattice/lattice_11/Minimum"Min
+ß
+)xcreditscore_lattice/lattice_11/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0%xcreditscore_lattice/lattice_11/mul:0#xcreditscore_lattice/lattice_11/mul"Mul
+¡
+%xcreditscore_lattice/lattice_11/mul:0
+const_fold_opt__515%xcreditscore_lattice/lattice_11/Sum:0#xcreditscore_lattice/lattice_11/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_11/Minimum:0(xcreditscore_lattice/lattice_11/Cast_1:0&xcreditscore_lattice/lattice_11/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_11/clip_by_value:0
+(xcreditscore_lattice/lattice_11/Cast_1:0%xcreditscore_lattice/lattice_11/sub:0#xcreditscore_lattice/lattice_11/sub"Sub
+é
+%xcreditscore_lattice/lattice_11/sub:0/xcreditscore_lattice/lattice_11/argsort/Shape:0-xcreditscore_lattice/lattice_11/argsort/Shape"Shape
+¨
+/xcreditscore_lattice/lattice_11/argsort/Shape:04xcreditscore_lattice/lattice_11/argsort/Shape__226:02xcreditscore_lattice/lattice_11/argsort/Shape__226"Cast*	
+to†
+‡
+4xcreditscore_lattice/lattice_11/argsort/Shape__226:0
+const_fold_opt__515
+const_ends__125
+const_axes__1304xcreditscore_lattice/lattice_11/sort/strided_slice:02xcreditscore_lattice/lattice_11/sort/strided_slice"Slice: 
+∆
+4xcreditscore_lattice/lattice_11/sort/strided_slice:0
+const_axes__1309xcreditscore_lattice/lattice_11/sort/strided_slice__217:07xcreditscore_lattice/lattice_11/sort/strided_slice__217"Squeeze: 
+‡
+*xcreditscore_lattice/cal_MaxDelqEver/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0.xcreditscore_lattice/cal_MaxDelqEver/truediv:0,xcreditscore_lattice/cal_MaxDelqEver/truediv"Mul
+“
+.xcreditscore_lattice/cal_MaxDelqEver/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0.xcreditscore_lattice/cal_MaxDelqEver/Minimum:0,xcreditscore_lattice/cal_MaxDelqEver/Minimum"Min
+œ
+.xcreditscore_lattice/cal_MaxDelqEver/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0.xcreditscore_lattice/cal_MaxDelqEver/Maximum:0,xcreditscore_lattice/cal_MaxDelqEver/Maximum"Max
+”
+0xcreditscore_lattice/cal_MaxDelqEver/ones_like:0
+.xcreditscore_lattice/cal_MaxDelqEver/Maximum:0-xcreditscore_lattice/cal_MaxDelqEver/concat:0+xcreditscore_lattice/cal_MaxDelqEver/concat"Concat*
+axis†
+—
+-xcreditscore_lattice/cal_MaxDelqEver/concat:0
+<xcreditscore_lattice/cal_MaxDelqEver/MatMul/ReadVariableOp:0-xcreditscore_lattice/cal_MaxDelqEver/MatMul:0+xcreditscore_lattice/cal_MaxDelqEver/MatMul"MatMul
+á
+7xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/truediv:09xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/truediv"Mul
+˘
+;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum:09xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum"Min
+ˆ
+;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Maximum:09xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Maximum"Max
+á
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/ones_like:0
+;xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Maximum:0:xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/concat:08xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/concat"Concat*
+axis†
+Ö
+:xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/concat:0
+Ixcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/MatMul/ReadVariableOp:0:xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/MatMul:08xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/MatMul"MatMul
+Ê
+9xcreditscore_lattice/cal_RevolvingBurdenPerTrade/MatMul:0
+:xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/MatMul:0,xcreditscore_lattice/group_concat_2/concat:0*xcreditscore_lattice/group_concat_2/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_2/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_2/clip_by_value/Minimum:04xcreditscore_lattice/lattice_2/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_2/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_2/clip_by_value:0,xcreditscore_lattice/lattice_2/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_2/clip_by_value:0%xcreditscore_lattice/lattice_2/Cast:0#xcreditscore_lattice/lattice_2/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_2/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_2/Minimum:0&xcreditscore_lattice/lattice_2/Minimum"Min
+§
+(xcreditscore_lattice/lattice_2/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_2/mul:0"xcreditscore_lattice/lattice_2/mul"Mul
+æ
+$xcreditscore_lattice/lattice_2/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_2/Sum:0"xcreditscore_lattice/lattice_2/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_2/Minimum:0'xcreditscore_lattice/lattice_2/Cast_1:0%xcreditscore_lattice/lattice_2/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_2/clip_by_value:0
+'xcreditscore_lattice/lattice_2/Cast_1:0$xcreditscore_lattice/lattice_2/sub:0"xcreditscore_lattice/lattice_2/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_2/sub:0+xcreditscore_lattice/lattice_2/sort/Shape:0)xcreditscore_lattice/lattice_2/sort/Shape"Shape
+¶
++xcreditscore_lattice/lattice_2/sort/Shape:03xcreditscore_lattice/lattice_2/argsort/Shape__256:01xcreditscore_lattice/lattice_2/argsort/Shape__256"Cast*	
+to†
+„
+3xcreditscore_lattice/lattice_2/argsort/Shape__256:0
+const_fold_opt__515
+const_ends__125
+const_axes__1306xcreditscore_lattice/lattice_2/argsort/strided_slice:04xcreditscore_lattice/lattice_2/argsort/strided_slice"Slice: 
+Ã
+6xcreditscore_lattice/lattice_2/argsort/strided_slice:0
+const_axes__130;xcreditscore_lattice/lattice_2/argsort/strided_slice__260:09xcreditscore_lattice/lattice_2/argsort/strided_slice__260"Squeeze: 
+˛
+4xcreditscore_lattice/cal_MSinceOldestTradeOpen/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:08xcreditscore_lattice/cal_MSinceOldestTradeOpen/truediv:06xcreditscore_lattice/cal_MSinceOldestTradeOpen/truediv"Mul
+
+8xcreditscore_lattice/cal_MSinceOldestTradeOpen/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:08xcreditscore_lattice/cal_MSinceOldestTradeOpen/Minimum:06xcreditscore_lattice/cal_MSinceOldestTradeOpen/Minimum"Min
+Ì
+8xcreditscore_lattice/cal_MSinceOldestTradeOpen/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:08xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum:06xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum"Max
+˚
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/ones_like:0
+8xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum:07xcreditscore_lattice/cal_MSinceOldestTradeOpen/concat:05xcreditscore_lattice/cal_MSinceOldestTradeOpen/concat"Concat*
+axis†
+˘
+7xcreditscore_lattice/cal_MSinceOldestTradeOpen/concat:0
+Fxcreditscore_lattice/cal_MSinceOldestTradeOpen/MatMul/ReadVariableOp:07xcreditscore_lattice/cal_MSinceOldestTradeOpen/MatMul:05xcreditscore_lattice/cal_MSinceOldestTradeOpen/MatMul"MatMul
+◊
+-xcreditscore_lattice/cal_MaxDelqEver/MatMul:0
+7xcreditscore_lattice/cal_MSinceOldestTradeOpen/MatMul:0,xcreditscore_lattice/group_concat_4/concat:0*xcreditscore_lattice/group_concat_4/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_4/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_4/clip_by_value/Minimum:04xcreditscore_lattice/lattice_4/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_4/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_4/clip_by_value:0,xcreditscore_lattice/lattice_4/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_4/clip_by_value:0%xcreditscore_lattice/lattice_4/Cast:0#xcreditscore_lattice/lattice_4/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_4/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_4/Minimum:0&xcreditscore_lattice/lattice_4/Minimum"Min
+§
+(xcreditscore_lattice/lattice_4/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_4/mul:0"xcreditscore_lattice/lattice_4/mul"Mul
+æ
+$xcreditscore_lattice/lattice_4/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_4/Sum:0"xcreditscore_lattice/lattice_4/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_4/Minimum:0'xcreditscore_lattice/lattice_4/Cast_1:0%xcreditscore_lattice/lattice_4/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_4/clip_by_value:0
+'xcreditscore_lattice/lattice_4/Cast_1:0$xcreditscore_lattice/lattice_4/sub:0"xcreditscore_lattice/lattice_4/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_4/sub:0+xcreditscore_lattice/lattice_4/sort/Shape:0)xcreditscore_lattice/lattice_4/sort/Shape"Shape
+†
++xcreditscore_lattice/lattice_4/sort/Shape:00xcreditscore_lattice/lattice_4/sort/Shape__273:0.xcreditscore_lattice/lattice_4/sort/Shape__273"Cast*	
+to†
+‡
+0xcreditscore_lattice/lattice_4/sort/Shape__273:0
+const_fold_opt__515
+const_ends__125
+const_axes__1306xcreditscore_lattice/lattice_4/argsort/strided_slice:04xcreditscore_lattice/lattice_4/argsort/strided_slice"Slice: 
+Ã
+6xcreditscore_lattice/lattice_4/argsort/strided_slice:0
+const_axes__130;xcreditscore_lattice/lattice_4/argsort/strided_slice__290:09xcreditscore_lattice/lattice_4/argsort/strided_slice__290"Squeeze: 
+ä
+8xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/truediv:0:xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/truediv"Mul
+¸
+<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/Minimum:0:xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/Minimum"Min
+˘
+<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/Maximum:0:xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/Maximum"Max
+ã
+>xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/ones_like:0
+<xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/Maximum:0;xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/concat:09xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/concat"Concat*
+axis†
+â
+;xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/concat:0
+Jxcreditscore_lattice/cal_MSinceMostRecentTradeOpen/MatMul/ReadVariableOp:0;xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/MatMul:09xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/MatMul"MatMul
+Í
+:xcreditscore_lattice/cal_NumInstallTradesWBalance/MatMul:0
+;xcreditscore_lattice/cal_MSinceMostRecentTradeOpen/MatMul:0-xcreditscore_lattice/group_concat_12/concat:0+xcreditscore_lattice/group_concat_12/concat"Concat*
+axis†
+Ã
+-xcreditscore_lattice/group_concat_12/concat:0
+&xcreditscore_lattice/lattice_8/Const:07xcreditscore_lattice/lattice_12/clip_by_value/Minimum:05xcreditscore_lattice/lattice_12/clip_by_value/Minimum"Min
+∆
+7xcreditscore_lattice/lattice_12/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0/xcreditscore_lattice/lattice_12/clip_by_value:0-xcreditscore_lattice/lattice_12/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_12/clip_by_value:0&xcreditscore_lattice/lattice_12/Cast:0$xcreditscore_lattice/lattice_12/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_12/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0)xcreditscore_lattice/lattice_12/Minimum:0'xcreditscore_lattice/lattice_12/Minimum"Min
+ß
+)xcreditscore_lattice/lattice_12/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0%xcreditscore_lattice/lattice_12/mul:0#xcreditscore_lattice/lattice_12/mul"Mul
+¡
+%xcreditscore_lattice/lattice_12/mul:0
+const_fold_opt__515%xcreditscore_lattice/lattice_12/Sum:0#xcreditscore_lattice/lattice_12/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_12/Minimum:0(xcreditscore_lattice/lattice_12/Cast_1:0&xcreditscore_lattice/lattice_12/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_12/clip_by_value:0
+(xcreditscore_lattice/lattice_12/Cast_1:0%xcreditscore_lattice/lattice_12/sub:0#xcreditscore_lattice/lattice_12/sub"Sub
+à
+%xcreditscore_lattice/lattice_12/sub:0,xcreditscore_lattice/lattice_12/sort/Shape:0*xcreditscore_lattice/lattice_12/sort/Shape"Shape
+©
+,xcreditscore_lattice/lattice_12/sort/Shape:04xcreditscore_lattice/lattice_12/argsort/Shape__316:02xcreditscore_lattice/lattice_12/argsort/Shape__316"Cast*	
+to†
+Ê
+4xcreditscore_lattice/lattice_12/argsort/Shape__316:0
+const_fold_opt__515
+const_ends__125
+const_axes__1307xcreditscore_lattice/lattice_12/argsort/strided_slice:05xcreditscore_lattice/lattice_12/argsort/strided_slice"Slice: 
+…
+7xcreditscore_lattice/lattice_12/argsort/strided_slice:0
+const_axes__1309xcreditscore_lattice/lattice_12/sort/strided_slice__307:07xcreditscore_lattice/lattice_12/sort/strided_slice__307"Squeeze: 
+ì
+;xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/truediv:0=xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/truediv"Mul
+Ö
+?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/Minimum:0=xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/Minimum"Min
+Ç
+?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/Maximum:0=xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/Maximum"Max
+ó
+Axcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/ones_like:0
+?xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/Maximum:0>xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/concat:0<xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/concat"Concat*
+axis†
+ï
+>xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/concat:0
+Mxcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/MatMul/ReadVariableOp:0>xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/MatMul:0<xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/MatMul"MatMul
+Ó
+>xcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/MatMul:0
+=xcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/MatMul:0,xcreditscore_lattice/group_concat_5/concat:0*xcreditscore_lattice/group_concat_5/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_5/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_5/clip_by_value/Minimum:04xcreditscore_lattice/lattice_5/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_5/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_5/clip_by_value:0,xcreditscore_lattice/lattice_5/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_5/clip_by_value:0%xcreditscore_lattice/lattice_5/Cast:0#xcreditscore_lattice/lattice_5/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_5/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_5/Minimum:0&xcreditscore_lattice/lattice_5/Minimum"Min
+§
+(xcreditscore_lattice/lattice_5/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_5/mul:0"xcreditscore_lattice/lattice_5/mul"Mul
+æ
+$xcreditscore_lattice/lattice_5/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_5/Sum:0"xcreditscore_lattice/lattice_5/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_5/Minimum:0'xcreditscore_lattice/lattice_5/Cast_1:0%xcreditscore_lattice/lattice_5/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_5/clip_by_value:0
+'xcreditscore_lattice/lattice_5/Cast_1:0$xcreditscore_lattice/lattice_5/sub:0"xcreditscore_lattice/lattice_5/sub"Sub
+ã
+$xcreditscore_lattice/lattice_5/sub:0.xcreditscore_lattice/lattice_5/argsort/Shape:0,xcreditscore_lattice/lattice_5/argsort/Shape"Shape
+£
+.xcreditscore_lattice/lattice_5/argsort/Shape:00xcreditscore_lattice/lattice_5/sort/Shape__333:0.xcreditscore_lattice/lattice_5/sort/Shape__333"Cast*	
+to†
+⁄
+0xcreditscore_lattice/lattice_5/sort/Shape__333:0
+const_fold_opt__515
+const_ends__125
+const_axes__1303xcreditscore_lattice/lattice_5/sort/strided_slice:01xcreditscore_lattice/lattice_5/sort/strided_slice"Slice: 
+…
+3xcreditscore_lattice/lattice_5/sort/strided_slice:0
+const_axes__130;xcreditscore_lattice/lattice_5/argsort/strided_slice__350:09xcreditscore_lattice/lattice_5/argsort/strided_slice__350"Squeeze: 
+˚
+3xcreditscore_lattice/cal_MSinceMostRecentDelq/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:07xcreditscore_lattice/cal_MSinceMostRecentDelq/truediv:05xcreditscore_lattice/cal_MSinceMostRecentDelq/truediv"Mul
+Ì
+7xcreditscore_lattice/cal_MSinceMostRecentDelq/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:07xcreditscore_lattice/cal_MSinceMostRecentDelq/Minimum:05xcreditscore_lattice/cal_MSinceMostRecentDelq/Minimum"Min
+Í
+7xcreditscore_lattice/cal_MSinceMostRecentDelq/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:07xcreditscore_lattice/cal_MSinceMostRecentDelq/Maximum:05xcreditscore_lattice/cal_MSinceMostRecentDelq/Maximum"Max
+˜
+9xcreditscore_lattice/cal_MSinceMostRecentDelq/ones_like:0
+7xcreditscore_lattice/cal_MSinceMostRecentDelq/Maximum:06xcreditscore_lattice/cal_MSinceMostRecentDelq/concat:04xcreditscore_lattice/cal_MSinceMostRecentDelq/concat"Concat*
+axis†
+ı
+6xcreditscore_lattice/cal_MSinceMostRecentDelq/concat:0
+Excreditscore_lattice/cal_MSinceMostRecentDelq/MatMul/ReadVariableOp:06xcreditscore_lattice/cal_MSinceMostRecentDelq/MatMul:04xcreditscore_lattice/cal_MSinceMostRecentDelq/MatMul"MatMul
+˛
+4xcreditscore_lattice/cal_InstallBurdenPerTrade/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:08xcreditscore_lattice/cal_InstallBurdenPerTrade/truediv:06xcreditscore_lattice/cal_InstallBurdenPerTrade/truediv"Mul
+
+8xcreditscore_lattice/cal_InstallBurdenPerTrade/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:08xcreditscore_lattice/cal_InstallBurdenPerTrade/Minimum:06xcreditscore_lattice/cal_InstallBurdenPerTrade/Minimum"Min
+Ì
+8xcreditscore_lattice/cal_InstallBurdenPerTrade/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:08xcreditscore_lattice/cal_InstallBurdenPerTrade/Maximum:06xcreditscore_lattice/cal_InstallBurdenPerTrade/Maximum"Max
+˚
+:xcreditscore_lattice/cal_InstallBurdenPerTrade/ones_like:0
+8xcreditscore_lattice/cal_InstallBurdenPerTrade/Maximum:07xcreditscore_lattice/cal_InstallBurdenPerTrade/concat:05xcreditscore_lattice/cal_InstallBurdenPerTrade/concat"Concat*
+axis†
+˘
+7xcreditscore_lattice/cal_InstallBurdenPerTrade/concat:0
+Fxcreditscore_lattice/cal_InstallBurdenPerTrade/MatMul/ReadVariableOp:07xcreditscore_lattice/cal_InstallBurdenPerTrade/MatMul:05xcreditscore_lattice/cal_InstallBurdenPerTrade/MatMul"MatMul
+◊
+7xcreditscore_lattice/cal_InstallBurdenPerTrade/MatMul:0
+'xcreditscore_lattice/lattice_13/Const:07xcreditscore_lattice/lattice_13/clip_by_value/Minimum:05xcreditscore_lattice/lattice_13/clip_by_value/Minimum"Min
+«
+7xcreditscore_lattice/lattice_13/clip_by_value/Minimum:0
+'xcreditscore_lattice/lattice_13/zeros:0/xcreditscore_lattice/lattice_13/clip_by_value:0-xcreditscore_lattice/lattice_13/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_13/clip_by_value:0&xcreditscore_lattice/lattice_13/Cast:0$xcreditscore_lattice/lattice_13/Cast"Cast*	
+to†
+Æ
+&xcreditscore_lattice/lattice_13/Cast:0
++xcreditscore_lattice/lattice_13/Minimum/y:0)xcreditscore_lattice/lattice_13/Minimum:0'xcreditscore_lattice/lattice_13/Minimum"Min
+≈
+)xcreditscore_lattice/lattice_13/Minimum:0
+const_fold_opt__515%xcreditscore_lattice/lattice_13/Sum:0#xcreditscore_lattice/lattice_13/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_13/Minimum:0(xcreditscore_lattice/lattice_13/Cast_1:0&xcreditscore_lattice/lattice_13/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_13/clip_by_value:0
+(xcreditscore_lattice/lattice_13/Cast_1:0%xcreditscore_lattice/lattice_13/sub:0#xcreditscore_lattice/lattice_13/sub"Sub
+à
+%xcreditscore_lattice/lattice_13/sub:0,xcreditscore_lattice/lattice_13/sort/Shape:0*xcreditscore_lattice/lattice_13/sort/Shape"Shape
+£
+,xcreditscore_lattice/lattice_13/sort/Shape:01xcreditscore_lattice/lattice_13/sort/Shape__363:0/xcreditscore_lattice/lattice_13/sort/Shape__363"Cast*	
+to†
+›
+1xcreditscore_lattice/lattice_13/sort/Shape__363:0
+const_fold_opt__515
+const_ends__125
+const_axes__1304xcreditscore_lattice/lattice_13/sort/strided_slice:02xcreditscore_lattice/lattice_13/sort/strided_slice"Slice: 
+Ã
+4xcreditscore_lattice/lattice_13/sort/strided_slice:0
+const_axes__130<xcreditscore_lattice/lattice_13/argsort/strided_slice__380:0:xcreditscore_lattice/lattice_13/argsort/strided_slice__380"Squeeze: 
+¯
+2xcreditscore_lattice/cal_InquiryToTradeRatio/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:06xcreditscore_lattice/cal_InquiryToTradeRatio/truediv:04xcreditscore_lattice/cal_InquiryToTradeRatio/truediv"Mul
+Í
+6xcreditscore_lattice/cal_InquiryToTradeRatio/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:06xcreditscore_lattice/cal_InquiryToTradeRatio/Minimum:04xcreditscore_lattice/cal_InquiryToTradeRatio/Minimum"Min
+Á
+6xcreditscore_lattice/cal_InquiryToTradeRatio/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:06xcreditscore_lattice/cal_InquiryToTradeRatio/Maximum:04xcreditscore_lattice/cal_InquiryToTradeRatio/Maximum"Max
+Û
+8xcreditscore_lattice/cal_InquiryToTradeRatio/ones_like:0
+6xcreditscore_lattice/cal_InquiryToTradeRatio/Maximum:05xcreditscore_lattice/cal_InquiryToTradeRatio/concat:03xcreditscore_lattice/cal_InquiryToTradeRatio/concat"Concat*
+axis†
+Ò
+5xcreditscore_lattice/cal_InquiryToTradeRatio/concat:0
+Dxcreditscore_lattice/cal_InquiryToTradeRatio/MatMul/ReadVariableOp:05xcreditscore_lattice/cal_InquiryToTradeRatio/MatMul:03xcreditscore_lattice/cal_InquiryToTradeRatio/MatMul"MatMul
+‡
+5xcreditscore_lattice/cal_InquiryToTradeRatio/MatMul:0
+6xcreditscore_lattice/cal_MSinceMostRecentDelq/MatMul:0-xcreditscore_lattice/group_concat_10/concat:0+xcreditscore_lattice/group_concat_10/concat"Concat*
+axis†
+Ã
+-xcreditscore_lattice/group_concat_10/concat:0
+&xcreditscore_lattice/lattice_8/Const:07xcreditscore_lattice/lattice_10/clip_by_value/Minimum:05xcreditscore_lattice/lattice_10/clip_by_value/Minimum"Min
+∆
+7xcreditscore_lattice/lattice_10/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0/xcreditscore_lattice/lattice_10/clip_by_value:0-xcreditscore_lattice/lattice_10/clip_by_value"Max
+ê
+/xcreditscore_lattice/lattice_10/clip_by_value:0&xcreditscore_lattice/lattice_10/Cast:0$xcreditscore_lattice/lattice_10/Cast"Cast*	
+to†
+≠
+&xcreditscore_lattice/lattice_10/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0)xcreditscore_lattice/lattice_10/Minimum:0'xcreditscore_lattice/lattice_10/Minimum"Min
+ß
+)xcreditscore_lattice/lattice_10/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0%xcreditscore_lattice/lattice_10/mul:0#xcreditscore_lattice/lattice_10/mul"Mul
+¡
+%xcreditscore_lattice/lattice_10/mul:0
+const_fold_opt__515%xcreditscore_lattice/lattice_10/Sum:0#xcreditscore_lattice/lattice_10/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+é
+)xcreditscore_lattice/lattice_10/Minimum:0(xcreditscore_lattice/lattice_10/Cast_1:0&xcreditscore_lattice/lattice_10/Cast_1"Cast*	
+to†
+¨
+/xcreditscore_lattice/lattice_10/clip_by_value:0
+(xcreditscore_lattice/lattice_10/Cast_1:0%xcreditscore_lattice/lattice_10/sub:0#xcreditscore_lattice/lattice_10/sub"Sub
+à
+%xcreditscore_lattice/lattice_10/sub:0,xcreditscore_lattice/lattice_10/sort/Shape:0*xcreditscore_lattice/lattice_10/sort/Shape"Shape
+£
+,xcreditscore_lattice/lattice_10/sort/Shape:01xcreditscore_lattice/lattice_10/sort/Shape__393:0/xcreditscore_lattice/lattice_10/sort/Shape__393"Cast*	
+to†
+›
+1xcreditscore_lattice/lattice_10/sort/Shape__393:0
+const_fold_opt__515
+const_ends__125
+const_axes__1304xcreditscore_lattice/lattice_10/sort/strided_slice:02xcreditscore_lattice/lattice_10/sort/strided_slice"Slice: 
+Ã
+4xcreditscore_lattice/lattice_10/sort/strided_slice:0
+const_axes__130<xcreditscore_lattice/lattice_10/argsort/strided_slice__410:0:xcreditscore_lattice/lattice_10/argsort/strided_slice__410"Squeeze: 
+˚
+3xcreditscore_lattice/cal_ExternalRiskEstimate/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:07xcreditscore_lattice/cal_ExternalRiskEstimate/truediv:05xcreditscore_lattice/cal_ExternalRiskEstimate/truediv"Mul
+Ì
+7xcreditscore_lattice/cal_ExternalRiskEstimate/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:07xcreditscore_lattice/cal_ExternalRiskEstimate/Minimum:05xcreditscore_lattice/cal_ExternalRiskEstimate/Minimum"Min
+Í
+7xcreditscore_lattice/cal_ExternalRiskEstimate/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:07xcreditscore_lattice/cal_ExternalRiskEstimate/Maximum:05xcreditscore_lattice/cal_ExternalRiskEstimate/Maximum"Max
+˜
+9xcreditscore_lattice/cal_ExternalRiskEstimate/ones_like:0
+7xcreditscore_lattice/cal_ExternalRiskEstimate/Maximum:06xcreditscore_lattice/cal_ExternalRiskEstimate/concat:04xcreditscore_lattice/cal_ExternalRiskEstimate/concat"Concat*
+axis†
+ı
+6xcreditscore_lattice/cal_ExternalRiskEstimate/concat:0
+Excreditscore_lattice/cal_ExternalRiskEstimate/MatMul/ReadVariableOp:06xcreditscore_lattice/cal_ExternalRiskEstimate/MatMul:04xcreditscore_lattice/cal_ExternalRiskEstimate/MatMul"MatMul
+Â
+6xcreditscore_lattice/cal_ExternalRiskEstimate/MatMul:0
+<xcreditscore_lattice/cal_NetFractionRevolvingBurden/MatMul:0,xcreditscore_lattice/group_concat_0/concat:0*xcreditscore_lattice/group_concat_0/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_0/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_0/clip_by_value/Minimum:04xcreditscore_lattice/lattice_0/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_0/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_0/clip_by_value:0,xcreditscore_lattice/lattice_0/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_0/clip_by_value:0%xcreditscore_lattice/lattice_0/Cast:0#xcreditscore_lattice/lattice_0/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_0/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_0/Minimum:0&xcreditscore_lattice/lattice_0/Minimum"Min
+§
+(xcreditscore_lattice/lattice_0/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_0/mul:0"xcreditscore_lattice/lattice_0/mul"Mul
+æ
+$xcreditscore_lattice/lattice_0/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_0/Sum:0"xcreditscore_lattice/lattice_0/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_0/Minimum:0'xcreditscore_lattice/lattice_0/Cast_1:0%xcreditscore_lattice/lattice_0/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_0/clip_by_value:0
+'xcreditscore_lattice/lattice_0/Cast_1:0$xcreditscore_lattice/lattice_0/sub:0"xcreditscore_lattice/lattice_0/sub"Sub
+ã
+$xcreditscore_lattice/lattice_0/sub:0.xcreditscore_lattice/lattice_0/argsort/Shape:0,xcreditscore_lattice/lattice_0/argsort/Shape"Shape
+©
+.xcreditscore_lattice/lattice_0/argsort/Shape:03xcreditscore_lattice/lattice_0/argsort/Shape__436:01xcreditscore_lattice/lattice_0/argsort/Shape__436"Cast*	
+to†
+„
+3xcreditscore_lattice/lattice_0/argsort/Shape__436:0
+const_fold_opt__515
+const_ends__125
+const_axes__1306xcreditscore_lattice/lattice_0/argsort/strided_slice:04xcreditscore_lattice/lattice_0/argsort/strided_slice"Slice: 
+∆
+6xcreditscore_lattice/lattice_0/argsort/strided_slice:0
+const_axes__1308xcreditscore_lattice/lattice_0/sort/strided_slice__427:06xcreditscore_lattice/lattice_0/sort/strided_slice__427"Squeeze: 
+È
+-xcreditscore_lattice/cal_AverageMInFile/sub:0
+OConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:01xcreditscore_lattice/cal_AverageMInFile/truediv:0/xcreditscore_lattice/cal_AverageMInFile/truediv"Mul
+€
+1xcreditscore_lattice/cal_AverageMInFile/truediv:0
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:01xcreditscore_lattice/cal_AverageMInFile/Minimum:0/xcreditscore_lattice/cal_AverageMInFile/Minimum"Min
+ÿ
+1xcreditscore_lattice/cal_AverageMInFile/Minimum:0
+:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:01xcreditscore_lattice/cal_AverageMInFile/Maximum:0/xcreditscore_lattice/cal_AverageMInFile/Maximum"Max
+ﬂ
+3xcreditscore_lattice/cal_AverageMInFile/ones_like:0
+1xcreditscore_lattice/cal_AverageMInFile/Maximum:00xcreditscore_lattice/cal_AverageMInFile/concat:0.xcreditscore_lattice/cal_AverageMInFile/concat"Concat*
+axis†
+›
+0xcreditscore_lattice/cal_AverageMInFile/concat:0
+?xcreditscore_lattice/cal_AverageMInFile/MatMul/ReadVariableOp:00xcreditscore_lattice/cal_AverageMInFile/MatMul:0.xcreditscore_lattice/cal_AverageMInFile/MatMul"MatMul
+Á
+0xcreditscore_lattice/cal_AverageMInFile/MatMul:0
+Dxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/MatMul:0,xcreditscore_lattice/group_concat_3/concat:0*xcreditscore_lattice/group_concat_3/concat"Concat*
+axis†
+…
+,xcreditscore_lattice/group_concat_3/concat:0
+&xcreditscore_lattice/lattice_8/Const:06xcreditscore_lattice/lattice_3/clip_by_value/Minimum:04xcreditscore_lattice/lattice_3/clip_by_value/Minimum"Min
+√
+6xcreditscore_lattice/lattice_3/clip_by_value/Minimum:0
+&xcreditscore_lattice/lattice_5/zeros:0.xcreditscore_lattice/lattice_3/clip_by_value:0,xcreditscore_lattice/lattice_3/clip_by_value"Max
+ç
+.xcreditscore_lattice/lattice_3/clip_by_value:0%xcreditscore_lattice/lattice_3/Cast:0#xcreditscore_lattice/lattice_3/Cast"Cast*	
+to†
+™
+%xcreditscore_lattice/lattice_3/Cast:0
+*xcreditscore_lattice/lattice_1/Minimum/y:0(xcreditscore_lattice/lattice_3/Minimum:0&xcreditscore_lattice/lattice_3/Minimum"Min
+§
+(xcreditscore_lattice/lattice_3/Minimum:0
+)xcreditscore_lattice/lattice_12/Const_1:0$xcreditscore_lattice/lattice_3/mul:0"xcreditscore_lattice/lattice_3/mul"Mul
+æ
+$xcreditscore_lattice/lattice_3/mul:0
+const_fold_opt__515$xcreditscore_lattice/lattice_3/Sum:0"xcreditscore_lattice/lattice_3/Sum"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+ã
+(xcreditscore_lattice/lattice_3/Minimum:0'xcreditscore_lattice/lattice_3/Cast_1:0%xcreditscore_lattice/lattice_3/Cast_1"Cast*	
+to†
+®
+.xcreditscore_lattice/lattice_3/clip_by_value:0
+'xcreditscore_lattice/lattice_3/Cast_1:0$xcreditscore_lattice/lattice_3/sub:0"xcreditscore_lattice/lattice_3/sub"Sub
+Ö
+$xcreditscore_lattice/lattice_3/sub:0+xcreditscore_lattice/lattice_3/sort/Shape:0)xcreditscore_lattice/lattice_3/sort/Shape"Shape
+¶
++xcreditscore_lattice/lattice_3/sort/Shape:03xcreditscore_lattice/lattice_3/argsort/Shape__466:01xcreditscore_lattice/lattice_3/argsort/Shape__466"Cast*	
+to†
+›
+3xcreditscore_lattice/lattice_3/argsort/Shape__466:0
+const_fold_opt__515
+const_ends__125
+const_axes__1303xcreditscore_lattice/lattice_3/sort/strided_slice:01xcreditscore_lattice/lattice_3/sort/strided_slice"Slice: 
+…
+3xcreditscore_lattice/lattice_3/sort/strided_slice:0
+const_axes__130;xcreditscore_lattice/lattice_3/argsort/strided_slice__470:09xcreditscore_lattice/lattice_3/argsort/strided_slice__470"Squeeze: 
+f
+;xcreditscore_lattice/lattice_7/argsort/strided_slice__110:0
+Cast__99:0Cast__99"Cast*	
+to†: 
+L
+
+Cast__99:0
+const_axes__130Unsqueeze__114:0Unsqueeze__114"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_7/sub:0
+Unsqueeze__114:0/xcreditscore_lattice/lattice_7/argsort/TopKV2:0/xcreditscore_lattice/lattice_7/argsort/TopKV2:1-xcreditscore_lattice/lattice_7/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_7/argsort/TopKV2:14xcreditscore_lattice/lattice_7/argsort/TopKV2__115:02xcreditscore_lattice/lattice_7/argsort/TopKV2__115"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_7/argsort/TopKV2__115:0)xcreditscore_lattice/lattice_7/GatherV2:0'xcreditscore_lattice/lattice_7/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_7/Sum:0
+)xcreditscore_lattice/lattice_7/GatherV2:0'xcreditscore_lattice/lattice_7/concat:0%xcreditscore_lattice/lattice_7/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_7/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_7/Cumsum:0%xcreditscore_lattice/lattice_7/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_7/Reshape:0
+'xcreditscore_lattice/lattice_7/Cumsum:0+xcreditscore_lattice/lattice_7/GatherV2_1:0)xcreditscore_lattice/lattice_7/GatherV2_1"Gather*
+axis †
+”
+/xcreditscore_lattice/lattice_7/argsort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_7/PadV2:0$xcreditscore_lattice/lattice_7/PadV2"Pad
+ê
+/xcreditscore_lattice/lattice_7/argsort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_7/Pad:0"xcreditscore_lattice/lattice_7/Pad"Pad
+°
+&xcreditscore_lattice/lattice_7/PadV2:0
+$xcreditscore_lattice/lattice_7/Pad:0&xcreditscore_lattice/lattice_7/sub_1:0$xcreditscore_lattice/lattice_7/sub_1"Sub
+®
++xcreditscore_lattice/lattice_7/GatherV2_1:0
+&xcreditscore_lattice/lattice_7/sub_1:0&xcreditscore_lattice/lattice_7/Mul_1:0$xcreditscore_lattice/lattice_7/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_7/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_7/Sum_1:0$xcreditscore_lattice/lattice_7/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+b
+7xcreditscore_lattice/lattice_1/sort/strided_slice__67:0
+Cast__69:0Cast__69"Cast*	
+to†: 
+J
+
+Cast__69:0
+const_axes__130Unsqueeze__84:0Unsqueeze__84"	Unsqueeze: 
+‘
+$xcreditscore_lattice/lattice_1/sub:0
+Unsqueeze__84:0,xcreditscore_lattice/lattice_1/sort/TopKV2:0,xcreditscore_lattice/lattice_1/sort/TopKV2:1*xcreditscore_lattice/lattice_1/sort/TopKV2"TopK*
+sorted†
+ß
+,xcreditscore_lattice/lattice_1/sort/TopKV2:13xcreditscore_lattice/lattice_1/argsort/TopKV2__85:01xcreditscore_lattice/lattice_1/argsort/TopKV2__85"Cast*	
+to†
+…
+)xcreditscore_lattice/lattice_12/Const_1:0
+3xcreditscore_lattice/lattice_1/argsort/TopKV2__85:0)xcreditscore_lattice/lattice_1/GatherV2:0'xcreditscore_lattice/lattice_1/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_1/Sum:0
+)xcreditscore_lattice/lattice_1/GatherV2:0'xcreditscore_lattice/lattice_1/concat:0%xcreditscore_lattice/lattice_1/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_1/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_1/Cumsum:0%xcreditscore_lattice/lattice_1/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_1/Reshape:0
+'xcreditscore_lattice/lattice_1/Cumsum:0+xcreditscore_lattice/lattice_1/GatherV2_1:0)xcreditscore_lattice/lattice_1/GatherV2_1"Gather*
+axis †
+–
+,xcreditscore_lattice/lattice_1/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_1/PadV2:0$xcreditscore_lattice/lattice_1/PadV2"Pad
+ç
+,xcreditscore_lattice/lattice_1/sort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_1/Pad:0"xcreditscore_lattice/lattice_1/Pad"Pad
+°
+&xcreditscore_lattice/lattice_1/PadV2:0
+$xcreditscore_lattice/lattice_1/Pad:0&xcreditscore_lattice/lattice_1/sub_1:0$xcreditscore_lattice/lattice_1/sub_1"Sub
+®
++xcreditscore_lattice/lattice_1/GatherV2_1:0
+&xcreditscore_lattice/lattice_1/sub_1:0&xcreditscore_lattice/lattice_1/Mul_1:0$xcreditscore_lattice/lattice_1/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_1/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_1/Sum_1:0$xcreditscore_lattice/lattice_1/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_3/argsort/strided_slice__470:0Cast__472:0	Cast__472"Cast*	
+to†: 
+M
+Cast__472:0
+const_axes__130Unsqueeze__461:0Unsqueeze__461"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_3/sub:0
+Unsqueeze__461:0/xcreditscore_lattice/lattice_3/argsort/TopKV2:0/xcreditscore_lattice/lattice_3/argsort/TopKV2:1-xcreditscore_lattice/lattice_3/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_3/argsort/TopKV2:14xcreditscore_lattice/lattice_3/argsort/TopKV2__475:02xcreditscore_lattice/lattice_3/argsort/TopKV2__475"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_3/argsort/TopKV2__475:0)xcreditscore_lattice/lattice_3/GatherV2:0'xcreditscore_lattice/lattice_3/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_3/Sum:0
+)xcreditscore_lattice/lattice_3/GatherV2:0'xcreditscore_lattice/lattice_3/concat:0%xcreditscore_lattice/lattice_3/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_3/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_3/Cumsum:0%xcreditscore_lattice/lattice_3/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_3/Reshape:0
+'xcreditscore_lattice/lattice_3/Cumsum:0+xcreditscore_lattice/lattice_3/GatherV2_1:0)xcreditscore_lattice/lattice_3/GatherV2_1"Gather*
+axis †
+”
+/xcreditscore_lattice/lattice_3/argsort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_3/PadV2:0$xcreditscore_lattice/lattice_3/PadV2"Pad
+ê
+/xcreditscore_lattice/lattice_3/argsort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_3/Pad:0"xcreditscore_lattice/lattice_3/Pad"Pad
+°
+&xcreditscore_lattice/lattice_3/PadV2:0
+$xcreditscore_lattice/lattice_3/Pad:0&xcreditscore_lattice/lattice_3/sub_1:0$xcreditscore_lattice/lattice_3/sub_1"Sub
+®
++xcreditscore_lattice/lattice_3/GatherV2_1:0
+&xcreditscore_lattice/lattice_3/sub_1:0&xcreditscore_lattice/lattice_3/Mul_1:0$xcreditscore_lattice/lattice_3/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_3/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_3/Sum_1:0$xcreditscore_lattice/lattice_3/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_0/sort/strided_slice__427:0Cast__429:0	Cast__429"Cast*	
+to†: 
+M
+Cast__429:0
+const_axes__130Unsqueeze__431:0Unsqueeze__431"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_0/sub:0
+Unsqueeze__431:0/xcreditscore_lattice/lattice_0/argsort/TopKV2:0/xcreditscore_lattice/lattice_0/argsort/TopKV2:1-xcreditscore_lattice/lattice_0/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_0/argsort/TopKV2:14xcreditscore_lattice/lattice_0/argsort/TopKV2__445:02xcreditscore_lattice/lattice_0/argsort/TopKV2__445"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_0/argsort/TopKV2__445:0)xcreditscore_lattice/lattice_0/GatherV2:0'xcreditscore_lattice/lattice_0/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_0/Sum:0
+)xcreditscore_lattice/lattice_0/GatherV2:0'xcreditscore_lattice/lattice_0/concat:0%xcreditscore_lattice/lattice_0/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_0/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_0/Cumsum:0%xcreditscore_lattice/lattice_0/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_0/Reshape:0
+'xcreditscore_lattice/lattice_0/Cumsum:0+xcreditscore_lattice/lattice_0/GatherV2_1:0)xcreditscore_lattice/lattice_0/GatherV2_1"Gather*
+axis †
+”
+/xcreditscore_lattice/lattice_0/argsort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_0/PadV2:0$xcreditscore_lattice/lattice_0/PadV2"Pad
+ê
+/xcreditscore_lattice/lattice_0/argsort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_0/Pad:0"xcreditscore_lattice/lattice_0/Pad"Pad
+°
+&xcreditscore_lattice/lattice_0/PadV2:0
+$xcreditscore_lattice/lattice_0/Pad:0&xcreditscore_lattice/lattice_0/sub_1:0$xcreditscore_lattice/lattice_0/sub_1"Sub
+®
++xcreditscore_lattice/lattice_0/GatherV2_1:0
+&xcreditscore_lattice/lattice_0/sub_1:0&xcreditscore_lattice/lattice_0/Mul_1:0$xcreditscore_lattice/lattice_0/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_0/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_0/Sum_1:0$xcreditscore_lattice/lattice_0/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+i
+<xcreditscore_lattice/lattice_10/argsort/strided_slice__410:0Cast__412:0	Cast__412"Cast*	
+to†: 
+M
+Cast__412:0
+const_axes__130Unsqueeze__401:0Unsqueeze__401"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_10/sub:0
+Unsqueeze__401:0-xcreditscore_lattice/lattice_10/sort/TopKV2:0-xcreditscore_lattice/lattice_10/sort/TopKV2:1+xcreditscore_lattice/lattice_10/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_10/sort/TopKV2:15xcreditscore_lattice/lattice_10/argsort/TopKV2__415:03xcreditscore_lattice/lattice_10/argsort/TopKV2__415"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_12/Const_1:0
+5xcreditscore_lattice/lattice_10/argsort/TopKV2__415:0*xcreditscore_lattice/lattice_10/GatherV2:0(xcreditscore_lattice/lattice_10/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_10/Sum:0
+*xcreditscore_lattice/lattice_10/GatherV2:0(xcreditscore_lattice/lattice_10/concat:0&xcreditscore_lattice/lattice_10/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_10/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0(xcreditscore_lattice/lattice_10/Cumsum:0&xcreditscore_lattice/lattice_10/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_10/Reshape:0
+(xcreditscore_lattice/lattice_10/Cumsum:0,xcreditscore_lattice/lattice_10/GatherV2_1:0*xcreditscore_lattice/lattice_10/GatherV2_1"Gather*
+axis †
+”
+-xcreditscore_lattice/lattice_10/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0'xcreditscore_lattice/lattice_10/PadV2:0%xcreditscore_lattice/lattice_10/PadV2"Pad
+ê
+-xcreditscore_lattice/lattice_10/sort/TopKV2:0
+pad_const__195%xcreditscore_lattice/lattice_10/Pad:0#xcreditscore_lattice/lattice_10/Pad"Pad
+•
+'xcreditscore_lattice/lattice_10/PadV2:0
+%xcreditscore_lattice/lattice_10/Pad:0'xcreditscore_lattice/lattice_10/sub_1:0%xcreditscore_lattice/lattice_10/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_10/GatherV2_1:0
+'xcreditscore_lattice/lattice_10/sub_1:0'xcreditscore_lattice/lattice_10/Mul_1:0%xcreditscore_lattice/lattice_10/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_10/Mul_1:0
+const_fold_opt__515'xcreditscore_lattice/lattice_10/Sum_1:0%xcreditscore_lattice/lattice_10/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+i
+<xcreditscore_lattice/lattice_13/argsort/strided_slice__380:0Cast__382:0	Cast__382"Cast*	
+to†: 
+M
+Cast__382:0
+const_axes__130Unsqueeze__384:0Unsqueeze__384"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_13/sub:0
+Unsqueeze__384:0-xcreditscore_lattice/lattice_13/sort/TopKV2:0-xcreditscore_lattice/lattice_13/sort/TopKV2:1+xcreditscore_lattice/lattice_13/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_13/sort/TopKV2:15xcreditscore_lattice/lattice_13/argsort/TopKV2__385:03xcreditscore_lattice/lattice_13/argsort/TopKV2__385"Cast*	
+to†
+œ
++xcreditscore_lattice/lattice_13/Minimum/y:0
+5xcreditscore_lattice/lattice_13/argsort/TopKV2__385:0*xcreditscore_lattice/lattice_13/GatherV2:0(xcreditscore_lattice/lattice_13/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_13/Sum:0
+*xcreditscore_lattice/lattice_13/GatherV2:0(xcreditscore_lattice/lattice_13/concat:0&xcreditscore_lattice/lattice_13/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_13/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0(xcreditscore_lattice/lattice_13/Cumsum:0&xcreditscore_lattice/lattice_13/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_13/Reshape:0
+(xcreditscore_lattice/lattice_13/Cumsum:0,xcreditscore_lattice/lattice_13/GatherV2_1:0*xcreditscore_lattice/lattice_13/GatherV2_1"Gather*
+axis †
+”
+-xcreditscore_lattice/lattice_13/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0'xcreditscore_lattice/lattice_13/PadV2:0%xcreditscore_lattice/lattice_13/PadV2"Pad
+ê
+-xcreditscore_lattice/lattice_13/sort/TopKV2:0
+pad_const__195%xcreditscore_lattice/lattice_13/Pad:0#xcreditscore_lattice/lattice_13/Pad"Pad
+•
+'xcreditscore_lattice/lattice_13/PadV2:0
+%xcreditscore_lattice/lattice_13/Pad:0'xcreditscore_lattice/lattice_13/sub_1:0%xcreditscore_lattice/lattice_13/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_13/GatherV2_1:0
+'xcreditscore_lattice/lattice_13/sub_1:0'xcreditscore_lattice/lattice_13/Mul_1:0%xcreditscore_lattice/lattice_13/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_13/Mul_1:0
+const_fold_opt__515'xcreditscore_lattice/lattice_13/Sum_1:0%xcreditscore_lattice/lattice_13/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_5/argsort/strided_slice__350:0Cast__339:0	Cast__339"Cast*	
+to†: 
+M
+Cast__339:0
+const_axes__130Unsqueeze__341:0Unsqueeze__341"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_5/sub:0
+Unsqueeze__341:0,xcreditscore_lattice/lattice_5/sort/TopKV2:0,xcreditscore_lattice/lattice_5/sort/TopKV2:1*xcreditscore_lattice/lattice_5/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_5/sort/TopKV2:14xcreditscore_lattice/lattice_5/argsort/TopKV2__355:02xcreditscore_lattice/lattice_5/argsort/TopKV2__355"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_5/argsort/TopKV2__355:0)xcreditscore_lattice/lattice_5/GatherV2:0'xcreditscore_lattice/lattice_5/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_5/Sum:0
+)xcreditscore_lattice/lattice_5/GatherV2:0'xcreditscore_lattice/lattice_5/concat:0%xcreditscore_lattice/lattice_5/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_5/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_5/Cumsum:0%xcreditscore_lattice/lattice_5/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_5/Reshape:0
+'xcreditscore_lattice/lattice_5/Cumsum:0+xcreditscore_lattice/lattice_5/GatherV2_1:0)xcreditscore_lattice/lattice_5/GatherV2_1"Gather*
+axis †
+–
+,xcreditscore_lattice/lattice_5/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_5/PadV2:0$xcreditscore_lattice/lattice_5/PadV2"Pad
+ç
+,xcreditscore_lattice/lattice_5/sort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_5/Pad:0"xcreditscore_lattice/lattice_5/Pad"Pad
+°
+&xcreditscore_lattice/lattice_5/PadV2:0
+$xcreditscore_lattice/lattice_5/Pad:0&xcreditscore_lattice/lattice_5/sub_1:0$xcreditscore_lattice/lattice_5/sub_1"Sub
+®
++xcreditscore_lattice/lattice_5/GatherV2_1:0
+&xcreditscore_lattice/lattice_5/sub_1:0&xcreditscore_lattice/lattice_5/Mul_1:0$xcreditscore_lattice/lattice_5/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_5/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_5/Sum_1:0$xcreditscore_lattice/lattice_5/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+f
+9xcreditscore_lattice/lattice_12/sort/strided_slice__307:0Cast__322:0	Cast__322"Cast*	
+to†: 
+M
+Cast__322:0
+const_axes__130Unsqueeze__324:0Unsqueeze__324"	Unsqueeze: 
+Ÿ
+%xcreditscore_lattice/lattice_12/sub:0
+Unsqueeze__324:0-xcreditscore_lattice/lattice_12/sort/TopKV2:0-xcreditscore_lattice/lattice_12/sort/TopKV2:1+xcreditscore_lattice/lattice_12/sort/TopKV2"TopK*
+sorted†
+¨
+-xcreditscore_lattice/lattice_12/sort/TopKV2:15xcreditscore_lattice/lattice_12/argsort/TopKV2__325:03xcreditscore_lattice/lattice_12/argsort/TopKV2__325"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_12/Const_1:0
+5xcreditscore_lattice/lattice_12/argsort/TopKV2__325:0*xcreditscore_lattice/lattice_12/GatherV2:0(xcreditscore_lattice/lattice_12/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_12/Sum:0
+*xcreditscore_lattice/lattice_12/GatherV2:0(xcreditscore_lattice/lattice_12/concat:0&xcreditscore_lattice/lattice_12/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_12/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0(xcreditscore_lattice/lattice_12/Cumsum:0&xcreditscore_lattice/lattice_12/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_12/Reshape:0
+(xcreditscore_lattice/lattice_12/Cumsum:0,xcreditscore_lattice/lattice_12/GatherV2_1:0*xcreditscore_lattice/lattice_12/GatherV2_1"Gather*
+axis †
+”
+-xcreditscore_lattice/lattice_12/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0'xcreditscore_lattice/lattice_12/PadV2:0%xcreditscore_lattice/lattice_12/PadV2"Pad
+ê
+-xcreditscore_lattice/lattice_12/sort/TopKV2:0
+pad_const__195%xcreditscore_lattice/lattice_12/Pad:0#xcreditscore_lattice/lattice_12/Pad"Pad
+•
+'xcreditscore_lattice/lattice_12/PadV2:0
+%xcreditscore_lattice/lattice_12/Pad:0'xcreditscore_lattice/lattice_12/sub_1:0%xcreditscore_lattice/lattice_12/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_12/GatherV2_1:0
+'xcreditscore_lattice/lattice_12/sub_1:0'xcreditscore_lattice/lattice_12/Mul_1:0%xcreditscore_lattice/lattice_12/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_12/Mul_1:0
+const_fold_opt__515'xcreditscore_lattice/lattice_12/Sum_1:0%xcreditscore_lattice/lattice_12/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_4/argsort/strided_slice__290:0Cast__292:0	Cast__292"Cast*	
+to†: 
+M
+Cast__292:0
+const_axes__130Unsqueeze__281:0Unsqueeze__281"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_4/sub:0
+Unsqueeze__281:0/xcreditscore_lattice/lattice_4/argsort/TopKV2:0/xcreditscore_lattice/lattice_4/argsort/TopKV2:1-xcreditscore_lattice/lattice_4/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_4/argsort/TopKV2:14xcreditscore_lattice/lattice_4/argsort/TopKV2__295:02xcreditscore_lattice/lattice_4/argsort/TopKV2__295"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_4/argsort/TopKV2__295:0)xcreditscore_lattice/lattice_4/GatherV2:0'xcreditscore_lattice/lattice_4/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_4/Sum:0
+)xcreditscore_lattice/lattice_4/GatherV2:0'xcreditscore_lattice/lattice_4/concat:0%xcreditscore_lattice/lattice_4/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_4/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_4/Cumsum:0%xcreditscore_lattice/lattice_4/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_4/Reshape:0
+'xcreditscore_lattice/lattice_4/Cumsum:0+xcreditscore_lattice/lattice_4/GatherV2_1:0)xcreditscore_lattice/lattice_4/GatherV2_1"Gather*
+axis †
+”
+/xcreditscore_lattice/lattice_4/argsort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_4/PadV2:0$xcreditscore_lattice/lattice_4/PadV2"Pad
+ê
+/xcreditscore_lattice/lattice_4/argsort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_4/Pad:0"xcreditscore_lattice/lattice_4/Pad"Pad
+°
+&xcreditscore_lattice/lattice_4/PadV2:0
+$xcreditscore_lattice/lattice_4/Pad:0&xcreditscore_lattice/lattice_4/sub_1:0$xcreditscore_lattice/lattice_4/sub_1"Sub
+®
++xcreditscore_lattice/lattice_4/GatherV2_1:0
+&xcreditscore_lattice/lattice_4/sub_1:0&xcreditscore_lattice/lattice_4/Mul_1:0$xcreditscore_lattice/lattice_4/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_4/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_4/Sum_1:0$xcreditscore_lattice/lattice_4/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_2/argsort/strided_slice__260:0Cast__249:0	Cast__249"Cast*	
+to†: 
+M
+Cast__249:0
+const_axes__130Unsqueeze__251:0Unsqueeze__251"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_2/sub:0
+Unsqueeze__251:0,xcreditscore_lattice/lattice_2/sort/TopKV2:0,xcreditscore_lattice/lattice_2/sort/TopKV2:1*xcreditscore_lattice/lattice_2/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_2/sort/TopKV2:14xcreditscore_lattice/lattice_2/argsort/TopKV2__265:02xcreditscore_lattice/lattice_2/argsort/TopKV2__265"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_2/argsort/TopKV2__265:0)xcreditscore_lattice/lattice_2/GatherV2:0'xcreditscore_lattice/lattice_2/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_2/Sum:0
+)xcreditscore_lattice/lattice_2/GatherV2:0'xcreditscore_lattice/lattice_2/concat:0%xcreditscore_lattice/lattice_2/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_2/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_2/Cumsum:0%xcreditscore_lattice/lattice_2/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_2/Reshape:0
+'xcreditscore_lattice/lattice_2/Cumsum:0+xcreditscore_lattice/lattice_2/GatherV2_1:0)xcreditscore_lattice/lattice_2/GatherV2_1"Gather*
+axis †
+–
+,xcreditscore_lattice/lattice_2/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_2/PadV2:0$xcreditscore_lattice/lattice_2/PadV2"Pad
+ç
+,xcreditscore_lattice/lattice_2/sort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_2/Pad:0"xcreditscore_lattice/lattice_2/Pad"Pad
+°
+&xcreditscore_lattice/lattice_2/PadV2:0
+$xcreditscore_lattice/lattice_2/Pad:0&xcreditscore_lattice/lattice_2/sub_1:0$xcreditscore_lattice/lattice_2/sub_1"Sub
+®
++xcreditscore_lattice/lattice_2/GatherV2_1:0
+&xcreditscore_lattice/lattice_2/sub_1:0&xcreditscore_lattice/lattice_2/Mul_1:0$xcreditscore_lattice/lattice_2/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_2/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_2/Sum_1:0$xcreditscore_lattice/lattice_2/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+f
+9xcreditscore_lattice/lattice_11/sort/strided_slice__217:0Cast__219:0	Cast__219"Cast*	
+to†: 
+M
+Cast__219:0
+const_axes__130Unsqueeze__221:0Unsqueeze__221"	Unsqueeze: 
+‚
+%xcreditscore_lattice/lattice_11/sub:0
+Unsqueeze__221:00xcreditscore_lattice/lattice_11/argsort/TopKV2:00xcreditscore_lattice/lattice_11/argsort/TopKV2:1.xcreditscore_lattice/lattice_11/argsort/TopKV2"TopK*
+sorted†
+Ø
+0xcreditscore_lattice/lattice_11/argsort/TopKV2:15xcreditscore_lattice/lattice_11/argsort/TopKV2__235:03xcreditscore_lattice/lattice_11/argsort/TopKV2__235"Cast*	
+to†
+Õ
+)xcreditscore_lattice/lattice_12/Const_1:0
+5xcreditscore_lattice/lattice_11/argsort/TopKV2__235:0*xcreditscore_lattice/lattice_11/GatherV2:0(xcreditscore_lattice/lattice_11/GatherV2"Gather*
+axis †
+∫
+%xcreditscore_lattice/lattice_11/Sum:0
+*xcreditscore_lattice/lattice_11/GatherV2:0(xcreditscore_lattice/lattice_11/concat:0&xcreditscore_lattice/lattice_11/concat"Concat*
+axis†
+’
+(xcreditscore_lattice/lattice_11/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0(xcreditscore_lattice/lattice_11/Cumsum:0&xcreditscore_lattice/lattice_11/Cumsum"CumSum*
+	exclusive †*
+reverse †
+ƒ
+)xcreditscore_lattice/lattice_11/Reshape:0
+(xcreditscore_lattice/lattice_11/Cumsum:0,xcreditscore_lattice/lattice_11/GatherV2_1:0*xcreditscore_lattice/lattice_11/GatherV2_1"Gather*
+axis †
+÷
+0xcreditscore_lattice/lattice_11/argsort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0'xcreditscore_lattice/lattice_11/PadV2:0%xcreditscore_lattice/lattice_11/PadV2"Pad
+ì
+0xcreditscore_lattice/lattice_11/argsort/TopKV2:0
+pad_const__195%xcreditscore_lattice/lattice_11/Pad:0#xcreditscore_lattice/lattice_11/Pad"Pad
+•
+'xcreditscore_lattice/lattice_11/PadV2:0
+%xcreditscore_lattice/lattice_11/Pad:0'xcreditscore_lattice/lattice_11/sub_1:0%xcreditscore_lattice/lattice_11/sub_1"Sub
+¨
+,xcreditscore_lattice/lattice_11/GatherV2_1:0
+'xcreditscore_lattice/lattice_11/sub_1:0'xcreditscore_lattice/lattice_11/Mul_1:0%xcreditscore_lattice/lattice_11/Mul_1"Mul
+«
+'xcreditscore_lattice/lattice_11/Mul_1:0
+const_fold_opt__515'xcreditscore_lattice/lattice_11/Sum_1:0%xcreditscore_lattice/lattice_11/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_6/sort/strided_slice__187:0Cast__202:0	Cast__202"Cast*	
+to†: 
+M
+Cast__202:0
+const_axes__130Unsqueeze__204:0Unsqueeze__204"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_6/sub:0
+Unsqueeze__204:0,xcreditscore_lattice/lattice_6/sort/TopKV2:0,xcreditscore_lattice/lattice_6/sort/TopKV2:1*xcreditscore_lattice/lattice_6/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_6/sort/TopKV2:14xcreditscore_lattice/lattice_6/argsort/TopKV2__205:02xcreditscore_lattice/lattice_6/argsort/TopKV2__205"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_6/argsort/TopKV2__205:0)xcreditscore_lattice/lattice_6/GatherV2:0'xcreditscore_lattice/lattice_6/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_6/Sum:0
+)xcreditscore_lattice/lattice_6/GatherV2:0'xcreditscore_lattice/lattice_6/concat:0%xcreditscore_lattice/lattice_6/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_6/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_6/Cumsum:0%xcreditscore_lattice/lattice_6/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_6/Reshape:0
+'xcreditscore_lattice/lattice_6/Cumsum:0+xcreditscore_lattice/lattice_6/GatherV2_1:0)xcreditscore_lattice/lattice_6/GatherV2_1"Gather*
+axis †
+–
+,xcreditscore_lattice/lattice_6/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_6/PadV2:0$xcreditscore_lattice/lattice_6/PadV2"Pad
+ç
+,xcreditscore_lattice/lattice_6/sort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_6/Pad:0"xcreditscore_lattice/lattice_6/Pad"Pad
+°
+&xcreditscore_lattice/lattice_6/PadV2:0
+$xcreditscore_lattice/lattice_6/Pad:0&xcreditscore_lattice/lattice_6/sub_1:0$xcreditscore_lattice/lattice_6/sub_1"Sub
+®
++xcreditscore_lattice/lattice_6/GatherV2_1:0
+&xcreditscore_lattice/lattice_6/sub_1:0&xcreditscore_lattice/lattice_6/Mul_1:0$xcreditscore_lattice/lattice_6/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_6/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_6/Sum_1:0$xcreditscore_lattice/lattice_6/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+h
+;xcreditscore_lattice/lattice_8/argsort/strided_slice__170:0Cast__159:0	Cast__159"Cast*	
+to†: 
+M
+Cast__159:0
+const_axes__130Unsqueeze__161:0Unsqueeze__161"	Unsqueeze: 
+ﬁ
+$xcreditscore_lattice/lattice_8/sub:0
+Unsqueeze__161:0/xcreditscore_lattice/lattice_8/argsort/TopKV2:0/xcreditscore_lattice/lattice_8/argsort/TopKV2:1-xcreditscore_lattice/lattice_8/argsort/TopKV2"TopK*
+sorted†
+¨
+/xcreditscore_lattice/lattice_8/argsort/TopKV2:14xcreditscore_lattice/lattice_8/argsort/TopKV2__175:02xcreditscore_lattice/lattice_8/argsort/TopKV2__175"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_8/argsort/TopKV2__175:0)xcreditscore_lattice/lattice_8/GatherV2:0'xcreditscore_lattice/lattice_8/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_8/Sum:0
+)xcreditscore_lattice/lattice_8/GatherV2:0'xcreditscore_lattice/lattice_8/concat:0%xcreditscore_lattice/lattice_8/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_8/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_8/Cumsum:0%xcreditscore_lattice/lattice_8/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_8/Reshape:0
+'xcreditscore_lattice/lattice_8/Cumsum:0+xcreditscore_lattice/lattice_8/GatherV2_1:0)xcreditscore_lattice/lattice_8/GatherV2_1"Gather*
+axis †
+”
+/xcreditscore_lattice/lattice_8/argsort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_8/PadV2:0$xcreditscore_lattice/lattice_8/PadV2"Pad
+ê
+/xcreditscore_lattice/lattice_8/argsort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_8/Pad:0"xcreditscore_lattice/lattice_8/Pad"Pad
+°
+&xcreditscore_lattice/lattice_8/PadV2:0
+$xcreditscore_lattice/lattice_8/Pad:0&xcreditscore_lattice/lattice_8/sub_1:0$xcreditscore_lattice/lattice_8/sub_1"Sub
+®
++xcreditscore_lattice/lattice_8/GatherV2_1:0
+&xcreditscore_lattice/lattice_8/sub_1:0&xcreditscore_lattice/lattice_8/Mul_1:0$xcreditscore_lattice/lattice_8/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_8/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_8/Sum_1:0$xcreditscore_lattice/lattice_8/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+e
+8xcreditscore_lattice/lattice_9/sort/strided_slice__127:0Cast__142:0	Cast__142"Cast*	
+to†: 
+M
+Cast__142:0
+const_axes__130Unsqueeze__131:0Unsqueeze__131"	Unsqueeze: 
+’
+$xcreditscore_lattice/lattice_9/sub:0
+Unsqueeze__131:0,xcreditscore_lattice/lattice_9/sort/TopKV2:0,xcreditscore_lattice/lattice_9/sort/TopKV2:1*xcreditscore_lattice/lattice_9/sort/TopKV2"TopK*
+sorted†
+©
+,xcreditscore_lattice/lattice_9/sort/TopKV2:14xcreditscore_lattice/lattice_9/argsort/TopKV2__145:02xcreditscore_lattice/lattice_9/argsort/TopKV2__145"Cast*	
+to†
+ 
+)xcreditscore_lattice/lattice_12/Const_1:0
+4xcreditscore_lattice/lattice_9/argsort/TopKV2__145:0)xcreditscore_lattice/lattice_9/GatherV2:0'xcreditscore_lattice/lattice_9/GatherV2"Gather*
+axis †
+∂
+$xcreditscore_lattice/lattice_9/Sum:0
+)xcreditscore_lattice/lattice_9/GatherV2:0'xcreditscore_lattice/lattice_9/concat:0%xcreditscore_lattice/lattice_9/concat"Concat*
+axis†
+“
+'xcreditscore_lattice/lattice_9/concat:0
+-xcreditscore_lattice/lattice_12/Cumsum/axis:0'xcreditscore_lattice/lattice_9/Cumsum:0%xcreditscore_lattice/lattice_9/Cumsum"CumSum*
+	exclusive †*
+reverse †
+¿
+(xcreditscore_lattice/lattice_9/Reshape:0
+'xcreditscore_lattice/lattice_9/Cumsum:0+xcreditscore_lattice/lattice_9/GatherV2_1:0)xcreditscore_lattice/lattice_9/GatherV2_1"Gather*
+axis †
+–
+,xcreditscore_lattice/lattice_9/sort/TopKV2:0
+pad_const__464
+=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0&xcreditscore_lattice/lattice_9/PadV2:0$xcreditscore_lattice/lattice_9/PadV2"Pad
+ç
+,xcreditscore_lattice/lattice_9/sort/TopKV2:0
+pad_const__195$xcreditscore_lattice/lattice_9/Pad:0"xcreditscore_lattice/lattice_9/Pad"Pad
+°
+&xcreditscore_lattice/lattice_9/PadV2:0
+$xcreditscore_lattice/lattice_9/Pad:0&xcreditscore_lattice/lattice_9/sub_1:0$xcreditscore_lattice/lattice_9/sub_1"Sub
+®
++xcreditscore_lattice/lattice_9/GatherV2_1:0
+&xcreditscore_lattice/lattice_9/sub_1:0&xcreditscore_lattice/lattice_9/Mul_1:0$xcreditscore_lattice/lattice_9/Mul_1"Mul
+ƒ
+&xcreditscore_lattice/lattice_9/Mul_1:0
+const_fold_opt__515&xcreditscore_lattice/lattice_9/Sum_1:0$xcreditscore_lattice/lattice_9/Sum_1"	ReduceSum*
+keepdims†*
+noop_with_empty_axes†
+£
+&xcreditscore_lattice/lattice_0/Sum_1:0
+&xcreditscore_lattice/lattice_1/Sum_1:0
+&xcreditscore_lattice/lattice_2/Sum_1:0
+&xcreditscore_lattice/lattice_3/Sum_1:0
+&xcreditscore_lattice/lattice_4/Sum_1:0
+&xcreditscore_lattice/lattice_5/Sum_1:0
+&xcreditscore_lattice/lattice_6/Sum_1:0
+&xcreditscore_lattice/lattice_7/Sum_1:0
+&xcreditscore_lattice/lattice_8/Sum_1:0
+&xcreditscore_lattice/lattice_9/Sum_1:0
+'xcreditscore_lattice/lattice_10/Sum_1:0
+'xcreditscore_lattice/lattice_11/Sum_1:0
+'xcreditscore_lattice/lattice_12/Sum_1:0
+'xcreditscore_lattice/lattice_13/Sum_1:0,xcreditscore_lattice/lattice_merged/concat:0*xcreditscore_lattice/lattice_merged/concat"Concat*
+axis†
+æ
+,xcreditscore_lattice/lattice_merged/concat:0
+6xcreditscore_lattice/pd_output/MatMul/ReadVariableOp:0'xcreditscore_lattice/pd_output/MatMul:0%xcreditscore_lattice/pd_output/MatMul"MatMul
+π
+'xcreditscore_lattice/pd_output/MatMul:0
+7xcreditscore_lattice/pd_output/BiasAdd/ReadVariableOp:0(xcreditscore_lattice/pd_output/BiasAdd:0&xcreditscore_lattice/pd_output/BiasAdd"Add
+f
+(xcreditscore_lattice/pd_output/BiasAdd:0	pd_output&xcreditscore_lattice/pd_output/Sigmoid"Sigmoidtf2onnx*IB=xcreditscore_lattice/slice_TotalDelqEvents/GatherV2/indices:0J   *QBExcreditscore_lattice/slice_RevolvingBurdenPerTrade/GatherV2/indices:0J   *OBCxcreditscore_lattice/slice_PercentTradesWBalance/GatherV2/indices:0J   *PBDxcreditscore_lattice/slice_PercentTradesNeverDelq/GatherV2/indices:0J   *NBBxcreditscore_lattice/slice_PercentInstallTrades/GatherV2/indices:0J   *PBDxcreditscore_lattice/slice_NumTradesOpeninLast12M/GatherV2/indices:0J   *UBIxcreditscore_lattice/slice_NumTrades90Ever2DerogPubRec/GatherV2/indices:0J   *UBIxcreditscore_lattice/slice_NumTrades60Ever2DerogPubRec/GatherV2/indices:0J   *HB<xcreditscore_lattice/slice_NumTotalTrades/GatherV2/indices:0J   *OBCxcreditscore_lattice/slice_NumSatisfactoryTrades/GatherV2/indices:0J   *TBHxcreditscore_lattice/slice_NumRevolvingTradesWBalance/GatherV2/indices:0J   *RBFxcreditscore_lattice/slice_NumInstallTradesWBalance/GatherV2/indices:0J   *OBCxcreditscore_lattice/slice_NumInqLast6Mexcl7days/GatherV2/indices:0J   *FB:xcreditscore_lattice/slice_NumInqLast6M/GatherV2/indices:0J   *\BPxcreditscore_lattice/slice_NumBank2NatlTradesWHighUtilization/GatherV2/indices:0J   *TBHxcreditscore_lattice/slice_NetFractionRevolvingBurden/GatherV2/indices:0J   *RBFxcreditscore_lattice/slice_NetFractionInstallBurden/GatherV2/indices:0J   *EB9xcreditscore_lattice/slice_MaxDelqEver/GatherV2/indices:0J
+   *RBFxcreditscore_lattice/slice_MaxDelq2PublicRecLast12M/GatherV2/indices:0J	   *SBGxcreditscore_lattice/slice_MSinceMostRecentTradeOpen/GatherV2/indices:0J   *VBJxcreditscore_lattice/slice_MSinceMostRecentInqexcl7days/GatherV2/indices:0J   *NBBxcreditscore_lattice/slice_MSinceMostRecentDelq/GatherV2/indices:0J   *OBCxcreditscore_lattice/slice_InstallBurdenPerTrade/GatherV2/indices:0J   *MBAxcreditscore_lattice/slice_InquiryToTradeRatio/GatherV2/indices:0J   *NBBxcreditscore_lattice/slice_ExternalRiskEstimate/GatherV2/indices:0J    *HB<xcreditscore_lattice/slice_AverageMInFile/GatherV2/indices:0J   *xB6xcreditscore_lattice/pd_output/MatMul/ReadVariableOp:0J8õ@@¯t?“±ô?ôÍz?»N?qK?lﬂŸ?Züª?Ú=√?jm±?jJq?Ó\—>5f=ì›Ö>*CB7xcreditscore_lattice/pd_output/BiasAdd/ReadVariableOp:0Jú¿*T	B(xcreditscore_lattice/lattice_9/Reshape:0J$K	:àw:    y˙?…©=   ?  Ä?  Ä?  Ä?*T	B(xcreditscore_lattice/lattice_8/Reshape:0J$    ™z$?bR&?I2?PÕo?  Ä?I2?  Ä?  Ä?*6B&xcreditscore_lattice/lattice_8/Const:0J   @   @*T	B(xcreditscore_lattice/lattice_7/Reshape:0J$          Ä?‡ﬁ>œ˚?  Ä?       ?  Ä?*T	B(xcreditscore_lattice/lattice_6/Reshape:0J$ bÒ9V„?  Ä?ÒΩg?  Ä?  Ä?¢¶h?  Ä?  Ä?*6B&xcreditscore_lattice/lattice_5/zeros:0J        *T	B(xcreditscore_lattice/lattice_5/Reshape:0J$¿§q;  Ä?  Ä?Ω˙[?  Ä?  Ä?Î]^?  Ä?  Ä?*T	B(xcreditscore_lattice/lattice_4/Reshape:0J$    ÌÎ?*7S?    ú∞C?:9S?   ?:9S?  Ä?*T	B(xcreditscore_lattice/lattice_3/Reshape:0J$    ‰}?  Ä?ÆèJ?Óö?  Ä?™–Z?  Ä?  Ä?*T	B(xcreditscore_lattice/lattice_2/Reshape:0J$ú¸: „>   ?êT?D¬T?åùV?¿nV?åùV?  Ä?*3B'xcreditscore_lattice/lattice_13/zeros:0J    *=B)xcreditscore_lattice/lattice_13/Reshape:0Jp"9™?  Ä?*7B+xcreditscore_lattice/lattice_13/Minimum/y:0J   *3B'xcreditscore_lattice/lattice_13/Const:0J   @*U	B)xcreditscore_lattice/lattice_12/Reshape:0J$êS§9        ‘a?ú≥=   ?  Ä?  Ä?  Ä?*7B-xcreditscore_lattice/lattice_12/Cumsum/axis:0Jˇˇˇˇ*9B)xcreditscore_lattice/lattice_12/Const_1:0J      *U	B)xcreditscore_lattice/lattice_11/Reshape:0J$    q·Ö>   ?©…?Aı?  Ä?  Ä?  Ä?  Ä?*U	B)xcreditscore_lattice/lattice_10/Reshape:0J$    yzy>   ? Ü€<à?  Ä?   ?  Ä?  Ä?*T	B(xcreditscore_lattice/lattice_1/Reshape:0J$ƒ—2:U8r?òÇ~?A§>U8r?¶ä~?(⁄?¶ä~?  Ä?*:B*xcreditscore_lattice/lattice_1/Minimum/y:0J      *T	B(xcreditscore_lattice/lattice_0/Reshape:0J$    ˇJ"?9ﬂ"?n·=?˙œ?  Ä?  Ä?  Ä?  Ä?*r
+B@xcreditscore_lattice/cal_TotalDelqEvents/MatMul/ReadVariableOp:0J(                        âPL?‡r;>‡Wö<    *z
+BHxcreditscore_lattice/cal_RevolvingBurdenPerTrade/MatMul/ReadVariableOp:0J(6+Í9Àî—<†`4:Ë∞7;        ◊W'?Ï¢>   4   4*x
+BFxcreditscore_lattice/cal_PercentTradesWBalance/MatMul/ReadVariableOp:0J(                        YS<éäH>±%?p∑8=*y
+BGxcreditscore_lattice/cal_PercentTradesNeverDelq/MatMul/ReadVariableOp:0J(ﬂ;\»?∆ãî> å∆: jG;                    *w
+BExcreditscore_lattice/cal_PercentInstallTrades/MatMul/ReadVariableOp:0J(WR9WRπ    'Pœ;t3 <æ=í§{>Äﬁ=º@,=87æ*y
+BGxcreditscore_lattice/cal_NumTradesOpeninLast12M/MatMul/ReadVariableOp:0J(        »5á;     ÃÅ;ïˆ%>rZO?            *~
+BLxcreditscore_lattice/cal_NumTrades90Ever2DerogPubRec/MatMul/ReadVariableOp:0J(òÚ‚=ñ»Ô=†$û; ¿Ó7ÄKC;(c*=›≥>§≠ã>∞Ô¬=    *~
+BLxcreditscore_lattice/cal_NumTrades60Ever2DerogPubRec/MatMul/ReadVariableOp:0J(                        SMV?úr#> V;    *q
+B?xcreditscore_lattice/cal_NumTotalTrades/MatMul/ReadVariableOp:0J(∫◊õ;`Û5:bT⁄;hß<ÿˆL<ÚÖÍ< ⁄=;¸p >1=dÌä=*b	B6xcreditscore_lattice/cal_NumSatisfactoryTrades/sub/y:0J$    9é„=9éc>´™™>9é„>‰8?´™*?rG?9éc?*x
+BFxcreditscore_lattice/cal_NumSatisfactoryTrades/MatMul/ReadVariableOp:0J( 8ˆ9,T”9¯xﬁ9D≈≥9†(9^*;îyË;0¡> Õ;^3S?*}
+BKxcreditscore_lattice/cal_NumRevolvingTradesWBalance/MatMul/ReadVariableOp:0J(        ™È“=¿K⁄:        ±>°&·>Ë{•=‡ÈÌ<*{
+BIxcreditscore_lattice/cal_NumInstallTradesWBalance/MatMul/ReadVariableOp:0J(;—8}Æ.8                    Üç˜8        *x
+BFxcreditscore_lattice/cal_NumInqLast6Mexcl7days/MatMul/ReadVariableOp:0J(        »§õ>ú-2?                        *o
+B=xcreditscore_lattice/cal_NumInqLast6M/MatMul/ReadVariableOp:0J(    ÂÜˇ=¢|`>Iö&? Hà; ú: Ï:            *Ö
+BSxcreditscore_lattice/cal_NumBank2NatlTradesWHighUtilization/MatMul/ReadVariableOp:0J(    ⁄Pü<ÿ2ä>                *¿2?        *}
+BKxcreditscore_lattice/cal_NetFractionRevolvingBurden/MatMul/ReadVariableOp:0J(    ]—;πœU>D$?ÄÈt<    Ê¨=PÓ0= (: h":*{
+BIxcreditscore_lattice/cal_NetFractionInstallBurden/MatMul/ReadVariableOp:0J(                ÷∞<.ˆÉ>zØ< √ˆ=»SE>¿∂≈>*n
+B<xcreditscore_lattice/cal_MaxDelqEver/MatMul/ReadVariableOp:0J(            ◊€<›<ç-k=r@Â=T5=k1=–¨,=*GB=xcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/Minimum/y:0J  Ä?*{
+BIxcreditscore_lattice/cal_MaxDelq2PublicRecLast12M/MatMul/ReadVariableOp:0J(                                ‹2	?HöÌ>*DB:xcreditscore_lattice/cal_MSinceOldestTradeOpen/Maximum/y:0J    *x
+BFxcreditscore_lattice/cal_MSinceOldestTradeOpen/MatMul/ReadVariableOp:0J(X&:ˇã9:¨1:®Æ8:Ñ’‡:j —<ù	¸=†˘π;v›?    *|
+BJxcreditscore_lattice/cal_MSinceMostRecentTradeOpen/MatMul/ReadVariableOp:0J(':‚=ò°Å>∏_#>Ñ>¯Ï= ?Ω@4Ëº Te: Te: Te:*
+BMxcreditscore_lattice/cal_MSinceMostRecentInqexcl7days/MatMul/ReadVariableOp:0J(∫íñ9∏¿9Œ«9                        êÆy?*w
+BExcreditscore_lattice/cal_MSinceMostRecentDelq/MatMul/ReadVariableOp:0J(            Äê&9DV;ºë;÷üÅ<Jy=⁄ü>ﬁ=?*x
+BFxcreditscore_lattice/cal_InstallBurdenPerTrade/MatMul/ReadVariableOp:0J(*¸):w≠Æ:Ÿá=ﬂª=h/J<Ä¡!?∑>@Ü=        *v
+BDxcreditscore_lattice/cal_InquiryToTradeRatio/MatMul/ReadVariableOp:0J(Rõ$:Ÿ÷?                                *w
+BExcreditscore_lattice/cal_ExternalRiskEstimate/MatMul/ReadVariableOp:0J(— :ã;9=2ﬁ>¢.Ä>B)Ö>¿G <    ÄbÀ; Ω8;*q
+B?xcreditscore_lattice/cal_AverageMInFile/MatMul/ReadVariableOp:0J(≠@ö;#+ö;∂/ö;ñ*ö;4Ví;H%¨;PÂ;¥ÔK<Œ¸H?|S!>*6Bpad_const__464J                                *6Bpad_const__195J                                *#Bconst_fold_opt__515Jˇˇˇˇˇˇˇˇ*Bconst_ends__125Jˇˇˇ    *Bconst_axes__130J        *{	BOConstantFolding/xcreditscore_lattice/cal_PercentTradesNeverDelq/truediv_recip:0J$  A  A  A  A  A  A  A  A  AR#converted from xcreditscore_latticeZ"
+features
+
+
+unk__536
+b#
+	pd_output
+
+
+unk__537
+B
+ B
+
+ai.onnx.ml

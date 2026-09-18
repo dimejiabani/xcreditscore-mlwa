@@ -1,0 +1,103 @@
+{
+  "generated_at_utc": "2026-08-01T01:06:23.573351+00:00",
+  "python": {
+    "version": "3.13.14 (v3.13.14:fd17997c386, Jun 10 2026, 08:55:00) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "executable": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/.venv/bin/python",
+    "implementation": "CPython"
+  },
+  "platform": {
+    "system": "Darwin",
+    "release": "25.5.0",
+    "machine": "arm64"
+  },
+  "git": {
+    "head": null
+  },
+  "artifact_root": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/artifacts/gmsc_pack",
+  "dataset": {
+    "path": "/Users/augmentumadvisory/Documents/Projects/XCreditScore/full_rerunnable_pack/data/gmsc/gmsc.csv",
+    "sha256": "ec83d37b67b82ba24327c607eece64bcb928e6b04cd5b7e7997bcd6a638a23a7"
+  },
+  "config_snapshot": {
+    "run_profile": "final",
+    "threshold": 0.3,
+    "feature_engineering_enabled": true,
+    "cv_enabled": true,
+    "cv_n_splits": 5,
+    "cv_n_repeats": 2,
+    "lattice": {
+      "epochs": 36,
+      "batch_size": 128,
+      "calibration_keypoints": 15,
+      "lattice_size": 4,
+      "learning_rate": 0.005,
+      "early_stopping_patience": 4,
+      "grouping_mode": "fixed",
+      "max_group_dim": 2,
+      "fixed_groups": [
+        [
+          "RevolvingUtilizationOfUnsecuredLines",
+          "DebtRatio"
+        ],
+        [
+          "MonthlyIncome",
+          "DebtRatio"
+        ],
+        [
+          "NumberOfTime30-59DaysPastDueNotWorse",
+          "NumberOfTime60-89DaysPastDueNotWorse"
+        ],
+        [
+          "NumberOfTimes90DaysLate",
+          "NumberOfTime60-89DaysPastDueNotWorse"
+        ],
+        [
+          "age",
+          "MonthlyIncome"
+        ],
+        [
+          "NumberOfOpenCreditLinesAndLoans",
+          "NumberRealEstateLoansOrLines"
+        ]
+      ],
+      "use_tuned": true
+    },
+    "counterfactual": {
+      "max_cases": 80,
+      "exact_max_cases": 40,
+      "exact_time_limit": 2.0,
+      "exact_mip_gap": 0.02,
+      "refine_max_rounds": 32
+    },
+    "threshold_tuning": {
+      "enabled": true,
+      "objective": "f1",
+      "base_threshold": 0.36,
+      "selected_threshold": 0.3,
+      "valid_metrics_at_selected_threshold": {
+        "accuracy": 0.9338222222222222,
+        "precision": 0.5126903553299492,
+        "recall": 0.2014627659574468,
+        "f1": 0.2892601431980907,
+        "balanced_accuracy": 0.5938729337502989
+      }
+    }
+  },
+  "config_hash_sha256": "4bbcfa7d728fdfb85150b28b57de4f8a67b4af666bb8a1bd8f56d75f69cdb318",
+  "dependencies": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "xgboost": "3.2.0",
+    "tensorflow": "2.21.0",
+    "tensorflow-lattice": "2.1.1",
+    "tf-keras": "2.21.0",
+    "tf2onnx": "1.17.0",
+    "onnxruntime": "1.28.0",
+    "pulp": "3.3.0"
+  },
+  "environment_overrides": {}
+}

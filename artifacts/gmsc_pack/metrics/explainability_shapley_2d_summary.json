@@ -1,0 +1,15 @@
+{
+  "status": "ok",
+  "baseline": "training_set_median_per_feature",
+  "assertion_tolerance": 1e-05,
+  "shapley_efficiency_max_abs_residual": 5.960464477539063e-08,
+  "main_effect_max_abs_residual": 5.960464477539063e-08,
+  "assertion_failures": 0,
+  "n_test_instances": 22500,
+  "n_2d_blocks": 3,
+  "n_rows_total": 67500,
+  "assertions_verified": [
+    "phi_a + phi_b + f0 == fab (per instance, per 2-D block)",
+    "main_a + main_b + iota == fab - f0 (per instance, per 2-D block)"
+  ]
+}

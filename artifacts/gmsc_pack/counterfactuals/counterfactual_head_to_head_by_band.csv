@@ -1,0 +1,11 @@
+predictor_label,original_score_band,n_cases,feasible,feasible_rate,feasible_rate_wilson_ci95_low,feasible_rate_wilson_ci95_high,small_n_flag,reliability_note
+xcreditscore_lattice,OVERALL,586,12,0.020477815699658702,0.011752262965963045,0.03544933401292557,False,
+xcreditscore_lattice,near_threshold,142,9,0.06338028169014084,0.03369967193255277,0.11606198704500362,False,
+xcreditscore_lattice,moderate_risk,153,3,0.0196078431372549,0.006690488440254393,0.05605732642128154,False,
+xcreditscore_lattice,high_risk,124,0,0.0,0.0,0.030048615340677695,False,
+xcreditscore_lattice,very_high_risk,167,0,0.0,0.0,0.02248551872134217,False,
+monotone_xgboost,OVERALL,586,142,0.24232081911262798,0.20937882515808326,0.27861918602986047,False,
+monotone_xgboost,near_threshold,136,126,0.9264705882352942,0.8699381385317989,0.9595726587542631,False,
+monotone_xgboost,very_high_risk,338,0,0.0,0.0,0.011237545129682716,False,
+monotone_xgboost,moderate_risk,29,11,0.3793103448275862,0.2268802210080984,0.5599745579401147,True,insufficient sample size for reliable inference (n<30)
+monotone_xgboost,high_risk,83,5,0.060240963855421686,0.026003401041882007,0.13338428093238414,False,

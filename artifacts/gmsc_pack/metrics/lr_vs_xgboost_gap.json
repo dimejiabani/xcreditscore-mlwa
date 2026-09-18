@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "dataset": "gmsc",
+  "xgboost_auc": 0.8370922127264362,
+  "logistic_regression_auc": 0.7463047672707669,
+  "gap_xgb_minus_lr": 0.0907874454556693
+}

@@ -1,0 +1,5 @@
+model,status,total_checks,total_violations,violation_rate
+xcreditscore,ok,496536,0,0.0
+monotone_xgboost,ok,496536,0,0.0
+ebm,ok,496536,0,0.0
+monotone_gam,ok,496536,46,9.264182254660286e-05

@@ -1,0 +1,18 @@
+{
+  "primary_metric": "auc",
+  "xcreditscore": {
+    "auc": 0.7934822954822954,
+    "pr_auc": 0.7953678451215533,
+    "f1": 0.756043956043956,
+    "accuracy": 0.7170172084130019
+  },
+  "best_baseline": {
+    "model": "monotone_gam",
+    "auc": 0.7962238502238501,
+    "pr_auc": 0.7997930585586461,
+    "f1": 0.7589285714285714,
+    "accuracy": 0.7246653919694073
+  },
+  "delta_vs_best_baseline": -0.002741554741554686,
+  "xcreditscore_beats_best_baseline": false
+}

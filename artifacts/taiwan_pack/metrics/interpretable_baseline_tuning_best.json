@@ -1,0 +1,30 @@
+{
+  "ebm": {
+    "model": "ebm",
+    "trial": 4,
+    "interactions": 5,
+    "learning_rate": 0.02,
+    "max_bins": 128,
+    "outer_bags": 14,
+    "auc_mean": 0.778966778870179,
+    "pr_auc_mean": 0.5422255127794452,
+    "f1_mean": 0.518695528877559,
+    "auc_std": 0.006020891933174823,
+    "pr_auc_std": 0.0052102202228913215,
+    "f1_std": 0.009111184466368456
+  },
+  "monotone_gam": {
+    "model": "monotone_gam",
+    "trial": 14,
+    "lam": 0.6,
+    "n_splines": 20,
+    "spline_order": 3,
+    "max_iter": 200,
+    "auc_mean": 0.774972172922744,
+    "pr_auc_mean": 0.5435333614668687,
+    "f1_mean": 0.5122188819432851,
+    "auc_std": 0.006745246079937286,
+    "pr_auc_std": 0.00446316239419679,
+    "f1_std": 0.013876320873788713
+  }
+}

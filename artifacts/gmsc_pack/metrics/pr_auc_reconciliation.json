@@ -1,0 +1,74 @@
+{
+  "dataset": "gmsc",
+  "note": "PR-AUC test-set difference reconciled with cross-validated delta; logistic regression's PR-AUC ranking is reported explicitly.",
+  "test_partition_xcreditscore_vs_xgboost": {
+    "pr_auc_paired_bootstrap": {
+      "metric": "pr_auc",
+      "n_boot": 10000,
+      "skipped_bootstraps": 0,
+      "observed_metric_a": 0.2902084905421403,
+      "observed_metric_b": 0.36393188964643175,
+      "observed_difference": -0.07372339910429143,
+      "ci95_low": -0.08736626221014941,
+      "ci95_high": -0.05964966886591677,
+      "two_sided_bootstrap_pvalue": 0.0
+    },
+    "auc_delong": {
+      "auc_a": 0.7540708425211692,
+      "auc_b": 0.8370922127264363,
+      "difference": -0.08302137020526712,
+      "z_stat": -14.248036514842388,
+      "two_sided_pvalue": 0.0
+    }
+  },
+  "test_partition_xcreditscore_vs_logistic_regression": {
+    "pr_auc_paired_bootstrap": {
+      "metric": "pr_auc",
+      "n_boot": 10000,
+      "skipped_bootstraps": 0,
+      "observed_metric_a": 0.2902084905421403,
+      "observed_metric_b": 0.2791496784450704,
+      "observed_difference": 0.011058812097069937,
+      "ci95_low": -0.0006580280092970801,
+      "ci95_high": 0.022278546030821297,
+      "two_sided_bootstrap_pvalue": 0.0604
+    }
+  },
+  "cv_partition_xcreditscore_vs_xgboost": {
+    "n_fold_pairs": 10,
+    "mean_delta_pr_auc": -0.059213883045665286,
+    "sd_delta_pr_auc": 0.0079266875704345
+  },
+  "pr_auc_ranking_test_partition": [
+    {
+      "model": "xgboost",
+      "pr_auc": 0.36393188964643175
+    },
+    {
+      "model": "monotone_xgboost",
+      "pr_auc": 0.3626949521450701
+    },
+    {
+      "model": "ebm",
+      "pr_auc": 0.35610420387119945
+    },
+    {
+      "model": "random_forest",
+      "pr_auc": 0.3280748123081657
+    },
+    {
+      "model": "monotone_gam",
+      "pr_auc": 0.30273087080686906
+    },
+    {
+      "model": "xcreditscore",
+      "pr_auc": 0.2902084905421403
+    },
+    {
+      "model": "logistic_regression",
+      "pr_auc": 0.2791496784450704
+    }
+  ],
+  "logistic_regression_pr_auc_rank": 7,
+  "logistic_regression_leads_pr_auc": false
+}

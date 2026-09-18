@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "dataset": "heloc",
+  "xgboost_auc": 0.7934236874236874,
+  "logistic_regression_auc": 0.7914863654863655,
+  "gap_xgb_minus_lr": 0.0019373219373218786
+}

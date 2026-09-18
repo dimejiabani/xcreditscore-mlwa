@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "status": "ok",
+  "rows": 4500,
+  "max_abs_err": 1.44566345228192e-07,
+  "mean_abs_err": 2.778453297621238e-08,
+  "tolerance": 0.001,
+  "tau": 0.3,
+  "decision_flips_at_tau": 0,
+  "native_reference": "predictions/xcreditscore_test_predictions.csv",
+  "provenance": "The canonical run recorded onnxruntime_unavailable because the runtime was absent on that machine. The saved Keras graph cannot be deserialised under the currently installed tf-keras and tensorflow-lattice versions, so the native side of the comparison is the released per-instance prediction artifact from that same run rather than a fresh forward pass. Those values are stored to eight decimal places, a quantisation floor around 5e-09, which is roughly thirty times smaller than the parity error measured here; the comparison is therefore limited by the export, not by the stored precision. Training was not re-run."
+}

@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: >-
+  XCreditScore: monotonic calibrated lattice ensembles with
+  structure-derived attribution and constrained counterfactual recourse
+message: If you use this software or its artifacts, please cite the paper.
+type: software
+authors:
+  # Author list and order follow the manuscript title page. Surname spelling
+  # here matches the manuscript; see the note in README if it needs changing,
+  # because the two disagreed before this was reconciled.
+  - family-names: Abanniwonda
+    given-names: Dimeji
+    affiliation: Department of Computer Science, Pan-Atlantic University, Lagos, Nigeria
+  - family-names: Amoo
+    given-names: Taiwo
+    affiliation: Department of Computer Science, Pan-Atlantic University, Lagos, Nigeria
+  - family-names: Adubi
+    given-names: Stephen A.
+    affiliation: Department of Computer Science, Pan-Atlantic University, Lagos, Nigeria
+  - family-names: Moru
+    given-names: Desmond
+    affiliation: Department of Computer Science, Pan-Atlantic University, Lagos, Nigeria
+  - family-names: Onobhayedo
+    given-names: Pius
+    affiliation: Department of Computer Science, Pan-Atlantic University, Lagos, Nigeria
+  - family-names: Oyebode
+    given-names: Kazeem
+    affiliation: Department of Engineering, University of Zululand, KwaDlangezwa, South Africa
+  - family-names: Esenogho
+    given-names: Ebenezer
+    email: esenoe@unisa.ac.za
+    affiliation: >-
+      Centre for Artificial Intelligence and Multidisciplinary Innovation
+      Studies, University of South Africa, Pretoria, South Africa
+repository-code: https://github.com/dimejiabani/xcreditscore-mlwa
+license: MIT
+abstract: >-
+  Reproducible pipeline evaluating a monotonic calibrated lattice ensemble
+  against logistic regression, random forest, XGBoost, monotone-constrained
+  XGBoost, an Explainable Boosting Machine and a monotone GAM on three
+  credit-scoring benchmarks, under a parity-controlled tuning budget with
+  Holm-Bonferroni and Nadeau-Bengio corrected inference, full-population
+  counterfactual recourse with Wilson confidence intervals, and head-to-head
+  explanation-stability benchmarking against KernelSHAP and LIME.

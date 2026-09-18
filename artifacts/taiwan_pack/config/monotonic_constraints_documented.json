@@ -1,0 +1,97 @@
+{
+  "dataset": "taiwan",
+  "features": {
+    "LIMIT_BAL": {
+      "direction": -1,
+      "justification": "-1: bank-set credit limit reflects the applicant's assessed capacity; higher limit correlates with lower default probability at origination."
+    },
+    "SEX": {
+      "direction": 0,
+      "justification": "0: demographic proxy \u2014 deliberately unconstrained to avoid a fair-lending direction claim this dataset cannot substantiate."
+    },
+    "EDUCATION": {
+      "direction": 0,
+      "justification": "0: demographic proxy \u2014 same rationale as SEX."
+    },
+    "MARRIAGE": {
+      "direction": 0,
+      "justification": "0: demographic proxy \u2014 same rationale as SEX."
+    },
+    "AGE": {
+      "direction": 0,
+      "justification": "0: Yeh & Lien (2009) show middle-aged applicants have the highest default rate in this dataset; a monotone direction is not defensible."
+    },
+    "PAY_0": {
+      "direction": 1,
+      "justification": "+1: repayment delay status for the most recent month; larger integer codes = more months delayed = strictly higher risk."
+    },
+    "PAY_2": {
+      "direction": 1,
+      "justification": "+1: repayment delay status two months back; same direction as PAY_0."
+    },
+    "PAY_3": {
+      "direction": 1,
+      "justification": "+1: repayment delay status three months back; same direction as PAY_0."
+    },
+    "PAY_4": {
+      "direction": 1,
+      "justification": "+1: repayment delay status four months back; same direction as PAY_0."
+    },
+    "PAY_5": {
+      "direction": 1,
+      "justification": "+1: repayment delay status five months back; same direction as PAY_0."
+    },
+    "PAY_6": {
+      "direction": 1,
+      "justification": "+1: repayment delay status six months back; same direction as PAY_0."
+    },
+    "BILL_AMT1": {
+      "direction": 0,
+      "justification": "0: bill amount alone is directionally ambiguous without a utilisation ratio (higher bill can indicate more spending activity OR higher risk)."
+    },
+    "BILL_AMT2": {
+      "direction": 0,
+      "justification": "0: same rationale as BILL_AMT1."
+    },
+    "BILL_AMT3": {
+      "direction": 0,
+      "justification": "0: same rationale as BILL_AMT1."
+    },
+    "BILL_AMT4": {
+      "direction": 0,
+      "justification": "0: same rationale as BILL_AMT1."
+    },
+    "BILL_AMT5": {
+      "direction": 0,
+      "justification": "0: same rationale as BILL_AMT1."
+    },
+    "BILL_AMT6": {
+      "direction": 0,
+      "justification": "0: same rationale as BILL_AMT1."
+    },
+    "PAY_AMT1": {
+      "direction": -1,
+      "justification": "-1: actual payment amount for the most recent month; larger payment = better repayment behaviour = strictly lower risk."
+    },
+    "PAY_AMT2": {
+      "direction": -1,
+      "justification": "-1: payment amount two months back; same direction as PAY_AMT1."
+    },
+    "PAY_AMT3": {
+      "direction": -1,
+      "justification": "-1: payment amount three months back; same direction as PAY_AMT1."
+    },
+    "PAY_AMT4": {
+      "direction": -1,
+      "justification": "-1: payment amount four months back; same direction as PAY_AMT1."
+    },
+    "PAY_AMT5": {
+      "direction": -1,
+      "justification": "-1: payment amount five months back; same direction as PAY_AMT1."
+    },
+    "PAY_AMT6": {
+      "direction": -1,
+      "justification": "-1: payment amount six months back; same direction as PAY_AMT1."
+    }
+  }
+}

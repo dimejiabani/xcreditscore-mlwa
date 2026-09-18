@@ -1,0 +1,42 @@
+{
+  "recommended_objective": "f1",
+  "selection_rule": "max(test_f1), tie-breaker auc",
+  "comparison_rows": [
+    {
+      "objective": "f1",
+      "selected_threshold": 0.38000000000000006,
+      "auc": 0.794019536019536,
+      "pr_auc": 0.7950281322649693,
+      "accuracy": 0.7112810707456979,
+      "precision": 0.6742857142857143,
+      "recall": 0.8644688644688645,
+      "f1": 0.7576243980738363,
+      "denied": 1050,
+      "cf_feasible": 51
+    },
+    {
+      "objective": "precision",
+      "selected_threshold": 0.7000000000000004,
+      "auc": 0.794950752950753,
+      "pr_auc": 0.7944489404796791,
+      "accuracy": 0.6781389420012747,
+      "precision": 0.8152610441767069,
+      "recall": 0.49572649572649574,
+      "f1": 0.6165527714502658,
+      "denied": 498,
+      "cf_feasible": 74
+    },
+    {
+      "objective": "recall",
+      "selected_threshold": 0.3,
+      "auc": 0.7945372405372405,
+      "pr_auc": 0.7951572600144081,
+      "accuracy": 0.6826003824091779,
+      "precision": 0.6387208297320657,
+      "recall": 0.9023199023199023,
+      "f1": 0.7479757085020243,
+      "denied": 1157,
+      "cf_feasible": 41
+    }
+  ]
+}

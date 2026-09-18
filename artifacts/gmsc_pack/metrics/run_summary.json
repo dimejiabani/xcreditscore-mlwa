@@ -1,0 +1,41 @@
+{
+  "run_profile": "final",
+  "cv_enabled": true,
+  "cv_n_splits": 5,
+  "cv_n_repeats": 2,
+  "cv_summary_available": true,
+  "model_family": "tensorflow_lattice",
+  "predictor_fallback_used": false,
+  "fallback_reason": "",
+  "threshold": 0.3,
+  "total_test_rows": 22500,
+  "total_denied": 586,
+  "counterfactual_cases_attempted": 80,
+  "counterfactual_feasible_count": 3,
+  "counterfactual_near_feasible_count": 11,
+  "counterfactual_exact_max_cases": 40,
+  "counterfactual_exact_time_limit": 2.0,
+  "counterfactual_exact_mip_gap": 0.02,
+  "counterfactual_refine_max_rounds": 32,
+  "lattice_grouping_mode": "fixed",
+  "lattice_max_group_dim": 2,
+  "lattice_group_count": 7,
+  "threshold_tuning": {
+    "enabled": true,
+    "objective": "f1",
+    "base_threshold": 0.36,
+    "selected_threshold": 0.3,
+    "valid_metrics_at_selected_threshold": {
+      "accuracy": 0.9338222222222222,
+      "precision": 0.5126903553299492,
+      "recall": 0.2014627659574468,
+      "f1": 0.2892601431980907,
+      "balanced_accuracy": 0.5938729337502989
+    }
+  },
+  "compute_budget_parity": {
+    "same_cv_splits": false,
+    "same_parity_total_trials": false,
+    "details": "missing_tuning_configs"
+  }
+}

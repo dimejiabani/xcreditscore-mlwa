@@ -1,0 +1,10 @@
+{
+  "status": "incomplete",
+  "lattice": null,
+  "baselines": null,
+  "parity": {
+    "same_cv_splits": false,
+    "same_parity_total_trials": false,
+    "details": "missing_tuning_configs"
+  }
+}

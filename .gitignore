@@ -1,0 +1,41 @@
+# environments
+.venv/
+.pytest_cache/
+venv/
+__pycache__/
+*.pyc
+
+# licence-restricted benchmark data (see data/README.md)
+data/**
+!data/README.md
+!data/CHECKSUMS.txt
+heloc_dataset_v1*.csv
+
+# run logs and scratch
+*.log
+.DS_Store
+
+# HELOC per-instance files. These record the min-max-scaled feature values of
+# individual test records (26 of 27 predictors across all 1,569 test rows) plus
+# their true labels, which together amount to the licensed test set in a
+# reversible transform. FICO's data licence does not permit redistribution, so
+# they are withheld; see data/README.md. They regenerate exactly by running the
+# pipeline against HELOC data obtained under licence.
+artifacts/heloc_pack/predictions/explainability_report.csv
+artifacts/heloc_pack/predictions/explainability_shapley_2d_report.csv
+artifacts/heloc_pack/predictions/xcreditscore_test_predictions.csv
+
+# build outputs: regenerate with paper/build_figure_package.py and the code
+# bundle step in scripts/build_submission_package.py
+paper/*.zip
+paper/figures_for_submission/
+
+# internal review correspondence, not part of the reproducible artifact
+paper/Response_to_Comments.docx
+paper/build_response_to_comments.py
+
+# The manuscript itself is not distributed here. It is under journal review and
+# is maintained outside the repository; this repository holds the code and the
+# artifacts every number in it derives from. Drop these lines to include it.
+paper/*.docx
+paper/CHANGES_HIGHLIGHTED_list.txt

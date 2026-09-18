@@ -1,0 +1,7 @@
+{
+  "rows_evaluated": 400,
+  "perturbations": 8,
+  "sigma": 0.01,
+  "overall_exact_match_rate": 0.785,
+  "overall_jaccard_mean": 0.9129166666666666
+}

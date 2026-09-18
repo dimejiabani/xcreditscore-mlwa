@@ -1,0 +1,26 @@
+[
+  [
+    "RevolvingUtilizationOfUnsecuredLines",
+    "DebtRatio"
+  ],
+  [
+    "MonthlyIncome"
+  ],
+  [
+    "NumberOfTime30-59DaysPastDueNotWorse",
+    "NumberOfTime60-89DaysPastDueNotWorse"
+  ],
+  [
+    "NumberOfTimes90DaysLate"
+  ],
+  [
+    "age"
+  ],
+  [
+    "NumberOfOpenCreditLinesAndLoans",
+    "NumberRealEstateLoansOrLines"
+  ],
+  [
+    "NumberOfDependents"
+  ]
+]

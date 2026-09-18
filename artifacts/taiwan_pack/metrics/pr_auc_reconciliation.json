@@ -1,0 +1,74 @@
+{
+  "dataset": "taiwan",
+  "note": "PR-AUC test-set difference reconciled with cross-validated delta; logistic regression's PR-AUC ranking is reported explicitly.",
+  "test_partition_xcreditscore_vs_xgboost": {
+    "pr_auc_paired_bootstrap": {
+      "metric": "pr_auc",
+      "n_boot": 10000,
+      "skipped_bootstraps": 0,
+      "observed_metric_a": 0.5293459157744262,
+      "observed_metric_b": 0.557182300354548,
+      "observed_difference": -0.02783638458012172,
+      "ci95_low": -0.045508175263361414,
+      "ci95_high": -0.010010392140284305,
+      "two_sided_bootstrap_pvalue": 0.0024
+    },
+    "auc_delong": {
+      "auc_a": 0.7521690643853954,
+      "auc_b": 0.778158295281583,
+      "difference": -0.025989230896187543,
+      "z_stat": -4.493770098116431,
+      "two_sided_pvalue": 6.997317083534682e-06
+    }
+  },
+  "test_partition_xcreditscore_vs_logistic_regression": {
+    "pr_auc_paired_bootstrap": {
+      "metric": "pr_auc",
+      "n_boot": 10000,
+      "skipped_bootstraps": 0,
+      "observed_metric_a": 0.5293459157744262,
+      "observed_metric_b": 0.4913121941583428,
+      "observed_difference": 0.03803372161608343,
+      "ci95_low": 0.024385799263790222,
+      "ci95_high": 0.05107299587697864,
+      "two_sided_bootstrap_pvalue": 0.0
+    }
+  },
+  "cv_partition_xcreditscore_vs_xgboost": {
+    "n_fold_pairs": 10,
+    "mean_delta_pr_auc": -0.022179385030926247,
+    "sd_delta_pr_auc": 0.006899209807234251
+  },
+  "pr_auc_ranking_test_partition": [
+    {
+      "model": "xgboost",
+      "pr_auc": 0.557182300354548
+    },
+    {
+      "model": "monotone_xgboost",
+      "pr_auc": 0.554040740847466
+    },
+    {
+      "model": "monotone_gam",
+      "pr_auc": 0.5415140560306129
+    },
+    {
+      "model": "ebm",
+      "pr_auc": 0.5353111986007659
+    },
+    {
+      "model": "random_forest",
+      "pr_auc": 0.5302047398863782
+    },
+    {
+      "model": "xcreditscore",
+      "pr_auc": 0.5293459157744262
+    },
+    {
+      "model": "logistic_regression",
+      "pr_auc": 0.4913121941583428
+    }
+  ],
+  "logistic_regression_pr_auc_rank": 7,
+  "logistic_regression_leads_pr_auc": false
+}

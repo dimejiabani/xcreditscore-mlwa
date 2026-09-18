@@ -1,0 +1,80 @@
+{
+  "n_denied": 1001,
+  "decision_threshold": 0.4200000000000001,
+  "protocol": "Same denied cases, same constraint registry, same \u03c4, same MIP engine (Gurobi surrogate + CBC fallback); only the fitted predictor differs. Post-solve validity is checked against each predictor's own predict_proba.",
+  "lattice": {
+    "predictor_label": "xcreditscore_lattice",
+    "n_cases_evaluated": 1001,
+    "wall_seconds": 2703.1769483089447,
+    "overall_feasibility": {
+      "rate": 0.6763236763236763,
+      "ci95_low": 0.6467128367216817,
+      "ci95_high": 0.7045863626707172,
+      "n_successes": 677,
+      "n_trials": 1001
+    },
+    "validity_pass_rate_among_feasible": 1.0,
+    "validity_pass_count_among_feasible": 677,
+    "feasible_count": 677,
+    "median_total_cost_all_cases": 0.3880062629612252,
+    "median_total_cost_feasible_cases": 0.5210945803065279,
+    "median_changed_features_feasible": 4.0,
+    "solver_breakdown": [
+      {
+        "solver_family": "gurobi",
+        "count": 961
+      },
+      {
+        "solver_family": "gurobi_exact",
+        "count": 40
+      }
+    ]
+  },
+  "monotone_xgboost": {
+    "predictor_label": "monotone_xgboost",
+    "n_cases_evaluated": 1001,
+    "wall_seconds": 7.7917799949646,
+    "overall_feasibility": {
+      "rate": 0.8001998001998002,
+      "ci95_low": 0.7743027942417937,
+      "ci95_high": 0.8238015084064547,
+      "n_successes": 801,
+      "n_trials": 1001
+    },
+    "validity_pass_rate_among_feasible": 1.0,
+    "validity_pass_count_among_feasible": 801,
+    "feasible_count": 801,
+    "median_total_cost_all_cases": 0.4689580747419212,
+    "median_total_cost_feasible_cases": 0.5509500454851193,
+    "median_changed_features_feasible": 4.0,
+    "solver_breakdown": [
+      {
+        "solver_family": "gurobi",
+        "count": 1001
+      }
+    ]
+  },
+  "same_case_agreement": {
+    "both_feasible": 634,
+    "neither_feasible": 157,
+    "lattice_only_feasible": 43,
+    "monotone_xgb_only_feasible": 167,
+    "agreement_matrix_feasible_lattice_x_feasible_xgb": {
+      "false": {
+        "false": 157,
+        "true": 43,
+        "TOTAL": 200
+      },
+      "true": {
+        "false": 167,
+        "true": 634,
+        "TOTAL": 801
+      },
+      "TOTAL": {
+        "false": 324,
+        "true": 677,
+        "TOTAL": 1001
+      }
+    }
+  }
+}
