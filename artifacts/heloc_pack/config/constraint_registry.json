@@ -1,0 +1,196 @@
+{
+  "dataset": "heloc",
+  "default_step_fraction": 0.2,
+  "description": "Per-feature constraint registry. direction: -1 protective, +1 risk-increasing, 0 unconstrained. immutable: recourse may not move the feature. step_fraction: the largest fraction of the feature's observed range a single recourse plan may move it by, null where the feature is immutable.",
+  "features": {
+    "ExternalRiskEstimate": {
+      "direction": -1,
+      "immutable": false,
+      "step_fraction": 0.08,
+      "step_fraction_source": "declared",
+      "justification": "FICO-family risk score: higher = less risky (protective)."
+    },
+    "MSinceOldestTradeOpen": {
+      "direction": -1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "Longer credit history reduces default risk."
+    },
+    "MSinceMostRecentTradeOpen": {
+      "direction": 0,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Recency of newest account is directionally ambiguous."
+    },
+    "AverageMInFile": {
+      "direction": -1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "Longer average tenure indicates stability (protective)."
+    },
+    "NumSatisfactoryTrades": {
+      "direction": -1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "More satisfactory accounts = stronger repayment record."
+    },
+    "NumTrades60Ever2DerogPubRec": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Any 60d+ delinquency count is directly risk-increasing."
+    },
+    "NumTrades90Ever2DerogPubRec": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Severe (90d+) delinquency directly increases risk."
+    },
+    "PercentTradesNeverDelq": {
+      "direction": -1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Share of clean trades is protective."
+    },
+    "MSinceMostRecentDelq": {
+      "direction": -1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Longer since last delinquency is protective."
+    },
+    "MaxDelq2PublicRecLast12M": {
+      "direction": 1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "Worse recent delinquency severity increases risk."
+    },
+    "MaxDelqEver": {
+      "direction": 1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "Worst-ever delinquency severity is a lasting risk marker."
+    },
+    "NumTotalTrades": {
+      "direction": 0,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Total accounts is directionally ambiguous."
+    },
+    "NumTradesOpeninLast12M": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Rapid credit-seeking is risk-increasing."
+    },
+    "PercentInstallTrades": {
+      "direction": 0,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Installment mix effect is directionally ambiguous."
+    },
+    "MSinceMostRecentInqexcl7days": {
+      "direction": -1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Longer since last inquiry is protective."
+    },
+    "NumInqLast6M": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "declared",
+      "justification": "Recent inquiry volume is risk-increasing."
+    },
+    "NumInqLast6Mexcl7days": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "declared",
+      "justification": "Recent inquiry volume (dedup) is risk-increasing."
+    },
+    "NetFractionRevolvingBurden": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.35,
+      "step_fraction_source": "declared",
+      "justification": "Higher revolving utilization increases risk."
+    },
+    "NetFractionInstallBurden": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.35,
+      "step_fraction_source": "declared",
+      "justification": "Higher installment utilization increases risk."
+    },
+    "NumRevolvingTradesWBalance": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "More revolving accounts carrying balance = higher risk."
+    },
+    "NumInstallTradesWBalance": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "More installment accounts carrying balance = higher risk."
+    },
+    "NumBank2NatlTradesWHighUtilization": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Prime-bank accounts near-max utilized = higher risk."
+    },
+    "PercentTradesWBalance": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.3,
+      "step_fraction_source": "declared",
+      "justification": "Higher share of accounts carrying balance = higher risk."
+    },
+    "TotalDelqEvents": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Aggregate delinquency events increase risk (engineered)."
+    },
+    "InquiryToTradeRatio": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Inquiry intensity relative to trades increases risk (engineered)."
+    },
+    "RevolvingBurdenPerTrade": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Per-trade revolving burden increases risk (engineered)."
+    },
+    "InstallBurdenPerTrade": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "Per-trade installment burden increases risk (engineered)."
+    }
+  }
+}

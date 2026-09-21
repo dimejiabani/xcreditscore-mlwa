@@ -1,0 +1,77 @@
+{
+  "dataset": "gmsc",
+  "default_step_fraction": 0.2,
+  "description": "Per-feature constraint registry. direction: -1 protective, +1 risk-increasing, 0 unconstrained. immutable: recourse may not move the feature. step_fraction: the largest fraction of the feature's observed range a single recourse plan may move it by, null where the feature is immutable.",
+  "features": {
+    "RevolvingUtilizationOfUnsecuredLines": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.35,
+      "step_fraction_source": "declared",
+      "justification": "+1: high revolving utilisation is the single strongest sub-score input in FICO and directly risk-increasing."
+    },
+    "age": {
+      "direction": -1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "-1: older applicants have longer, more stable credit histories and lower observed default rates in every large credit dataset."
+    },
+    "NumberOfTime30-59DaysPastDueNotWorse": {
+      "direction": 1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "+1: any past-due count is a direct risk signal by definition."
+    },
+    "DebtRatio": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "declared",
+      "justification": "+1: higher debt-to-income reduces capacity to service further debt and is a canonical default predictor."
+    },
+    "MonthlyIncome": {
+      "direction": -1,
+      "immutable": false,
+      "step_fraction": 0.15,
+      "step_fraction_source": "declared",
+      "justification": "-1: higher income raises debt-service capacity; treated as protective (parallel to HELOC's ExternalRiskEstimate direction)."
+    },
+    "NumberOfOpenCreditLinesAndLoans": {
+      "direction": 0,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "declared",
+      "justification": "0: mix of protective (access) and risk-increasing (exposure) \u2014 leave the sign to the data rather than force a direction."
+    },
+    "NumberOfTimes90DaysLate": {
+      "direction": 1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "+1: severe (90+ day) delinquency is the strongest default-history signal in this feature set."
+    },
+    "NumberRealEstateLoansOrLines": {
+      "direction": 0,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "0: mortgages are secured (reducing risk) but multiple can indicate over-extension \u2014 direction is genuinely ambiguous."
+    },
+    "NumberOfTime60-89DaysPastDueNotWorse": {
+      "direction": 1,
+      "immutable": true,
+      "step_fraction": null,
+      "step_fraction_source": null,
+      "justification": "+1: intermediate-severity delinquency, directionally identical to the 30-59 and 90+ counts."
+    },
+    "NumberOfDependents": {
+      "direction": 1,
+      "immutable": false,
+      "step_fraction": 0.2,
+      "step_fraction_source": "default",
+      "justification": "+1: more dependents raise fixed household expenditure and narrow the income buffer available for debt service."
+    }
+  }
+}
