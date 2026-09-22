@@ -1,10 +1,40 @@
-# XCreditScore
+# Governing Prediction, Explanation and Recourse from One Constraint Registry
 
-Reproducible pipeline and artifacts for a monotonic calibrated lattice
-ensemble for credit scoring, evaluated against six baselines on three public
-benchmarks under a single shared constraint registry that drives the
-predictor, the attribution layer and the counterfactual recourse engine
-together.
+Reproducible pipeline and artifacts for a credit-scoring architecture in which
+a single shared constraint registry governs prediction, explanation and
+recourse together. The registry declares four things per feature, a monotonic
+direction, an immutability flag, a step-size bound and the justification for
+the direction, and that one declaration drives the predictor, the
+structure-derived attribution layer and the mixed-integer counterfactual
+recourse engine alike, so the three cannot diverge.
+
+Around the registry the pipeline implements a parity-controlled evaluation
+protocol: a common per-model tuning budget, a fixed seed and split held
+constant across every reported number, paired cross-validated inference under
+both Holm-Bonferroni and Nadeau-Bengio corrections, full-population recourse
+with Wilson confidence intervals, and a post-solve validity check.
+
+## Predictors
+
+Seven predictors are implemented and evaluated under the same registry, the
+same budget and the same splits on three public benchmarks (HELOC, Taiwan
+Default of Credit Card Clients, Give-Me-Some-Credit):
+
+| Predictor | Shape constraint | Implementation |
+|---|---|---|
+| Monotonic calibrated lattice ensemble | structural | TensorFlow Lattice |
+| Logistic regression | none | scikit-learn |
+| Random forest | none | scikit-learn |
+| XGBoost | none | XGBoost |
+| Monotone-constrained XGBoost | structural | XGBoost |
+| Explainable Boosting Machine | structural | interpret |
+| Monotone generalised additive model | penalty | pyGAM |
+
+The registry is architecture-agnostic: any predictor exposing a monotone
+scoring function can be placed under it, and the recourse engine accepts any
+of them unchanged. Comparing the constrained predictors against their
+unconstrained counterparts under an identical budget is what the protocol is
+for, so the baselines are part of the result rather than a backdrop to it.
 
 ## What this repository contains
 
@@ -18,6 +48,11 @@ artifacts/
   gmsc_pack/             Give-Me-Some-Credit results
   figures/               generated figures
 ```
+
+Each `<dataset>_pack/config/constraint_registry.json` is the machine-readable
+registry for that dataset: direction, immutability, step-size bound and
+justification for every feature. Regenerate them with
+`python scripts/export_constraint_registry.py`.
 
 Every reported number is produced by the pipeline and written under
 `artifacts/`, so results can be traced back to the run that produced them.

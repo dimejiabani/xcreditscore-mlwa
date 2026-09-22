@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: >-
-  XCreditScore: monotonic calibrated lattice ensembles with
-  structure-derived attribution and constrained counterfactual recourse
+  Governing Prediction, Explanation and Recourse from One Constraint
+  Registry: A Parity-Controlled Evaluation for Auditable Credit Scoring
 message: If you use this software or its artifacts, please cite the paper.
 type: software
 authors:
@@ -32,7 +32,7 @@ authors:
     affiliation: >-
       Centre for Artificial Intelligence and Multidisciplinary Innovation
       Studies, University of South Africa, Pretoria, South Africa
-repository-code: https://github.com/dimejiabani/xcreditscore-mlwa
+repository-code: https://github.com/dimejiabani/governing-prediction-explanation-and-recourse-from-one-constraint-registry
 license: MIT
 abstract: >-
   Reproducible pipeline evaluating a monotonic calibrated lattice ensemble
